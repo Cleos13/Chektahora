@@ -136,7 +136,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-box">
     <img src="../img/bphpp.jpg" alt="Product 4" />
     <h3>KIT VPH	</h3>
-    <p class="price">$2,620</p>
+    <p class="price">$2,6200</p>
     <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/00g6qJ2j0d9W3n214h">Comprar Ahora</a></button>
   </div>
 </div>
