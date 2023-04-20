@@ -53,7 +53,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>'; */
                 foreach ($banners as $b) {
                     echo '<div class="item">
-                                    <img src="../img/banners/desktop/' . $b['img_desktop'] . '" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
+                                    <img src="../img/banners/desktop/eduin.jpg" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
                                     <img src="../img/banners/mobile/' . $b['img_mobile'] . '" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
                                 </div>';
                 }
