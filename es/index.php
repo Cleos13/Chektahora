@@ -42,11 +42,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div>
 
 
-<img src="../img/2023.jpg" onclick="mostrarPopup()">
-	<div id="popup">
-		<img src="imagen.jpg">
-		<button onclick="ocultarPopup()">Cerrar</button>
-	</div>
 
 
 
