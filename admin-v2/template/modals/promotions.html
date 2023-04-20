@@ -1,0 +1,188 @@
+<!-- View data product -->
+<div class="modal" id="view-products">
+    <div class="modal-dialog relative" style="height: 700px; width: 1200px">
+        <header class="modal-header fw-bold text-morado" style="margin-top: 30px !important; margin-bottom: 10px;">CONDICIONES A CUMPLIR
+            <button class="absolute" style = "right: 30px; top: 35px;" close-modal>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg"
+                 viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                      d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                <path fill-rule="evenodd"
+                      d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+            </button >
+        </header>
+        <div class="modal-content mb-3 form-cupones" style="max-height: 1000px !important; overflow-y: auto; overflow-x: hidden;">
+            <table style="border-radius: 10px;">
+                <thead style="height: 50px; background-color: #4F2D83; color: #fff">
+                <th style="width: 350px; padding: 20px 30px;">Nombre del producto</th>
+                <th style="width: 100px; padding: 20px 10px;">Cantidad</th>
+                </thead>
+                <tbody id="products-promotion"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- View add new product -->
+<div class="modal" id="new" style="z-index:99;">
+    <div class="modal-dialog" style="height: 700px; width: 1200px">
+        <header class="modal-header fw-bold text-morado relative" style="margin-top: 30px !important; margin-bottom: 10px;"> AGREGA UNA NUEVA PROMOCIÓN
+            <button class="absolute" style = "right: 30px; top: 5px;" close-modal >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg"
+                 viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                      d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                <path fill-rule="evenodd"
+                      d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+            </svg>
+            </button >
+        </header>
+        <section class="modal-content mb-3 form-cupones"
+                 style="height: 2800px !important; overflow-y: auto; overflow-x: hidden;">
+            <div class="grid-x" style="width: 95%;">
+                <div class="large-7 px-1">
+                    <label class="mb-2"> Nombre de la promoción </label>
+                    <input type="text" placeholder="Nombre de la promoción" value="" id="name-new" maxlength="154">
+                </div>
+                <div class="large-4 px-1">
+                    <label class="mb-2">Fecha de vencimiento</label>
+                    <input name="daterange" id="date-orders">
+                </div>
+                <div class="large-5 px-1 grid-x">
+                    <label class="large-12 mb-2">Obtén</label>
+                    <select class="large-12" id="promotions-options">
+                        <option value="2x1" promotion="1" selected>2x1</option>
+                        <option value="3x2" promotion="1">3x2</option>
+                        <option value="4x3" promotion="1">4x3</option>
+                        <option value="free" promotion="2">Gratis</option>
+                        <option value="discount-total" promotion="3">Descuento en total</option>
+                        <option value="discount-product-seleted" promotion="4">Descuento en productos seleccionados</option>
+                        <option value="gift" promotion="5">Obsequio</option>
+                    </select>
+                </div>
+                <div class="large-7 grid-x display-none" style="padding-left:30px;" id="promotion-include-product">
+                    <label class="large-12 mb-2">Selecciona</label>
+                    <select class="large-8" id="product-apply-free" products-list-promotion>
+                    </select>
+                    <select class="large-3 mx-2" id="amount-product-apply-free">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="large-7 grid-x display-none" style="padding-left:30px;" id="promotion-include-product-and-discount">
+                    <label class="large-12 mb-2">Aplica</label>
+                    <select class="large-5" products-list-promotion id="product-apply-and-discount" style="margin-right:10px;"></select>
+                    <input type="text" class="large-3" discount-input-product id="porcent-total-product" placeholder="10 - %">
+                    <input type="text" class="large-3 display-none" discount-input-product id="amount-total-product" placeholder="$ - 500">
+                    <select class="large-3 mx-2" id="type-discount-product">
+                        <option value="amount">Cantidad</option>
+                        <option value="porcent" selected>Porcentaje</option>
+                    </select>
+                </div>
+                <div class="large-7 grid-x display-none" style="padding-left:30px;" id="promotion-include-discount">
+                    <label class="large-12 mb-2">Aplica</label>
+                    <input type="text" class="large-8" discount-input id="porcent-total" placeholder="10 - %">
+                    <input type="text" class="large-8 display-none" discount-input id="amount-total" placeholder="$ - 500">
+                    <select class="large-3 mx-2" id="type-discount">
+                        <option value="amount">Cantidad</option>
+                        <option value="porcent" selected>Porcentaje</option>
+                    </select>
+                </div>
+                <div class="large-7 grid-x" style="padding-left:30px;" id="promotion-include-product-for">
+                    <label class="large-12 mb-2">Aplica para</label>
+                    <select class="large-8" id="product-apply-for" products-list-promotion>
+                    </select>
+                </div>
+                <div class="large-12 px-1 py-6">
+                    <div class="grid-x mb-3">
+                        <h5 class="large-2 mb-2 text-morado fw-bold">Condiciones</h5>
+                        <button class="btn-products" id="add-item-promotion">Agregar condición</button>
+                    </div>
+                    <div id="items-promotion"></div>
+                </div>
+            </div>
+        </section>
+        <footer class="modal-footer">
+            <div class='spinner display-none' id="loading-new-promotion"></div>
+            <button class="save-banner" aria-label="close modal" data-close id="save-new-promotion"> Agregar</button>
+        </footer>
+    </div>
+    <div class="alert-banner"></div>
+</div>
+
+<!-- View images product select -->
+<div class="modal" style="z-index: 99999;" id="shadow-view">
+    <div class="modal-dialog">
+        <header class="relative">
+            <button class="absolute" style = "right: 30px; top: 25px;" close-modal >
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg"
+                     viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                    <path fill-rule="evenodd"
+                          d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+                </svg>
+            </button >
+        </header>
+        <section class="modal-content mb-3">
+            <div class="space-products relative" style="position: relative !important;">
+                <div class="data-accordion">
+                    <ul class="space-accordion" data-accordion>
+                        <li class="accordion-item is-active" data-accordion-item>
+                            <a href="#" class="accordion-title">
+                                <div>Imagenes del producto</div>
+                                <button add-image>Agregar</button>
+                            </a>
+                            <div class="accordion-content" style="display: block !important;" id="images-product-select" data-tab-content></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="fs-1 text-morado px-3 mb-10 text-center">*Las dimensiones son 1264x1273px, con medida maxima de 400KB para no sobrecargar la web.</div>
+    </div>
+</div>
+
+<!-- View add new image -->
+<div class="modal" style="z-index: 99999;" id="shadow-add-img">
+    <div class="modal-dialog">
+        <header class="modal-header fw-bold text-morado relative"> SUBE UNA IMAGEN
+            <button class="absolute" style = "right: 30px; top: 5px;" id="close-modal-img-product" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg"
+                     viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                    <path fill-rule="evenodd"
+                          d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+                </svg>
+            </button >
+        </header>
+        <section class="modal-content mb-3">
+            <label for="space_img_desktop" class="space_img">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
+                         space="space_img_desktop" class="bi bi-laptop" viewBox="0 0 16 16">
+                        <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+                    </svg>
+                </div>
+                <input type="file" accept=".jpg, .png, .jpeg, .webp" id="space_img_desktop">
+            </label>
+        </section>
+        <div class="fs-1 text-morado px-3 mb-3 text-center">*Las dimensiones son 1264x1273px, con medida maxima de 400KB para no sobrecargar la web.
+        </div>
+        <footer class="modal-footer">
+            <div class='spinner display-none' id="loading-img"></div>
+            <button class="save-banner" aria-label="close modal" data-close id="change_img"> Agregar</button>
+        </footer>
+    </div>
+</div>

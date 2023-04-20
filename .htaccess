@@ -1,0 +1,51 @@
+Options -Indexes
+RewriteEngine on
+ServerSignature Off
+<Files ~ "(.htaccess)">
+    Order allow,deny
+    Deny from all
+</Files>
+RewriteCond %{REQUEST_METHOD} ^(HEAD|TRACE|DELETE|TRACK) [NC,OR]
+RewriteCond %{THE_REQUEST} ^.*(\\r|\\n|%0A|%0D).* [NC,OR]
+RewriteCond %{HTTP_REFERER} ^(.*)(<|>|’|%0A|%0D|%27|%3C|%3E|%00).* [NC,OR]
+RewriteCond %{HTTP_COOKIE} ^.*(<|>|’|%0A|%0D|%27|%3C|%3E|%00).* [NC,OR]
+RewriteCond %{REQUEST_URI} ^/(,|;|:|<|>|”>|”<|/|\\\.\.\\).{0,9999}.* [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^$ [OR]
+RewriteCond %{HTTP_USER_AGENT} ^(java|curl|wget).* [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*(winhttp|HTTrack|clshttp|archiver|loader|email|harvest|extract|grab|miner).* [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*(libwww-perl|curl|wget|python|nikto|scan).* [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*(<|>|’|%0A|%0D|%27|%3C|%3E|%00).* [NC,OR]
+
+#ErrorDocument 404 https://www.chektahora.com/404
+#ErrorDocument 403 https://www.chektahora.com/403
+#ErrorDocument 500 https://www.chektahora.com/500
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+
+
+AddType application/x-httpd-php .html
+
+#RewriteCond %{HTTP_REFERER} !^$
+#RewriteCond %{HTTP_REFERER} !^http(s)?://(dev\.)?chektahora.com [NC]
+#RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?google.com [NC]
+#RewriteRule \.(jpg|jpeg|gif|svg)$ https://dev.chektahora.com/css/img/prohibited.webp [NC,R,L]
+
+
+# Block out any script that includes a <script> tag in URL
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+# Block out any script trying to set a PHP GLOBALS variable via URL
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/x-javascript
+
+
+RedirectMatch 301 https://www.chektahora.com/products/ https://www.chektahora.com/
+RedirectMatch 301 https://www.chektahora.com/contact-us/ https://www.chektahora.com/
+RedirectMatch 301 https://www.chektahora.com/terms-and-conditions/ https://www.chektahora.com/terminos-y-condiciones
+RedirectMatch 301 https://www.chektahora.com/privacy/ https://www.chektahora.com/aviso-privacidad

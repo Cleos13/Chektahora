@@ -1,0 +1,1326 @@
+@media screen and (max-width: 640px) {
+    .certificado {
+        text-align: center;
+        height: auto;
+        p {
+            text-align: justify;
+            a {
+                text-align: center;
+            }
+        }
+    }
+    a.logoMobile {
+        padding: 0 2%;
+    }
+    .kits p {
+        padding: 0;
+    }
+    .spaceTop {
+        margin-top: 40%;
+    }
+    ul.numeros {
+        flex-flow: column;
+        li {
+            margin: 3% auto;
+            padding: 2% 0%;
+            p.dato {
+                font-size: 30px;
+            }
+        }
+    }
+    .comments {
+        flex-flow: column;
+    }
+    .itsMorado {
+        .contenido {
+            p {
+                font-size: 15px;
+                width: 100%;
+                a {
+                    color: white;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .header .menu {
+        width: 100%;
+        ul {
+            flex-flow: column;
+            li {
+                text-align: center;
+            }
+        }
+        ul.numeros {
+            flex-flow: column;
+            li {
+                margin: 2%;
+            }
+        }
+        .its .contenido {
+            text-align: center;
+            p {
+                width: 93%;
+                text-align: center;
+            }
+        }
+        .covid h3 {
+            font-size: 2rem;
+        }
+        ul.comoFunciona {
+            flex-flow: column;
+        }
+        .logoFooter,
+        .llamanosFooter,
+        .valores,
+        .publicaciones ul {
+            flex-flow: column;
+            align-items: center;
+        }
+        .logoFooter div {
+            text-align: center;
+        }
+        .llamanosFooter h4 {
+            width: 100%;
+            margin: 5%;
+        }
+        .orbit-figure .callNosotros {
+            bottom: 0;
+        }
+        .nuestrosValores ul.valores li {
+            margin: 5% 0;
+        }
+        .btnPurple3,
+        .btnWhite {
+            float: left;
+            padding: 3% 21%;
+        }
+        .resultadosWhite {
+            background: none;
+        }
+        .resultados {
+            background: none;
+            text-align: center;
+        }
+        .verMas {
+            text-align: center;
+        }
+        .formulariosDashboard {
+            // margin: 0 5%;
+            a.btnPurple {
+                margin: 0 auto;
+            }
+        }
+        .metodos,
+        .pago {
+            flex-flow: column;
+        }
+        .botones {
+            flex-flow: column;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            a {
+                margin: 5% 0;
+            }
+        }
+        .promesa {
+            background: url('img/promesa-Mobile.jpeg') no-repeat 50% 0;
+            background-size: cover;
+        }
+        .pasos1 {
+            display: none;
+        }
+        .pasos2 {
+            display: block;
+        }
+    }
+    ul.carritoList li {
+        flex-flow: column;
+        align-items: center;
+    }
+    ul.valores {
+        flex-flow: column;
+        align-items: center;
+        li {}
+    }
+    .nuestrosInicios {
+        p {
+            position: absolute;
+            right: 0%;
+            bottom: 15%;
+            width: 230px;
+            font-size: 1rem;
+        }
+    }
+    .realizamos {
+        .titulo {
+            top: 0;
+        }
+        p {
+            width: auto;
+        }
+    }
+    #maindiv {
+        display: none;
+    }
+    .bannerHome {
+        .call {
+            left: 3%;
+            top: 6%;
+            background: rgba(79, 45, 131, 0.7);
+            width: 94%;
+        }
+    }
+    .info {
+        ul.detecta {
+            flex-flow: column;
+            li {
+                width: 100%;
+            }
+        }
+    }
+    .bannerHome {
+        background-image: url('img/banners/Home/576-1x.jpg');
+    }
+    .nosotros {
+        background-image: url('img/banners/nosotros/576-1x.jpg');
+    }
+    .its {
+        background-image: url('img/banners/ITS/576-1x.jpg');
+        .call {
+            width: 330px;
+            ul {
+                li {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .covid {
+        background-image: url('img/banners/ITS/576-1x.jpg');
+    }
+    .facturacion {
+        background-image: url('img/banners/facturacion/576-1x.jpg');
+    }
+    .covidPruebas {
+        background-image: url('img/banners/covidPrueba/microscopic.jpg');
+    }
+    .pasosMobile {
+        h2,
+        p {
+            color: $purple;
+            margin: 0 20%;
+            text-align: center;
+            font-size: .8rem;
+        }
+        h2 {
+            font-size: 1rem;
+            font-weight: bold;
+            margin: 10% 0;
+            background: url('img/borderBottomMobile.png') no-repeat 50% 100%;
+            padding-bottom: 5%;
+            text-align: center;
+        }
+        .paso3Mobile {
+            background: url('img/paso3Bkg.png') no-repeat 0 0;
+            background-size: cover;
+            h2 {
+                margin: 5% 0;
+            }
+            p {
+                margin: 0 15%;
+                font-size: .8rem;
+                margin-bottom: 6%;
+            }
+        }
+        img {
+            width: 25%;
+        }
+        p.videoMobile {
+            margin: 0 20%;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .py-6 {
+        padding-top: 40px!important;
+        padding-bottom: 0px!important;
+    }
+    h2.morado {
+        font-size: 1.5rem;
+    }
+    .covid19Morado {
+        ul.accordion li a {
+            padding-right: 50px;
+        }
+    }
+    .nuestrosProductos {
+        .card-section {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            button {
+                width: 80%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+    .top-bar {
+        border: none;
+    }
+    .covid19Morado {
+        p.treslineas {
+            margin: 5% 18%;
+        }
+        ul.accordion li {
+            background: none;
+        }
+    }
+    .kitsAccordion {
+        h3 {
+            strong {
+                width: 100%;
+                float: left;
+            }
+        }
+        .accordion-item ul.detecta li {
+            width: 100%;
+        }
+    }
+    .queEsIts {
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+        }
+        p {
+            text-align: center;
+        }
+    }
+    .spaceX {
+        padding: 0 5%;
+    }
+    a.btn-banner-border {
+        width: auto;
+    }
+    p.condiciones {
+        text-align: center;
+        font-size: 1rem;
+        color: white;
+        height: 0;
+    }
+    .paso2 {
+        background-image: none;
+        height: 477px;
+    }
+    .otrosProductos {
+        background-color: white;
+        border-radius: 20px;
+        margin: 30px 0;
+        display: flex;
+        flex-flow: column;
+        padding: 6%;
+        width: 100%;
+        min-height: 400px;
+        justify-content: space-around;
+        p {
+            padding: 10% 0;
+        }
+    }
+    .pasos {
+        h3 {
+            color: $purple;
+            font-size: 1rem;
+        }
+        p.number {
+            padding-top: 0;
+        }
+        p {
+            color: $purple;
+            font-size: 1rem;
+            padding-top: 5%;
+        }
+    }
+    .paso2b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p.number {
+            background: url(img/circulo.png) 50% 0% no-repeat !important;
+            width: 150px !important;
+            color: $purple;
+            height: 155px !important;
+            border: none;
+        }
+    }
+    ul.pasos {
+        p.number {
+            width: auto;
+            background: url(img/circulo.png) 50% 0 no-repeat;
+            border: none;
+        }
+        h3 {
+            text-align: center;
+            margin: 5% 0;
+            font-size: 1.2rem !important;
+        }
+        p.texto {
+            margin: 1% 4%;
+            border-top: 3px dotted #4F2D83;
+            padding: 8% 0 !important;
+            border-bottom: none !important;
+        }
+    }
+    .kits {
+        padding: 9% 5%;
+        background-size: contain;
+        background: url(img/kits.jpg) no-repeat 37% 0;
+        background-size: cover;
+        .titulos {
+            h2 {
+                font-size: 1.2rem;
+                width: 100%;
+            }
+        }
+        p {
+            font-size: 1rem;
+            text-align: center;
+            margin-top: 5%;
+        }
+    }
+    .menuR {
+        display: block;
+        .logoMobile {
+            img {
+                margin-top: 6px;
+            }
+        }
+    }
+    .Blaine {
+        p.name {
+            margin: 0;
+        }
+        p.cargo {
+            margin: 0
+        }
+        img {
+            margin: 5% 0;
+        }
+    }
+    .Rodrigo {
+        img {
+            margin: 5% 0;
+        }
+        p.name {
+            margin: 0;
+        }
+        p.cargo {
+            margin: 0
+        }
+    }
+    .nuestrosValores {
+        h2.morado {
+            background: none;
+        }
+        ul.valores {
+            li {
+                margin: 5% 0;
+            }
+        }
+        .valoresMobile {
+            text-align: center;
+            img {
+                width: 30%;
+                margin: 2%;
+            }
+        }
+    }
+    .diagnostico {
+        padding: 10% 10%;
+        margin: 10% 0 0 0;
+        .titulo {
+            color: $purple;
+        }
+        p {
+            color: $purple;
+        }
+    }
+    .bkPurple {
+        padding: 7%;
+    }
+    .form-login {
+        margin-top: 0;
+    }
+    footer {
+        .logoFooter {
+            margin-bottom: 10%;
+            padding: 5% 0 3% 0;
+        }
+        ul.redesFooter {
+            justify-content: center !important;
+        }
+        h5 {
+            text-align: center;
+        }
+        ul.links {
+            li {
+                text-align: center;
+                margin: 4% 0;
+                a {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        .registroFooter {
+            h4 {
+                text-align: center;
+                margin-bottom: 11%;
+            }
+            .btnWhite {
+                font-size: 1.2rem;
+                padding: 4% 18%;
+                float: none;
+            }
+            .registrate {
+                margin: 5% 0;
+            }
+            p {
+                font-size: .8rem;
+            }
+        }
+    }
+    img.logos {
+        width: 100% !important;
+        margin: 5% 0;
+    }
+    ul.comoFunciona li {
+        width: 100%;
+        padding: 0 23%;
+        p {
+            min-height: auto;
+        }
+    }
+    .itsMorado {
+        height: 438px;
+        background: none;
+        background-color: $purple;
+        .contenido {
+            top: 12%;
+            .monita {
+                margin-left: 17%;
+            }
+        }
+    }
+    .inicios {
+        h2 {
+            color: $purple;
+            font-size: 2rem;
+        }
+        h2.morado {
+            background-image: none;
+            margin: 0;
+            strong {
+                margin-top: 6%;
+                font-size: 2rem !important;
+                margin: 0;
+            }
+        }
+        p {
+            padding: 0 10%;
+            color: $purple;
+        }
+        img {}
+    }
+    .realizamos {
+        padding: 5% 0;
+        h2 {
+            color: $purple;
+        }
+        p {
+            color: $purple;
+        }
+    }
+    #slideshow {
+        position: relative;
+        width: 100%;
+        height: 350px;
+        .comentario {
+            border-radius: 13px;
+        }
+    }
+    #slideshow>div {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        p {
+            color: $purple;
+            padding: 5%;
+        }
+        p.name {
+            font-weight: bold;
+        }
+        img {
+            padding: 5%;
+        }
+    }
+    .bannerHome {
+        background-image: url('img/banners/Home/576-1x.jpg');
+        padding: 12rem;
+    }
+    .nosotros {
+        background-image: url('img/banners/nosotros/768-1x.jpg');
+        padding: 12rem;
+    }
+    .its {
+        background: url(img/banners/ITS/768-1x.jpg) no-repeat 46% 0;
+        padding: 12rem;
+        background-size: cover;
+        .call {
+            top: 30%;
+            width: 349px !important;
+            h1 {
+                color: white;
+                font-size: 1.5rem;
+                text-align: left;
+                margin: 5% 10%;
+            }
+            .orbitBTn {
+                display: flex;
+                justify-content: center;
+                margin: 5% 0;
+            }
+        }
+    }
+    .covid {
+        background-image: url('img/banners/covid/576-1x.jpg');
+        padding: 15rem;
+        .callCovid {
+            position: absolute;
+            z-index: 10;
+            left: 5%;
+            top: 10%;
+            width: 338px;
+            h1 {
+                font-size: 1.5rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            ul {
+                li {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+    .facturacion {
+        background-image: url('img/banners/facturacion/768-1x.jpg');
+    }
+    .covidPruebas {
+        background-image: url('img/banners/microscopic.jpg');
+    }
+    ul.comoFunciona {
+        flex-flow: column;
+    }
+    .promesa {
+        .Blaine {
+            background: url(img/blaine.png) no-repeat 10% 80%;
+            background-size: 80%;
+            display: flex;
+            justify-content: right;
+            flex-flow: column;
+            align-items: flex-end;
+            text-align: right;
+            padding-right: 12%;
+            height: 325px;
+            p {
+                width: 69%;
+            }
+        }
+        .Rodrigo {
+            background: url(img/rodrigo.png) no-repeat 80% 80%;
+            padding-left: 15%;
+            background-size: 80%;
+            p {
+                width: 74%;
+            }
+        }
+    }
+    .promesaText {
+        h2,
+        h3 {
+            text-align: center;
+        }
+    }
+
+    ul.detalles {
+        display: flex;
+        justify-content: center;
+        li {
+            font-size: 12px;
+            color: $purple;
+            margin: 0 2%;
+            text-align: center;
+            .active {
+                background-color: $purple;
+                height: 10px;
+                margin: 0 auto;
+                border-radius: 10px;
+                width: 80px;
+            }
+            .notActive {
+                border: #4F2D83 2px solid;
+                height: 10px;
+                margin: 0 auto;
+                border-radius: 10px;
+                width: 80px;
+            }
+        }
+    }
+    .mx-sm-auto {
+        margin: auto !important;
+    }
+    .header-mobile {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+        height:70px; 
+        box-shadow: rgba(0,0,0,0.08) 0px 6px 10px -1px;
+        position: fixed;
+        background-color: #fff;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        z-index: 99;
+    }
+    .p-header{
+        z-index: 95;
+        margin-top: 68px;
+        box-shadow: 4px 14px 20px 0px rgba(0, 0, 0, 0.09);
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        height: 1390px;
+        .logo{
+            img{
+                width: 180px;
+            }
+        }
+        .link{
+            text-align: center;
+        }
+        .suscribe-section{
+            position: absolute;
+            bottom: 185px;
+            h5{
+                text-align: center;
+                margin-left: auto !important;
+            }
+        }
+        .suscribete{
+            .input-footer{
+                border: 1px solid #fff;
+                background-color: transparent;
+                padding: 15px 20px;
+                border-radius: 30px;
+                width: 300px;
+                font-weight: 500;
+                color: #fff;
+                &::placeholder{
+                    font-weight: 500;
+                }
+            }
+            button{
+                cursor: pointer;
+                width: 35px;
+                height: 35px;
+                right: 28px !important;
+                top: 7px;
+                background-color: transparent;
+                /* border: 1px solid #fff; */
+                border-radius: 5px;
+            }
+        }
+        .info{
+            position: absolute;
+            bottom: -250px;
+            width: 100%;
+            right: 0px;
+            justify-content: center;
+            .text-1{
+                text-align: center;
+            }
+            .text-2{
+                text-align: center;
+            }
+            .fs-2 {
+                font-size: 10px;
+            }
+        }
+        .section-two{
+            position: relative;
+            padding-right: 0px;
+            margin-bottom: 50px;
+            .title-redes{
+                text-align: center;
+            }
+            .redes{
+                margin-top: 10px;
+                margin-bottom: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                img{
+                    width: 200px;
+                }
+            }
+            .galeria{
+                margin: auto;
+                div{
+                    margin: 10px 0;
+                    #img-1-footer{
+                        position: absolute;
+                        bottom: 20px;
+                        left: 0;
+                    }
+                    #img-2-footer{
+                        position: absolute;
+                        bottom: 20px;
+                        right: 0;
+                    }
+                    #img-3-footer{
+                        top: 180px;
+                        left: 0;
+                    }
+                    #img-4-footer{
+                        top: 180px;
+                        right: 0;
+                    }
+                    div{
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+        .copy{
+            position: absolute;
+            bottom: 0;
+            font-size: 12px;
+        }
+        .separator-footer{
+            display: none;
+        }
+    }
+    .card-product{
+        width: 95%; 
+        .name-product{
+            margin-bottom: 15px;
+            h4 {
+                font-size: 18px;
+            }
+        }
+        .price-product{
+            font-size: 25px; 
+        }
+    }
+    .separator-purple{
+        width: 100px;
+    }
+    .productos-clinicos{
+        h2{
+            font-size: 22px !important;
+        }
+    }
+    .funciona-clinicos{
+        margin-bottom: 50px !important;
+        .title-section{
+            margin-bottom: 30px !important;
+        }
+        h2{
+            font-size: 22px !important;
+        }
+        .icon-1{
+            margin: auto 10px;
+            width: 40px;
+        }
+        .icon-2{
+            margin: auto 10px;
+            width: 30px;
+        }
+        .icon-3{
+            margin: auto 10px;
+            width: 30px;
+        }
+        .title>.fs-19px{
+            font-size: 12px !important;
+        }
+        .body{
+            font-size: 10px;
+        }
+    }
+    .search-products{
+        width: 100%;
+    }
+    .section-products{
+        height: 100px;
+        width: 90%;
+        margin-bottom: 10px; 
+    }
+    a.float {
+        width: 30px;
+        height: 40px;
+        position: relative;
+        .num-products {
+            position: relative;
+            top: -9px;
+            left: 30px;
+            margin-bottom: -25px;
+            background: $purple;
+            color: #fff;
+            width: 15px;
+            height: 15px;
+            font-size: 11px;
+        }
+    }
+
+    .img-prueba{
+        margin-left: 0;
+        img{
+            width: 250px;
+            margin-bottom: 20px;
+        }
+    }
+    .clinicosAccordion {
+        ul.accordion {
+            width: 80%;
+        }
+        .accordion-item {
+            width: 100% !important;
+            .accordion-title {
+                background: url("img/iconos/downArrow.png") no-repeat 96% 50% !important;
+                background-size: 15px !important;
+                border-top: none !important;
+                border-left: none !important;
+                border-right: none !important;
+                img{
+                    width: 20px;
+                }
+                div{
+                    width: 85%;
+                    font-size: 0.6em;
+                }
+            }
+            a {
+                display: flex;
+                width: 90%;
+                margin: auto;
+            }
+        }
+    }
+    .infoClinicos{
+        text-align: center;
+        width: 80%;
+        margin-bottom: -20px;
+        .price{
+            font-size: 35px;
+        }
+        .info{
+            display: none;
+        }
+    }
+    .footerInfo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        div{
+            button.btnYellow2 {
+                width: 240px;
+                height: 60px;
+            }
+            a{
+                text-decoration: underline;
+                font-size: 21px;
+                width: 100%;
+                text-align: center;
+                color: $purple;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .menu-pruebas{
+        flex-direction: column;
+        margin-top: 0px !important;
+        .menu-opciones{
+            height: 400px !important;
+            width: 100%;
+            margin-left: 0px;
+            padding: 0px 25px 25px;
+            text-align: start;
+            box-shadow: none;
+            justify-content: center;
+            a{
+                font-size: 17px;
+                width: 100%;
+                color: $purple;
+                &:hover, &.active{
+                    color: $purple;
+                }
+            }
+        }
+        .submenu-opciones{
+            background-color: #fff;
+            height: 400px;
+            width: 100%;
+            margin-right: 0px;
+            .title-section{
+                margin-bottom: -30px;
+                margin-top: 40px;
+                padding: 0 40px;
+                font-weight: 600;
+                text-decoration: underline;
+            }
+            .footer-section{
+                margin-bottom: -30px;
+                margin-top: 20px;
+                padding: 0 40px;
+                font-weight: 500;
+                text-decoration: underline;
+                font-size: 13px;
+            }
+            .pruebas-sexual{
+                margin: 20px 30px;
+                a{
+                    display: flex;
+                    justify-content: start;
+                    font-size: 13px;
+                    color: $purple;
+                    text-decoration: underline;
+                    img{
+                        margin: 0 10px;
+                    }
+                }
+            }
+            .pruebas-clinicos{
+                margin: 40px 0px 20px 40px;
+                height: 250px;
+                overflow: scroll;
+                a{
+                    display: flex;
+                    justify-content: start;
+                    font-size: 13px;
+                    color: #000;
+                    text-decoration: underline;
+                    img{
+                        margin: 0 10px;
+                    }
+                }
+            }
+            .btn-back{
+                cursor: pointer;
+                color: $purple;
+                font-size: 17px;
+                font-weight: 500;
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+        .footer-opciones{
+            border-top: 1px solid $purple;
+            width: 100%;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+    }
+
+    #menu-backoffice{
+        display: none;
+    }
+    .bg-login{
+        background-image: url(../css/img/backoffice/login.png); background-size: cover;
+    }
+    .btn-change-user{
+        margin-top: 20px;
+        .arrow{
+            margin-left: 30px !important;
+        }
+    }
+    .icon-mobile{
+        display: flex !important;
+        height: 100px;
+    }
+    .title-order{
+        height: 200px !important;
+        flex-direction: column-reverse;
+        div{
+            font-size: 22px !important;
+        }
+        .btn-all-order{
+            padding: 10px 20px;
+        }
+    }
+    .space-change-user{
+        justify-content: center !important; 
+        margin-right: 0px !important; 
+        margin-top: 20px !important;
+    }
+
+    .table-data{
+        margin-top: 60px !important;
+        table{
+            tbody{
+                tr{
+                    font-size: 12px;
+                    padding: 10px 10px !important; 
+                    .t-estatus{
+                        width: 45px !important;
+                    }
+                    .t-date{
+                        display: none;
+                    }
+                    .t-name{
+                        width: 120px !important;
+                        font-size: 14px;
+                    }
+                    .t-products{
+                        display: none;
+                    }
+                    .t-icon{
+                        width: 30px !important;
+                    }
+                }
+            }
+        }
+    }
+    .menu-mobile-backoffice{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 40px;
+        z-index: 100;
+        display: flex !important;
+        justify-content: end;
+        div{
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+    }
+    .data-shadow-user{
+        width: 100vw !important;
+    }
+    .shadow-estatus-data{
+        flex-direction: column !important;
+        .d-flex{
+            margin: 20px 0;
+        }
+    }
+    .data-footer{
+        width: 100% !important;
+    }
+    .header-all-order{
+        flex-direction: column !important;
+        height: 200px !important;
+        .buttons-download{
+            flex-direction: column !important;
+            justify-content: space-between !important;
+            height: 120px !important;
+            margin-top: 20px !important;
+            align-items: center !important;
+        }
+        .button-all-order{
+            margin-top: 10px !important;
+            width: 290px !important;
+            .img-select{
+                display: none !important;
+            }
+        }
+    }
+
+    .head-pay{
+        button{
+            font-size: 12px !important;
+        }
+        .t-rappi{
+            width: 30% !important
+        }
+        .t-conekta{
+            width: 35% !important
+        }
+        .t-stripe{
+            width: 30% !important
+        }
+        .t-search{
+            width: 55%;
+            display: flex;
+            justify-content: end;
+            input{
+                width: 100%;
+                height: 50px;
+            }
+        }
+    }
+
+    .table-data-all{
+        thead{
+            tr{
+                .t-date{
+                    width: 250px!important;
+                }
+                .t-name{
+                    width: 350px !important
+                }
+            }
+        }
+        table{
+            tbody{
+                tr{
+                    .t-date{
+                        width: 250px!important;;
+                    }
+                    .t-name{
+                        width: 350px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer{
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        height: 150px !important;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        a{
+            color: $purple;
+        }
+    }
+    .info-order{
+        text-align: center;
+        font-size: 20px !important;
+    }
+    .space-data{
+        height: 1250px !important;
+        margin-bottom: 400px !important;
+    }
+
+    .menu-backoffice-mobile{
+        height: 100vh; 
+        border-left: 8px solid #f6f5f9;
+        z-index: 99999;
+        .menu-logo{
+            height: 30%; 
+            margin-bottom: 20px;
+            img{
+                width: 230px;
+            }
+        }
+        .menu-options{
+            height: 350px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            .option{
+                width: 180px; 
+                padding: 15px 0;
+                color: $purple !important;
+                div{
+                    margin-right: 10px;
+                    img{
+                        width: 20px;
+                    }
+                }
+            }
+        }
+        .menu-footer{
+            width: 230px; 
+            margin: auto;
+            color: $purple;
+            .icono{
+                margin-right: 20px;
+            }
+            .name-user{
+                font-size: 15px; 
+                font-weight: 600;
+            }
+            .position-user{
+                font-size: 14px;
+            }
+            .text-morado{
+                font-size: 12px;
+                color: $purple;
+                text-decoration: underline;
+            }
+        }
+    }
+    .menu-mobile-options{
+        display: none;
+        height: 100vh; 
+        width: 80vw; 
+        background-color: #f6f5f9; 
+        position: fixed; 
+        right: 0px;
+        z-index: 499
+    }
+    .alert-purple{
+        right: 10px !important;
+        width: 340px !important;
+        font-size: 14px;
+    }
+
+    .body-banner-sw{
+        .space-banners{
+            margin-top: 150px;
+            left: 0;
+            .data-accordion {
+                ul.space-accordion {
+                    width: 320px !important;
+                }
+                .accordion-item {
+                    .accordion-title {
+                        button{
+                            margin-right: 40px !important;
+                            padding: 10px 20px !important;
+                            font-size: 14px !important;
+                        }
+                    }
+                    a {
+                        margin-left: -15px;
+                    }
+                    .banner-item{
+                        .btn-delete-banner{
+                            padding: 10px 15px !important;
+                            font-size: 13px !important;
+                        }
+                    }
+                }
+            }
+        }
+        .modal-dialog {
+            width: 350px !important;
+        }
+        .modal-content {
+            padding: 0 10px !important;
+        }
+        .alert-banner{
+            font-size: 12px;
+        }
+    }
+    .alert-date-covid{
+        height: 180px !important; 
+    }
+}
+

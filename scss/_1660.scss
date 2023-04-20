@@ -1,0 +1,50 @@
+@media screen and (max-width: 1600px) {
+    .bannerHome {
+        background-image: url('img/banners/Home/1200-1x.jpg');
+        padding: 20rem;
+        background-size: cover;
+        .call {
+            p {
+                font-size: 1.3rem;
+            }
+        }
+    }
+    .nosotros {
+        background-image: url('img/banners/nosotros/1200-1x.jpg');
+        padding: 22rem;
+        background-size: cover;
+        background-position-y: bottom;
+    }
+    .its {
+        background-image: url('img/banners/ITS/1200-1x.jpg');
+        padding: 20rem;
+        background-size: cover;
+        .call {
+            top: 9%;
+            width: 580px;
+            ul {
+                li {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+    .covid {
+        background-image: url('img/banners/covid/1200-1x.jpg');
+        padding: 20rem;
+        background-size: cover;
+        background-position-y: center;
+    }
+    .facturacion {
+        background-image: url('img/banners/facturacion/1200-1x.jpg');
+    }
+    .covidPruebas {
+        background-image: url('img/banners/covidPrueba/microscopic.jpg');
+        a {
+            color: #fff;
+        }
+    }
+    .nuestrosProductos h4 {
+        min-height: 20px;
+    }
+}

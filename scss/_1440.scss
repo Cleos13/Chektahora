@@ -1,0 +1,49 @@
+@media screen and (max-width: 1440px) {
+    .facturacion {
+        background-image: url('img/banners/facturacion/1200-1x.jpg');
+        margin-top: 10%;
+        background-size: cover;
+    }
+    .kits {
+        padding: 8% 19%;
+        .titulos {
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+        p {
+            font-size: 1.5rem;
+        }
+    }
+    .btnWhite {
+        float: right;
+    }
+    .fs-mobile-5 {
+        font-size: 15px !important;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .comments {
+        .commentCliente {
+            .comment {
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .its {
+        background-image: url('img/banners/ITS/1200-1x.jpg');
+        padding: 20rem;
+        background-size: cover;
+        .call {
+            top: 21% !important;
+            width: 414px !important;
+            ul {
+                li {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}

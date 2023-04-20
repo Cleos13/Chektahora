@@ -1,0 +1,49 @@
+img.logos {
+    width: 100%;
+}
+
+.page-width-image {
+    max-width: var(--page-width);
+    margin: 0 auto;
+    overflow: hidden;
+    #maindiv {
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 5px 0;
+        background: $purple;
+        padding: 7px 0;
+        span {
+            font-size: 2.0rem;
+            vertical-align: middle;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        #div1 {
+            display: inline-block;
+            animation: marquee 40s linear infinite
+        }
+        #div2 {
+            display: inline-block;
+            animation: marquee2 40s linear infinite
+        }
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0)
+    }
+    to {
+        transform: translate(-100%)
+    }
+}
+
+@keyframes marquee2 {
+    0% {
+        transform: translate(0)
+    }
+    to {
+        transform: translate(-100%)
+    }
+}

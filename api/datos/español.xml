@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+  <producto>
+    <code>8a4aac4d-e29d-43aa-b930-5149b7f709c3</code>
+    <id>10</id>
+    <name>QUÍMICA SANGUÍNEA DE <![CDATA[<span>32 ELEMENTOS</span>]]></name>
+    <img>img/pruebas/clinicos/32-elementos.webp</img>
+    <price>1085</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>GLUCOSA, UREA, CREATININA, ÁCIDO ÚRICO, COLESTEROL, TRIGLICÉRIDOS, COLESTEROL DE ALTA DENSIDAD, COLESTEROL DE BAJA DENSIDAD, COLESTEROL DE MUY BAJA DENSIDAD, ÍNDICE ATEROGÉNICO, BILIRRUBINA TOTAL, BILIRRUBINA DIRECTA, BILIRRUBINA INDIRECTA, PROTEÍNAS TOTALES, ALBÚMINA, GLOBULINA, RELACIÓN A/G, TGO/AST, TGP/ALT, HIERRO, LACTATO DE HIDROGENASA, FOSFATASA ALCALINA, GGT, CALCIO, FÓSFORO, MAGNESIO, HIERRO, AMILASA, LIPASA, CK, CKMB.</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>8a4aac4d-e29d-43aa-b930-5849b70709c3</code>
+    <id>11</id>
+    <name>PERFIL <![CDATA[<span>HEPÁTICO</span>]]></name>
+    <img>img/pruebas/clinicos/perfil-hepatico.webp</img>
+    <price>575</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>BILIRRUBINA TOTAL, BILIRRUBINA DIRECTA, BILIRRUBINA INDIRECTA,TGO, TTGP, FOSFATASA ALCALINA, LACTATO DE HIDROGENASA, GGT, PROTEÍNAS TOTALES, ALBUMINA.</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>4a4aac4d-e24d-43aa-b930-5849b70709c3</code>
+    <id>12</id>
+    <name>PERFIL DE <![CDATA[<span>LÍPIDOS</span>]]></name>
+    <img>img/pruebas/clinicos/lipidos.webp</img>
+    <price>405</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>COLESTEROL, TRIGLICÉRIDOS, COLESTEROL DE ALTA DENSIDAD, COLESTEROL DE BAJA DENSIDAD, COLESTEROL DE MUY BAJA DENSIDAD.</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>3a4aac4d-r24d-43aa-b960-5849b70709c3</code>
+    <id>13</id>
+    <name>PERFIL <![CDATA[<span>PANCREÁTICO</span>]]></name>
+    <img>img/pruebas/clinicos/pancreatico.webp</img>
+    <price>405</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>AMILASA Y LIPASA.</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>425aac4d-r24d-43aa-b960-5849b707094c7</code>
+    <id>14</id>
+    <name>PERFIL <![CDATA[<span>ENZIMAS CARDÍACO</span>]]></name>
+    <img>img/pruebas/clinicos/enzimas.webp</img>
+    <price>380</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>CK, CKMB.</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>425aac4d-r24d-43aa-b960-5849b7070937</code>
+    <id>15</id>
+    <name>DEPURACIÓN DE <![CDATA[<span>CREATININA</span>]]></name>
+    <img>img/pruebas/clinicos/creatinina.webp</img>
+    <price>330</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>CREATININA EN ORINA, CREATININA EN SUERO.</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>"Para relizarte esta prueba, deberás estar en un ayuno de 8 h a 12 h. En un período de 24 h cada vez que vayas a orinar, recolecta tu orina en un vaso recolector estéril para orina. No olvides asear tu manos antes de cada toma de muestra, te recomendamos el uso de guantes estériles."</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>345aac4d-r24d-43aa-b960-5849b708094c7</code>
+    <id>16</id>
+    <name>DEPURACIÓN DE <![CDATA[<span>UREA</span>]]></name>
+    <img>img/pruebas/clinicos/urea.webp</img>
+    <price>330</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>UREA EN SUERO, UREA EN ORINA.</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>"Para relizarte esta prueba, deberás estar en un ayuno de 8 h a 12 h. En un período de 24 h cada vez que vayas a orinar, recolecta tu orina en un vaso recolector estéril para orina. No olvides asear tu manos antes de cada toma de muestra, te recomendamos el uso de guantes estériles."</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>345aac4d-r24d-43aa-b960-584956708094c7</code>
+    <id>17</id>
+    <name>PERFIL <![CDATA[<span>PRENATAL I</span>]]></name>
+    <img>img/pruebas/clinicos/prenatal-1.webp</img>
+    <price>535</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>QUÍMICA SANGUÍNEA DE 3 ELEMENTOS, BIOMETRÍA HEMÁTICA, EXAMEN GENERAL DE ORINA, GRUPO SANGUÍNEO, SÍFILIS.</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Para realizar esta prueba, deberás estar en un ayuno de 8 h a 10 h, recolecta tu primer orina de la mañana en un vaso recolector estéril para orina.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>345aac4d-4245-43aa-b960-584956708094c7</code>
+    <id>18</id>
+    <name>PERFIL <![CDATA[<span>PRENATAL II</span>]]></name>
+    <img>img/pruebas/clinicos/prenatal-2.webp</img>
+    <price>665</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <!--<content>QUÍMICA SANGUÍNEA DE 6 ELEMENTOS, BIOMETRÍA HEMÁTICA, EXAMEN GENERAL DE ORINA, GRUPO SANGUÍNEO, SÍFILIS.</content>-->
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Para realizar esta prueba, deberás estar en un ayuno de 8 h a 10 h, recolecta tu primer orina de la mañana en un vaso recolector estéril para orina.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>345aac4d-4245-43aa-b960-584956708784c7</code>
+    <id>19</id>
+    <name>PERFIL <![CDATA[<span>PRENATAL III</span>]]></name>
+    <img>img/pruebas/clinicos/prenatal-3.webp</img>
+    <price>925</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <!--<content>QUÍMICA SANGUÍNEA DE 6 ELEMENTOS, BIOMETRÍA HEMÁTICA, EXAMEN GENERAL DE ORINA, GRUPO SANGUÍNEO, SÍFILIS, VIH.</content>-->
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Para realizar esta prueba, deberás estar en un ayuno de 8 h a 10 h, recolecta tu primer orina de la mañana en un vaso recolector estéril para orina.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>235aac4d-4245-43aa-b560-584967708094c7</code>
+    <id>20</id>
+    <name>PERFIL <![CDATA[<span>PRENATAL IV</span>]]></name>
+    <img>img/pruebas/clinicos/prenatal-4.webp</img>
+    <price>1105</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <!--<content>QUÍMICA SANGUÍNEA DE 6 ELEMENTOS, BIOMETRÍA HEMÁTICA, EXAMEN GENERAL DE ORINA, GRUPO SANGUÍNEO, SÍFILIS, VIH Y TORCH.</content>-->
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Para realizar esta prueba, deberás estar en un ayuno de 8 h a 10 h, recolecta tu primer orina de la mañana en un vaso recolector estéril para orina.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43aa-b560-58496780809477</code>
+    <id>21</id>
+    <name>CHECK-UP <![CDATA[<span>BÁSICO</span>]]></name>
+    <img>img/pruebas/clinicos/checkup-basico.webp</img>
+    <price>620</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <!--<content>QUÍMICA SANGUÍNEA DE 6 ELEMENTOS, BIOMETRÍA HEMÁTICA, EXAMEN GENERAL DE ORINA.</content>-->
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Para realizar esta prueba, deberás estar en un ayuno de 8 h a 10 h, recolecta tu primer orina de la mañana en un vaso recolector estéril para orina.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43aa-b560-58496780809477</code>
+    <id>22</id>
+    <name>CHECK-UP <![CDATA[<span>COMPLETO</span>]]></name>
+    <img>img/pruebas/clinicos/checkup-completo.webp</img>
+    <price>1275</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <!--<content>QUÍMICA SANGUÍNEA DE 32 ELEMENTOS, BIOMETRÍA HEMÁTICA, EXAMEN GENERAL DE ORINA.</content>-->
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Para realizar esta prueba, deberás estar en un ayuno de 8 h a 10 h, recolecta tu primer orina de la mañana en un vaso recolector estéril para orina.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43aa-b566-58496785809477</code>
+    <id>23</id>
+    <name>PERFIL DE DROGAS <![CDATA[<span>3 ANALITOS</span>]]></name>
+    <img>img/pruebas/clinicos/perfil-3-analitos.webp</img>
+    <price>475</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Recolecta tu orina en vaso recolector estéril para orina.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43aa-b366-58496785809477</code>
+    <id>24</id>
+    <name>PERFIL DE DROGAS <![CDATA[<span>5 ANALITOS</span>]]></name>
+    <img>img/pruebas/clinicos/perfil-5-analitos.webp</img>
+    <price>525</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Recolecta tu orina en vaso recolector estéril para orina.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43va-b366-58496785809477</code>
+    <id>25</id>
+    <name>QUÍMICA SANGUÍNEA DE <![CDATA[<span>3 ELEMENTOS</span>]]></name>
+    <img>img/pruebas/clinicos/3-elementos.webp</img>
+    <price>350</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>GLUCOSA, UREA, CREATININA.</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43va-b366-5879j785809477</code>
+    <id>26</id>
+    <name>QUÍMICA SANGUÍNEA DE <![CDATA[<span>3 ELEMENTOS MODIFICADA</span>]]></name>
+    <img>img/pruebas/clinicos/3-elementos-modificada.webp</img>
+    <price>375</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>GLUCOSA, COLESTEROL, TRIGLICÉRIDOS</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43va-b3k6-5879j785809477</code>
+    <id>27</id>
+    <name>QUÍMICA SANGUÍNEA DE <![CDATA[<span>6 ELEMENTOS</span>]]></name>
+    <img>img/pruebas/clinicos/6-elementos.webp</img>
+    <price>595</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>GLUCOSA, UREA, CREATININA, ÁCIDO ÚRICO, COLESTEROL, TRIGLICÉRIDOS</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43va-b3k6-5879j785i09477</code>
+    <id>28</id>
+    <name>QUÍMICA SANGUÍNEA DE <![CDATA[<span>15 ELEMENTOS</span>]]></name>
+    <img>img/pruebas/clinicos/15-elementos.webp</img>
+    <price>715</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>GLUCOSA, UREA, BUN, CREATININA, ÁCIDO URICO, COLESTEROL, TRIGLICÉRIDOS, BILIRRUBINA TOTAL, BILIRRUBINA DIRECTA, BILIRRUBINA INDIRECTA, PROTEÍNAS TOTALES, ALBÚMINA, TGO/AST, TGP/ALT, CALCIO.</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43va-b3k6-5879j785i09U77</code>
+    <id>29</id>
+    <name><![CDATA[<span>EGO</span>]]></name>
+    <img>img/pruebas/clinicos/ego.webp</img>
+    <price>320</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <!--<content>EXAMEN GENERAL DE ORINA</content>-->
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Recolecta tu primer orina del día en un vaso recolector de orina estéril.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43v0-b3O6-5879j785i09U77</code>
+    <id>30</id>
+    <name> <![CDATA[<span>TP</span>]]></name>
+    <img>img/pruebas/clinicos/tp.webp</img>
+    <price>425</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>TIEMPO DE PROTOMBINA (PRE-OPERATORIO)</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+  
+  <producto>
+    <code>135vac4d-4545-43v0-b3O6-8879j765i09U77</code>
+    <id>31</id>
+    <name> <![CDATA[<span>TPT</span>]]></name>
+    <img>img/pruebas/clinicos/tpt.webp</img>
+    <price>425</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>TIEMPO PARCIAL DE TROMBOPLASTINA (PRE-OPERATORIO)</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bac4d-4545-43v0-b3O6-8879j765p09U77</code>
+    <id>32</id>
+    <name>PERFIL <![CDATA[<span>TIROIDEO</span>]]></name>
+    <img>img/pruebas/clinicos/perfil-tiroideo.webp</img>
+    <price>755</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>TSH, T3, T4, T3 LIBRE, T4 LIBRE Y YODO PROTEICO</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4545-43v0-b3O6-8879j765p09U77</code>
+    <id>33</id>
+    <name>GRUPO <![CDATA[<span>SANGUÍNEOS</span>]]></name>
+    <img>img/pruebas/clinicos/grupo-sanguineo.webp</img>
+    <price>320</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>RH (PRE-OPERATORIO)</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-43v0-b3O6-8879j765p09U77</code>
+    <id>34</id>
+    <name>MARCADORES TUMORALES <![CDATA[<br><span>(AFP, CA125, ACE, CA153)</span>]]></name>
+    <img>img/pruebas/clinicos/marcadores-tumorales.webp</img>
+    <price>1625</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>CÁNCER OVÁRICO Y MAMA</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4415-43v0-b3O6-8879j760p09U77</code>
+    <id>35</id>
+    <name>ANTÍGENO DE <![CDATA[<br><span>PRÓSTATA (PSA)</span>]]></name>
+    <img>img/pruebas/clinicos/antigeno-prostata.webp</img>
+    <price>675</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>CÁNCER PRÓSTATA</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-43v0-b5O6-8879j760p09U77</code>
+    <id>36</id>
+    <name><![CDATA[<span>INSULINA</span>]]></name>
+    <img>img/pruebas/clinicos/insulina.webp</img>
+    <price>435</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>DIABETES</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-43O0-b5O6-8879j760p09U71</code>
+    <id>37</id>
+    <name><![CDATA[<span>UROCULTIVO</span>]]></name>
+    <img>img/pruebas/clinicos/urocultivo.webp</img>
+    <price>645</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>INFECCIONES DE VÍAS URINARIAS</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>"No realices esta prueba si te encuentras en tratamiento con antibiótico, de ser el caso espera 3 días depués de finalizarlo. Si eres una persona con vulva (vagina) no debes estar en tu período mentrual. Antes de realizar la toma de muestra de orina, asea tus manos y zona genital, después en un vaso recolector estéril para orina, recoleta la primer orina del día, desechando el primer chorro al escusado y usa el resto para la muestra (micción media). Te recomendamos utilizar guantes y evita que el vaso y tu orina entren en contacto con genitales, para no contaminar y alterar los resultados de tu prueba."</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-4325-b5O6-8879j760p09U72</code>
+    <id>38</id>
+    <name>PERFIL <![CDATA[<span>HORMONAL</span>]]></name>
+    <img>img/pruebas/clinicos/perfil-hormonal.webp</img>
+    <price>905</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>LH, PROLACTINA, TESTOSTERONA</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-4325-b5O6-8879H760p09977</code>
+    <id>39</id>
+    <name>PRUEBA DE <![CDATA[<span>EMBARAZO</span>]]></name>
+    <img>img/pruebas/clinicos/embarazo.webp</img>
+    <price>310</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>PRUEBA INMUNOLÓGICA DE EMBARAZO EN SANGRE</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-4325-b5O6-8879j760p09977</code>
+    <id>40</id>
+    <name>HEMOGLOBINA <![CDATA[<span>GLICOSILADA</span>]]></name>
+    <img>img/pruebas/clinicos/hemoglobina.webp</img>
+    <price>615</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>(HBA1C)</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Ayuno de 8 h a 10 h.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-4325-b5O6-8879T700p09977</code>
+    <id>41</id>
+    <name>ELECTROCARDIOGRAMA EN <![CDATA[<span>REPOSO</span>]]></name>
+    <img>img/pruebas/clinicos/electro.webp</img>
+    <price>2025</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content>EKG CON INTERPRETACIÓN</content>
+        </question>
+        <question>
+            <title>Recomendaciones</title>
+            <content>Baño diario.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-4395-b5O6-8879T700p09977</code>
+    <id>1</id>
+    <name>BLACK KIT</name>
+    <img>img/gallery/Black-1.jpg</img>
+    <img>img/gallery/Black-2.jpg</img>
+    <img>img/gallery/Black-3.jpg</img>
+    <img>img/gallery/Black-4.jpg</img>
+    <img>img/gallery/Black-5.jpg</img>
+    <price>4960</price>
+    <cat>its</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content><![CDATA[<div class="d-flex"><span style="width: 50%"><ul><li>- VPH</li><li>- VIH</li><li>- Herpes</li><li>- Sífilis</li><li>- Gonorrea</li><li>- Clamidia</li><li>- Hepatitis B</li></ul></span><span style="width: 50%"><ul><li>- Hepatitits C</li><li>- Tricomoniasis</li><li>- Ureaplasma Parvum</li><li>- Mycoplasma Genitalium</li><li>- Mycoplasma Hominis</li><li>- Ureaplasma Urealyticum</li></ul></span></div>]]></content>
+        </question>
+        <question>
+            <title>¿Qué incluye tu kit?</title>
+            <content><![CDATA[<ul><li>- Hisopo ó PeeCanter</li><li>- Lanceta</li><li>- 2 Tubos de recolección</li><li>- Hoja de instrucciones</li><li>- Sobre de devolución</li></ul>]]></content>
+        </question>
+        <question>
+            <title>Descripción de tu kit</title>
+            <content><![CDATA[<p>Con nuestro kit Black podemos detectar hasta 13 its diferentes.</p><p>El tipo de muestra para nuestro kit Black es: </p><ul><li>Persona con vulva: muestra cervical, vaginal y sanguínea </li><li>Personas con pene: muestra uretral, orina y sanguínea.</li></ul>]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4015-4395-0586-8879T700p09977</code>
+    <id>5</id>
+    <name>KIT GOLD</name>
+    <img>img/gallery/gold-1.jpg</img>
+    <img>img/gallery/gold-2.jpg</img>
+    <img>img/gallery/gold-3.jpg</img>
+    <img>img/gallery/gold-4.jpg</img>
+    <img>img/gallery/gold-5.jpg</img>
+    <price>2600</price>
+    <cat>its</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content><![CDATA[<div class="d-flex"><span style="width: 50%"><ul><li>- Clamidia</li><li>- Gonorrea</li><li>- Tricomoniasis</li><li>- Ureaplasma Urealyticum</li></ul></span><span style="width: 50%"><ul><li>- Ureaplasma Parvum</li><li>- Mycoplasma Genitalium</li><li>- Mycoplasma Hominis</li></ul></span></div>]]></content>
+        </question>
+        <question>
+            <title>¿Qué incluye tu kit?</title>
+            <content><![CDATA[<ul><li>- Hisopo ó PeeCanter</li><li>- Tubo de recolección</li><li>- Hoja de instrucciones</li><li>- Sobre de devolución</li></ul>]]></content>
+        </question>
+        <question>
+            <title>Descripción de tu kit</title>
+            <content><![CDATA[<p>Con nuestro kit Gold podemos detectar hasta 7 ITS diferentes.</p><p>El tipo de muestra para nuestro kit Gold es:</p><ul><li>Persona con vagina: muestra vaginal</li><li>Persona con pene: muestra de orina</li></ul>]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4015-4305-0586-8879T700I09977</code>
+    <id>6</id>
+    <name>KIT PLATINUM</name>
+    <img>img/gallery/platinum-1.jpg</img>
+    <img>img/gallery/platinum-2.jpg</img>
+    <img>img/gallery/platinum-3.jpg</img>
+    <img>img/gallery/platinum-4.jpg</img>
+    <img>img/gallery/platinum-5.jpg</img>
+    <price>3200</price>
+    <cat>its</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content><![CDATA[<div class="d-flex"><span style="width: 50%"><ul><li>- Clamidia</li><li>- Gonorrea</li><li>- Tricomoniasis</li><li>- Sífilis</li><li>- Herpes</li><li>- Hepatitis B</li></ul></span><span style="width: 50%"><ul><li>- Hepatitis C</li><li>- VIH</li><li>- Mycoplasma Hominis</li><li>- Mycoplasma Genitalium</li><li>- Ureaplasma Urealyticum</li><li>- Ureaplasma Parvum</li></ul></span></div>]]></content>
+        </question>
+        <question>
+            <title>¿Qué incluye tu kit?</title>
+            <content><![CDATA[<ul><li>- Hisopo ó PeeCanter</li><li>- Lanceta</li><li>- 2 Tubos de recolección</li><li>- Hoja de instrucciones</li><li>- Sobre de devolución</li></ul>]]></content>
+        </question>
+        <question>
+            <title>Descripción de tu kit</title>
+            <content><![CDATA[<p>Con nuestro KIT PLATINUM podemos detectar hasta 12 ITS</p><p>El tipo de muestra para nuestro kit PLATINUM es:</p><ul><li>Personas con vulva: muestra sanguínea y vaginal</li><li>Personas con pene: muestra sanguínea y de orina</li></ul>]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4015-4305-0586-8879T70ODI09977</code>
+    <id>2</id>
+    <name>KIT VPH</name>
+    <img>img/gallery/vph-1.jpg</img>
+    <img>img/gallery/vph-2.jpg</img>
+    <img>img/gallery/vph-3.jpg</img>
+    <img>img/gallery/vph-4.jpg</img>
+    <img>img/gallery/vph-5.jpg</img>
+    <price>2500</price>
+    <cat>its</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content><![CDATA[<div class="d-flex"><span style="width: 50%"><ul><li>VPH genotipos de bajo riesgo: 6, 11, 40, 42, 43, 44, 54, 61, 70</li></ul></span><span style="width: 50%"><ul><li>VPH genotipos de alto riesgo: 16,18, 26, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68, 69, 73, 82.</li></ul></span></div>]]></content>
+        </question>
+        <question>
+            <title>¿Qué incluye tu kit?</title>
+            <content><![CDATA[<ul><li>- Hisopo ó PeeCanter</li><li>- Lanceta</li><li>- 2 Tubos de recolección</li><li>- Hoja de instrucciones</li><li>- Sobre de devolución</li></ul>]]></content>
+        </question>
+        <question>
+            <title>Descripción de tu kit</title>
+            <content><![CDATA[<p>Con nuestro kit VPH podemos detectar el virus del papiloma humano incluidos los genotipos de alto y bajo riesgo.</p><p>El tipo de muestra para nuestro kit VPH es:</p><ul><li>Personas con vulva: muestra cervical</li><li>Personas con pene: muestra uretral o de orina</li></ul>]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4G-4015-4305-0586-8879T79ODI09977</code>
+    <id>4</id>
+    <name>ANTICUERPOS KIT</name>
+    <img>img/pruebas/icono-anticuerpos.png</img>
+    <img>img/pruebas/anticuerpos.png</img>
+    <img>img/pruebas/Anticuerpos-hover.png</img>
+    <price>1050</price>
+    <cat>covid</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content><![CDATA[Detecta si el paciente ha producido anticuerpos contra el virus SARS-CoV-2 por una infección en el pasado o por haber sido vacunado]]></content>
+        </question>
+        <question>
+            <title>¿Para quien se recomienda la prueba?</title>
+            <content><![CDATA[Para pacientes que quieran saber si tuvieron el coronavirus causante del COVID-19 sin haber presentado síntomas.]]></content>
+        </question>
+        <question>
+            <title>¿Cuando entregamos tus resultados?</title>
+            <content><![CDATA[Resultados en 48 horas hábiles a partir de que la muestra se recibe en el laboratorio.]]></content>
+        </question>
+        <question>
+            <title>¿Como se obtienen las muestras?</title>
+            <content><![CDATA[¿Cómo se obtienen las muestras  de la prueba anticuerpos?]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135Fab4Q-4005-4305-0586-8879T79ODI09977</code>
+    <id>7</id>
+    <name>ANTIGENOS</name>
+    <img>img/pruebas/icono-antigeno.png</img>
+    <img>img/pruebas/antigenos.png</img>
+    <img>img/pruebas/antigenos-hover.png</img>
+    <price>600</price>
+    <cat>covid</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content><![CDATA[Esta prueba permite dar un diagnóstico rápido sobre la infección de COVID-19 para los pacientes que presentan una elevada carga viral, identificando las proteínas del virus en su cuerpo.]]></content>
+        </question>
+        <question>
+            <title>¿Para quien se recomienda la prueba?</title>
+            <content><![CDATA[Esta prueba está indicada en pacientes con síntomas, en otros casos podría generar resultados falsos negativos.]]></content>
+        </question>
+        <question>
+            <title>¿Cuando entregamos tus resultados?</title>
+            <content><![CDATA[Resultados en 20 minutos (verbalmente)<br>Reporte de laboratorio (resultado escrito) en máximo 5 horas una a partir de que la muestra se recibe en el laboratorio.]]></content>
+        </question>
+        <question>
+            <title>¿Como se obtienen las muestras?</title>
+            <content><![CDATA[La muestra se obtiene de la nariz con un hisopo]]></content>
+        </question>
+        <question>
+            <title>¿En que momento es recomendable hacer esta prueba?</title>
+            <content><![CDATA[Si el paciente presenta síntomas es una prueba menos exacto por lo que es muy importante consultar siempre a tu médico de confianza.]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135Fab4Q-4905-4300-0580-8879T79ODI09977</code>
+    <id>8</id>
+    <name>INFLUENZA + COVID-19</name>
+    <img>img/pruebas/icono-influenza-covid.png</img>
+    <img>img/pruebas/influenza-covid.png</img>
+    <price>2650</price>
+    <cat>covid</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content><![CDATA[Detecta si el paciente cuenta con el virus del COVID-19 y de la influenza.]]></content>
+        </question>
+        <question>
+            <title>¿Para quien se recomienda la prueba?</title>
+            <content><![CDATA[Para pacientes que tengan síntomas parecidos al COVID-19.]]></content>
+        </question>
+        <question>
+            <title>¿Cuando entregamos tus resultados?</title>
+            <content><![CDATA[Resultados en 24 horas hábiles a partir de que la muestra se recibe en el laboratorio.]]></content>
+        </question>
+        <question>
+            <title>¿Como se obtienen las muestras?</title>
+            <content><![CDATA[Esta prueba es mediante hisopado.]]></content>
+        </question>
+        <question>
+            <title>¿En que momento es recomendable hacer esta prueba?</title>
+            <content><![CDATA[Si no sabes si tienes COVID-19 o influenza.]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135Fab4Q-4002-4300-0580-8879T79OPI09977</code>
+    <id>3</id>
+    <name>PCR COVID-19</name>
+    <img>img/pruebas/icono-pcr.png</img>
+    <img>img/pruebas/pcr.png</img>
+    <img>img/pruebas/PCR-ABIERTO.png</img>
+    <price>1100</price>
+    <cat>covid</cat>
+    <description>
+        <question>
+            <title>¿Qué detecta?</title>
+            <content><![CDATA[Detecta el virus en el momento exacto de la realización de la prueba con un alto nivel de precisión.]]></content>
+        </question>
+        <question>
+            <title>¿Para quien se recomienda la prueba?</title>
+            <content><![CDATA[Para pacientes asintomáticos, sintomáticos o que tuvieron contacto con personas infectadas.]]></content>
+        </question>
+        <question>
+            <title>¿Cuando entregamos tus resultados?</title>
+            <content><![CDATA[Resultados en 24 hrs hábiles a partir de que la muestra se recibe en el laboratorio]]></content>
+        </question>
+        <question>
+            <title>¿Como se obtienen las muestras?</title>
+            <content><![CDATA[Se obtienen células infectadas de la nariz y la garganta mediante hisopos.]]></content>
+        </question>
+        <question>
+            <title>¿En que momento es recomendable hacer esta prueba?</title>
+            <content><![CDATA[Si el paciente presenta síntomas o si estuvo en contacto con un caso confirmado.]]></content>
+        </question>
+    </description>
+  </producto>
+</productos>

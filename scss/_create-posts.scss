@@ -1,0 +1,27 @@
+.card-create{
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 30px 30px;
+    input,select,textarea{
+        border-radius: 4px !important;
+        height: 40px!important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card-create{
+        width: 95% !important;
+        margin: 10px auto !important;
+    }
+}
+.required:after{
+    content: "*";
+    color: rgb(235, 72, 72);
+}
+.footer-create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}

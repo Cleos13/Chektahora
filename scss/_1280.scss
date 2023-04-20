@@ -1,0 +1,104 @@
+@media screen and (max-width: 1280px) {
+    .comments {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        .commentCliente {
+            display: flex;
+            justify-content: center;
+            width: 25%;
+            .comment {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 7%;
+                color: $purple;
+                height: 400px;
+                p {
+                    font-size: 1.2em;
+                }
+                p.name {
+                    color: $purple;
+                    font-weight: 700;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    ul.comoFunciona {
+        li {
+            width: 27%;
+            margin: 10px 0px;
+        }
+    }
+    .nuestrosProductos {
+        h4 {
+            min-height: 20px;
+        }
+    }
+    .bannerHome {
+        background-image: url('img/banners/Home/1440-1x.jpg');
+        padding: 17rem;
+        background-size: cover;
+    }
+    .nosotros {
+        background-image: url('img/banners/nosotros/1200-1x.jpg');
+        padding: 18rem;
+        background-size: cover;
+        background-position-y: center;
+    }
+    .its {
+        background-image: url('img/banners/ITS/1440-1x.jpg');
+        padding: 13rem;
+        .call {
+            top: 30%;
+            width: 400px;
+        }
+    }
+    .covid {
+        background-image: url('img/banners/covid/1200-1x.jpg');
+        padding: 22rem;
+        .callCovid {
+            top: 24%;
+            color: white;
+            font-size: 1.2rem;
+        }
+    }
+    .facturacion {
+        background-image: url('img/banners/facturacion/1440-1x.jpg');
+    }
+    .covidPruebas {
+        background-image: url('img/banners/covidPrueba/microscopic.jpg');
+    }
+    .promesa {
+        .Blaine {
+            background: url(img/blaine.png) no-repeat 10% 80%;
+            background-size: 80%;
+            display: flex;
+            justify-content: right;
+            flex-flow: column;
+            align-items: flex-end;
+            text-align: right;
+            padding-right: 25%;
+            height: 325px;
+            p {
+                width: 53%;
+            }
+        }
+        .Rodrigo {
+            background: url(img/rodrigo.png) no-repeat 80% 60%;
+            background-size: 80%;
+        }
+    }
+    .bannerHome {
+        background-image: url('img/banners/Home/1200-1x.jpg');
+        padding: 13rem;
+    }
+    .its {
+        background-image: url('img/banners/ITS/1200-1x.jpg');
+        padding: 13rem;
+    }
+    .facturacion {
+        background-image: url('img/banners/facturacion/1200-1x.jpg');
+    }
+}

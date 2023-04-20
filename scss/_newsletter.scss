@@ -1,0 +1,92 @@
+.title-modal {
+    font-size: 25px;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 2% 10%;
+}
+
+a.btn-submit-purple {
+    border-radius: 10px;
+    padding: 2% 3%;
+    font-size: 12px;
+    width: 40%;
+    text-align: center;
+    color: white;
+    background-color: #4F2D83;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-modal-close {
+    right: 2rem!important;
+    top: 1rem!important;
+}
+
+.sub-menu-modal {
+    color: #4F2D83;
+}
+
+.alert-success {
+    background-color: #41ce60;
+    color: #fff;
+    height: 30px;
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 1%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.alert-validate {
+    background-color: transparent;
+    color: #d6134b;
+    height: 30px;
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 1%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.display-none {
+    display: none !important;
+}
+
+a.link-white {
+    color: #fff!important;
+}
+
+.coupon {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+}
+
+.input-coupon {
+    border-radius: 7px !important;
+    padding: 18px 0 !important;
+    text-align: center !important;
+    background-color: #ffffff!important;
+}
+
+.py-5 {
+    padding-top: 40px!important;
+    padding-bottom: 50px!important;
+}
+
+.py-6 {
+    padding-top: 40px!important;
+    padding-bottom: 0px!important;
+}
+
+.border-radius {
+    border-radius: 15px!important;
+}

@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+  <producto>
+    <code>8a4aac4d-e29d-43aa-b930-5149b7f709c3</code>
+    <id>10</id>
+    <name>32 ELEMENTS BLOOD <![CDATA[<br><span>CHEMISTRY TEST</span>]]></name>
+    <img>img/pruebas/clinicos/32-elementos.webp</img>
+    <price>1085</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>GLUCOSE, UREA, CREATININE, URIC ACID, CHOLESTEROL, TRIGLYCERIDES, HIGH DENSITY CHOLESTEROL, LOW DENSITY CHOLESTEROL, VERY LOW DENSITY CHOLESTEROL, ATHEROGENIC INDEX, TOTAL BILIRUBIN, DIRECT BILIRUBIN, INDIRECT BILIRUBIN, TOTAL PROTEINS, ALBUMIN, GLATION ALBUMIN /G, TGO/AST, TGP/ALT, IRON, HYDROGEN LACTATE, ALKALINE PHOSPHATASE, GGT, CALCIUM, PHOSPHORUS, MAGNESIUM, IRON, AMYLASE, LIPASE, CK, CKMB.</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>8a4aac4d-e29d-43aa-b930-5849b70709c3</code>
+    <id>11</id>
+    <name>LIVER <![CDATA[<span>PROFILE</span>]]></name>
+    <img>img/pruebas/clinicos/perfil-hepatico.webp</img>
+    <price>575</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>TOTAL BILIRUBIN, DIRECT BILIRUBIN, INDIRECT BILIRUBIN, TGO, TTGP, ALKALINE PHOSPHATASE, HYDROGEN LACTATE, GGT, TOTAL PROTEINS, ALBUMIN.</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>4a4aac4d-e24d-43aa-b930-5849b70709c3</code>
+    <id>12</id>
+    <name><![CDATA[<span>LIPID</span>]]> PROFILE</name>
+    <img>img/pruebas/clinicos/lipidos.webp</img>
+    <price>405</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>CHOLESTEROL, TRIGLYCERIDES, HIGH DENSITY CHOLESTEROL, LOW DENSITY CHOLESTEROL, VERY LOW DENSITY CHOLESTEROL</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>3a4aac4d-r24d-43aa-b960-5849b70709c3</code>
+    <id>13</id>
+    <name><![CDATA[<span>PANCREATIC</span>]]> PROFILE</name>
+    <img>img/pruebas/clinicos/pancreatico.webp</img>
+    <price>405</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>AMYLASE, LIPASE</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>425aac4d-r24d-43aa-b960-5849b707094c7</code>
+    <id>14</id>
+    <name><![CDATA[<span>CARDIAC ENZYMES</span>]]> PROFILE</name>
+    <img>img/pruebas/clinicos/enzimas.webp</img>
+    <price>380</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>CK, CKMB.</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>425aac4d-r24d-43aa-b960-5849b7070937</code>
+    <id>15</id>
+    <name><![CDATA[<span>CREATININE</span>]]> CLEARANCE</name>
+    <img>img/pruebas/clinicos/creatinina.webp</img>
+    <price>330</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>URINE CREATININE, SERUM CREATININE.</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>"To take this test, you must be fasting from 8 a.m. to 12 p.m. For a 24-hour period, each time you urinate, collect your urine in a sterile urine collection cup. Do not forget to clean your hands before each sample collection, we recommend the use of sterile gloves."</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>345aac4d-r24d-43aa-b960-5849b708094c7</code>
+    <id>16</id>
+    <name><![CDATA[<span>UREA</span>]]> PURIFICATION</name>
+    <img>img/pruebas/clinicos/urea.webp</img>
+    <price>330</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>URINE CREATININE, SERUM CREATININE.</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>"To take this test, you must be fasting from 8 a.m. to 12 p.m. For a 24-hour period, each time you urinate, collect your urine in a sterile urine collection cup. Do not forget to clean your hands before each sample collection, we recommend the use of sterile gloves."</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>345aac4d-r24d-43aa-b960-584956708094c7</code>
+    <id>17</id>
+    <name><![CDATA[<span>PRENATAL</span>]]> PROFILE I</name>
+    <img>img/pruebas/clinicos/prenatal-1.webp</img>
+    <price>535</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>3 ELEMENT BLOOD CHEMISTRY, BLOOD BIOMETRY, GENERAL URINE EXAMINATION, BLOOD GROUP, SYPHILIS.</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>To perform this test, you must be fasting for 8 to 10 am, collect your first morning urine in a sterile urine collection cup.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>345aac4d-4245-43aa-b960-584956708094c7</code>
+    <id>18</id>
+    <name><![CDATA[<span>PRENATAL</span>]]> PROFILE II</name>
+    <img>img/pruebas/clinicos/prenatal-2.webp</img>
+    <price>665</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>6 ELEMENT BLOOD CHEMISTRY, BLOOD BIOMETRY, GENERAL URINE EXAMINATION, BLOOD GROUP, SYPHILIS.</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>To perform this test, you must be fasting for 8 to 10 am, collect your first morning urine in a sterile urine collection cup.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>345aac4d-4245-43aa-b960-584956708784c7</code>
+    <id>19</id>
+    <name><![CDATA[<span>PRENATAL</span>]]> PROFILE III</name>
+    <img>img/pruebas/clinicos/prenatal-3.webp</img>
+    <price>925</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>6 ELEMENT BLOOD CHEMISTRY, BLOOD BIOMETRY, GENERAL URINE EXAMINATION, BLOOD GROUP, SYPHILIS, HIV</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>To perform this test, you must be fasting for 8 to 10 am, collect your first morning urine in a sterile urine collection cup.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>235aac4d-4245-43aa-b560-584967708094c7</code>
+    <id>20</id>
+    <name><![CDATA[<span>PRENATAL</span>]]> PROFILE IV</name>
+    <img>img/pruebas/clinicos/prenatal-4.webp</img>
+    <price>1105</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>6 ELEMENT BLOOD CHEMISTRY, BLOOD BIOMETRY, GENERAL URINE EXAMINATION, BLOOD GROUP, SYPHILIS, HIV, TORCH</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>To perform this test, you must be fasting for 8 to 10 am, collect your first morning urine in a sterile urine collection cup.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43aa-b560-58496780809477</code>
+    <id>21</id>
+    <name><![CDATA[<span>BASIC</span>]]> CHECK-UP</name>
+    <img>img/pruebas/clinicos/checkup-basico.webp</img>
+    <price>620</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>6 ELEMENT BLOOD CHEMISTRY, BLOOD BIOMETRY, GENERAL URINE EXAMINATION.</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>To perform this test, you must be fasting for 8 to 10 am, collect your first morning urine in a sterile urine collection cup.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43aa-b560-58496780809477</code>
+    <id>22</id>
+    <name><![CDATA[<span>COMPLETE</span>]]> CHECK-UP</name>
+    <img>img/pruebas/clinicos/checkup-completo.webp</img>
+    <price>1275</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>32 ELEMENT BLOOD CHEMISTRY, BLOOD BIOMETRY, GENERAL URINE EXAMINATION.</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>To perform this test, you must be fasting for 8 to 10 am, collect your first morning urine in a sterile urine collection cup.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43aa-b566-58496785809477</code>
+    <id>23</id>
+    <name>DRUG PROFILE <![CDATA[<span>3 ANALYTES</span>]]></name>
+    <img>img/pruebas/clinicos/perfil-3-analitos.webp</img>
+    <price>475</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>Recommendations</title>
+            <content>Collect your first urine of the day in a sterile urine collection cup.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43aa-b366-58496785809477</code>
+    <id>24</id>
+    <name>DRUG PROFILE <![CDATA[<span>5 ANALYTES</span>]]></name>
+    <img>img/pruebas/clinicos/perfil-5-analitos.webp</img>
+    <price>525</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>Recommendations</title>
+            <content>Collect your first urine of the day in a sterile urine collection cup.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43va-b366-58496785809477</code>
+    <id>25</id>
+    <name>BLOOD CHEMISTRY OF <![CDATA[<span>3 ELEMENTS</span>]]></name>
+    <img>img/pruebas/clinicos/3-elementos.webp</img>
+    <price>350</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>GLUCOSE, UREA, CREATININE.</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43va-b366-5879j785809477</code>
+    <id>26</id>
+    <name><![CDATA[<span>MODIFIED 3-ELEMENT</span>]]> BLOOD CHEMISTRY</name>
+    <img>img/pruebas/clinicos/3-elementos-modificada.webp</img>
+    <price>375</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>GLUCOSE, CHOLESTEROL, TRIGLYCERIDES</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43va-b3k6-5879j785809477</code>
+    <id>27</id>
+    <name>BLOOD CHEMISTRY OF <![CDATA[<span>6 ELEMENTS</span>]]></name>
+    <img>img/pruebas/clinicos/6-elementos.webp</img>
+    <price>595</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>GLUCOSE, UREA, CREATININE, URIC ACID, CHOLESTEROL, TRIGLYCERIDES</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43va-b3k6-5879j785i09477</code>
+    <id>28</id>
+    <name>BLOOD CHEMISTRY OF <![CDATA[<span>15 ELEMENTS</span>]]></name>
+    <img>img/pruebas/clinicos/15-elementos.webp</img>
+    <price>715</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>GLUCOSA, UREA, BUN, CREATININA, ÁCIDO URICO, COLESTEROL, TRIGLICÉRIDOS, BILIRRUBINA TOTAL, BILIRRUBINA DIRECTA, BILIRRUBINA INDIRECTA, PROTEÍNAS TOTALES, ALBÚMINA, TGO/AST, TGP/ALT, CALCIO.</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43va-b3k6-5879j785i09U77</code>
+    <id>29</id>
+    <name><![CDATA[<span>GENERAL URINE EXAMINATION</span>]]></name>
+    <img>img/pruebas/clinicos/ego.webp</img>
+    <price>320</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>GENERAL URINE EXAMINATION</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Collect your first urine of the day in a sterile urine collection cup.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135aac4d-4245-43v0-b3O6-5879j785i09U77</code>
+    <id>30</id>
+    <name><![CDATA[<span>TP</span>]]></name>
+    <img>img/pruebas/clinicos/tp.webp</img>
+    <price>425</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>PROTHOMBIN TIME (PRE-OPERATIVE)</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+  
+  <producto>
+    <code>135vac4d-4545-43v0-b3O6-8879j765i09U77</code>
+    <id>31</id>
+    <name> <![CDATA[<span>TPT</span>]]></name>
+    <img>img/pruebas/clinicos/tpt.webp</img>
+    <price>425</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>PARTIAL THROMBOPLASTIN TIME (PRE-OPERATIVE)</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bac4d-4545-43v0-b3O6-8879j765p09U77</code>
+    <id>32</id>
+    <name><![CDATA[<span>THYROID</span>]]> PROFILE</name>
+    <img>img/pruebas/clinicos/perfil-tiroideo.webp</img>
+    <price>755</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>TSH, T3, T4, FREE T3, FREE T4 AND PROTEIN IODINE</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4545-43v0-b3O6-8879j765p09U77</code>
+    <id>33</id>
+    <name><![CDATA[<span>BLOOD</span>]]> TYPE</name>
+    <img>img/pruebas/clinicos/grupo-sanguineo.webp</img>
+    <price>320</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>RH (PRE-OPERATIVE)</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-43v0-b3O6-8879j765p09U77</code>
+    <id>34</id>
+    <name>TUMOR MARKERS <![CDATA[<br><span>(AFP, CA125, ACE, CA153)</span>]]></name>
+    <img>img/pruebas/clinicos/marcadores-tumorales.webp</img>
+    <price>1625</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>OVARIAN AND BREAST CANCER</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4415-43v0-b3O6-8879j760p09U77</code>
+    <id>35</id>
+    <name><![CDATA[<br><span>PROSTATE</span>]]> ANTIGEN (PSA)</name>
+    <img>img/pruebas/clinicos/antigeno-prostata.webp</img>
+    <price>675</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>PROSTATE CANCER</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-43v0-b5O6-8879j760p09U77</code>
+    <id>36</id>
+    <name><![CDATA[<span>INSULIN</span>]]></name>
+    <img>img/pruebas/clinicos/insulina.webp</img>
+    <price>435</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>DIABETES</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-43O0-b5O6-8879j760p09U71</code>
+    <id>37</id>
+    <name><![CDATA[<span>URINE CULTURE</span>]]></name>
+    <img>img/pruebas/clinicos/urocultivo.webp</img>
+    <price>645</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>URINARY TRACT INFECTIONS</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Do not perform this test if you are undergoing antibiotic treatment, if this is the case, wait 3 days after finishing it. If you are a person with a vulva (vagina) you should not be in your menstrual period. Before taking the urine sample, clean your hands and genital area, then in a sterile collection cup for urine, collect the first urine of the day, discarding the first stream into the toilet and use the rest for the sample (middle urination) . We recommend you the use of gloves and prevent the glass and your urine from coming into contact with the genitals, so as not to contaminate and alter the results of your test.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-4325-b5O6-8879j760p09U72</code>
+    <id>38</id>
+    <name><![CDATA[<span>HORMONAL</span>]]> PROFILE</name>
+    <img>img/pruebas/clinicos/perfil-hormonal.webp</img>
+    <price>905</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>LH, PROLACTIN, TESTOSTERONE</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-4325-b5O6-8879H760p09977</code>
+    <id>39</id>
+    <name><![CDATA[<span>PREGNANCY</span>]]> TEST</name>
+    <img>img/pruebas/clinicos/embarazo.webp</img>
+    <price>310</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>IMMUNOLOGICAL TEST OF PREGNANCY IN BLOOD</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-4325-b5O6-8879j760p09977</code>
+    <id>40</id>
+    <name><![CDATA[<span>GLYCOSYLATED</span>]]> HEMOGLOBIN</name>
+    <img>img/pruebas/clinicos/hemoglobina.webp</img>
+    <price>615</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>(HBA1C)</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Fast from 8 a.m. to 10 a.m.</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-4325-b5O6-8879T700p09977</code>
+    <id>41</id>
+    <name><![CDATA[<span>RESTING</span>]]> ELECTROCARDIOGRAM</name>
+    <img>img/pruebas/clinicos/electro.webp</img>
+    <price>2025</price>
+    <cat>clinicos</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content>EKG WITH INTERPRETATION</content>
+        </question>
+        <question>
+            <title>Recommendations</title>
+            <content>Daily Bath</content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4515-4395-b5O6-8879T700p09977</code>
+    <id>1</id>
+    <name>BLACK KIT</name>
+    <img>img/gallery/Black-1.jpg</img>
+    <img>img/gallery/Black-2.jpg</img>
+    <img>img/gallery/Black-3.jpg</img>
+    <img>img/gallery/Black-4.jpg</img>
+    <img>img/gallery/Black-5.jpg</img>
+    <price>4960</price>
+    <cat>its</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content><![CDATA[- HPV<br>- HIV<br>- Herpes<br>- Syphilis<br>- Gonorrhea<br>- Chlamydia<br>- Hepatitis B<br>- Hepatitis C<br>- Trichomoniasis<br>- Ureaplasma Parvum<br>- Mycoplasma Genitalium<br>- Mycoplasma Hominis<br>– Ureaplasma Urealyticum]]></content>
+        </question>
+        <question>
+            <title>What does your kit include?</title>
+            <content><![CDATA[Hyssop or PeeCanter<br>Lancet<br>2 collection tubes<br>instruction sheet<br>return envelope]]></content>
+        </question>
+        <question>
+            <title>Description of your kit</title>
+            <content><![CDATA[With our Black kit we can detect up to 13 different its. The sample type for our Black kit is: Person with vulva: cervical, vaginal and blood sample. People with a penis: urethral, ​​urine and blood samples.]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4015-4395-0586-8879T700p09977</code>
+    <id>5</id>
+    <name>KIT GOLD</name>
+    <img>img/gallery/Gold-1.jpg</img>
+    <img>img/gallery/Gold-2.jpg</img>
+    <img>img/gallery/Gold-3.jpg</img>
+    <img>img/gallery/Gold-4.jpg</img>
+    <img>img/gallery/Gold-5.jpg</img>
+    <price>2600</price>
+    <cat>its</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content><![CDATA[Hyssop or PeeCanter<br>1 collection tube<br>instruction sheet<br>return envelope]]></content>
+        </question>
+        <question>
+            <title>What does your kit include?</title>
+            <content><![CDATA[- Chlamydia<br>- Gonorrhea<br>- trichomoniasis<br>- Ureaplasma Urealyticum<br>- Ureaplasma Parvum<br>- Mycoplasma genitalium<br>- Mycoplasma hominis]]></content>
+        </question>
+        <question>
+            <title>Description of your kit</title>
+            <content><![CDATA[With our Gold kit we can detect up to 7 different STIs.<br>The sample type for our Gold kit is: Person with a vagina: vaginal sample<br>Person with penis: urine sample]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4015-4305-0586-8879T700I09977</code>
+    <id>6</id>
+    <name>KIT PLATINUM</name>
+    <img>img/gallery/platinum-1.jpg</img>
+    <img>img/gallery/platinum-2.jpg</img>
+    <img>img/gallery/platinum-3.jpg</img>
+    <img>img/gallery/platinum-4.jpg</img>
+    <img>img/gallery/platinum-5.jpg</img>
+    <price>3200</price>
+    <cat>its</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content><![CDATA[High-risk HPV genotypes: 16,18, 26, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68, 69, 73, 82.<br>Low-risk HPV genotypes: 6, 11, 40, 42, 43, 44, 54, 61, 70]]></content>
+        </question>
+        <question>
+            <title>What does your kit include?</title>
+            <content><![CDATA[Hyssop or PeeCanter<br>1 collection tube<br>instruction sheet<br>return envelope]]></content>
+        </question>
+        <question>
+            <title>Description of your kit</title>
+            <content><![CDATA[With our HPV kit we can detect the human papillomavirus including high and low risk genotypes. The sample type for our platinum kit is: People with vulva: cervical sample. People with a penis: urethral or urine sample]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4d-4015-4305-0586-8879T70ODI09977</code>
+    <id>2</id>
+    <name>KIT VPH</name>
+    <img>img/gallery/vph-1.jpg</img>
+    <img>img/gallery/vph-2.jpg</img>
+    <img>img/gallery/vph-3.jpg</img>
+    <img>img/gallery/vph-4.jpg</img>
+    <img>img/gallery/vph-6.jpg</img>
+    <price>2500</price>
+    <cat>its</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content><![CDATA[<div class="d-flex"><span style="width: 50%"><ul><li>VPH genotipos de bajo riesgo: 6, 11, 40, 42, 43, 44, 54, 61, 70</li></ul></span><span style="width: 50%"><ul><li>VPH genotipos de alto riesgo: 16,18, 26, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68, 69, 73, 82.</li></ul></span></div>]]></content>
+        </question>
+        <question>
+            <title>What does your kit include?</title>
+            <content><![CDATA[<ul><li>- Hisopo ó PeeCanter</li><li>- Lanceta</li><li>- 2 Tubos de recolección</li><li>- Hoja de instrucciones</li><li>- Sobre de devolución</li></ul>]]></content>
+        </question>
+        <question>
+            <title>Description of your kit</title>
+            <content><![CDATA[<p>Con nuestro kit VPH podemos detectar el virus del papiloma humano incluidos los genotipos de alto y bajo riesgo.</p><p>El tipo de muestra para nuestro kit VPH es:</p><ul><li>Personas con vulva: muestra cervical</li><li>Personas con pene: muestra uretral o de orina</li></ul>]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135bab4G-4015-4305-0586-8879T79ODI09977</code>
+    <id>4</id>
+    <name>ANTIBODY TESTS</name>
+    <img>img/pruebas/icono-anticuerpos.png</img>
+    <img>img/pruebas/anticuerpos.png</img>
+    <img>img/pruebas/Anticuerpos-hover.png</img>
+    <price>1050</price>
+    <cat>covid</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content><![CDATA[Detects if the patient has produced antibodies against the SARS-CoV-2 virus due to a past infection or due to having been vaccinated]]></content>
+        </question>
+        <question>
+            <title>Who is the test recommended for?</title>
+            <content><![CDATA[For patients who want to know if they had the coronavirus that causes COVID-19 without having presented symptoms.]]></content>
+        </question>
+        <question>
+            <title>When do we deliver your results? </title>
+            <content><![CDATA[Results in 48 business hours from the time the sample is received in the laboratory.]]></content>
+        </question>
+        <question>
+            <title>How are samples obtained?</title>
+            <content><![CDATA[How are antibody test samples obtained?]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135Fab4Q-4005-4305-0586-8879T79ODI09977</code>
+    <id>7</id>
+    <name>ANTIGEN TEST</name>
+    <img>img/pruebas/icono-antigeno.png</img>
+    <img>img/pruebas/antigenos.png</img>
+    <img>img/pruebas/antigenos-hover.png</img>
+    <price>600</price>
+    <cat>covid</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content><![CDATA[This test allows a rapid diagnosis of COVID-19 infection for patients with a high viral load, identifying the virus proteins in their body.]]></content>
+        </question>
+        <question>
+            <title>Who is the test recommended for?</title>
+            <content><![CDATA[This test is indicated in patients with symptoms, in other cases it could generate false negative results.]]></content>
+        </question>
+        <question>
+            <title>When do we deliver your results? </title>
+            <content><![CDATA[Results in 20 minutes (verbally)<br>Laboratory report (written result) in a maximum of 5 hours after the sample is received in the laboratory.]]></content>
+        </question>
+        <question>
+            <title>How are the samples for the PCR test obtained?</title>
+            <content><![CDATA[Infected cells are obtained from the nose and throat using swabs.]]></content>
+        </question>
+        <question>
+            <title>When is it advisable to do this test?</title>
+            <content><![CDATA[If the patient has symptoms or if they were in contact with a confirmed case.]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135Fab4Q-4905-4300-0580-8879T79ODI09977</code>
+    <id>8</id>
+    <name>INFLUENZA + COVID-19</name>
+    <img>img/pruebas/icono-influenza-covid.png</img>
+    <img>img/pruebas/influenza-covid.png</img>
+    <price>2650</price>
+    <cat>covid</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content><![CDATA[Detects if the patient has the COVID-19 and influenza virus.]]></content>
+        </question>
+        <question>
+            <title>Who is the test recommended for?</title>
+            <content><![CDATA[For patients who have symptoms similar to COVID-19.]]></content>
+        </question>
+        <question>
+            <title>When do we deliver your results? </title>
+            <content><![CDATA[Results in 24 business hours from the time the sample is received in the laboratory.]]></content>
+        </question>
+        <question>
+            <title>How are samples obtained?</title>
+            <content><![CDATA[This test is by swab.]]></content>
+        </question>
+        <question>
+            <title>When is it advisable to do this test?</title>
+            <content><![CDATA[If you don't know if you have COVID-19 or the flu.]]></content>
+        </question>
+    </description>
+  </producto>
+
+  <producto>
+    <code>135Fab4Q-4002-4300-0580-8879T79OPI09977</code>
+    <id>3</id>
+    <name>PCR TESTS</name>
+    <img>img/pruebas/icono-pcr.png</img>
+    <img>img/pruebas/pcr.png</img>
+    <img>img/pruebas/PCR-ABIERTO.png</img>
+    <price>1100</price>
+    <cat>covid</cat>
+    <description>
+        <question>
+            <title>What does it detect?</title>
+            <content><![CDATA[It detects the virus at the exact moment of the test with a high level of precision.]]></content>
+        </question>
+        <question>
+            <title>Who is the test recommended for?</title>
+            <content><![CDATA[For asymptomatic patients, symptomatic or who had contact with infected people.]]></content>
+        </question>
+        <question>
+            <title>When do we deliver your results? </title>
+            <content><![CDATA[Results in 24 business hours from the time the sample is received in the laboratory]]></content>
+        </question>
+        <question>
+            <title>How are samples obtained?</title>
+            <content><![CDATA[Infected cells are obtained from the nose and throat using swabs.]]></content>
+        </question>
+        <question>
+            <title>When is it advisable to do this test?</title>
+            <content><![CDATA[If the patient has symptoms or if they were in contact with a confirmed case.]]></content>
+        </question>
+    </description>
+  </producto>
+</productos>

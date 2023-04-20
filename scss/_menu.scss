@@ -1,0 +1,58 @@
+.menuFixed {
+  position: fixed;
+  width: 100%;
+  z-index: 11;
+}
+
+a.logo {
+  float: left;
+  width: 212px;
+  margin-left: 20%;
+}
+a.logo-back {
+  float: left;
+  width: 212px;
+  margin-left: 10%;
+  position: absolute;
+}
+
+a.logoWebsite {
+  float: left;
+  position: absolute;
+  left: 5%;
+  width: 212px;
+}
+
+.sesion {
+  display: block;
+}
+
+.icon-login {
+  position: relative;
+  right: 10px;
+  bottom: 2.5px;
+  width: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .icon-login {
+    padding-left: 10px;
+  }
+  .sesion {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) {
+  .btn-login {
+    margin-left: 100px;
+  }
+
+  .header-mobile {
+    display: none !important;
+  }
+}
+.subMenu {
+  margin: 0 10px;
+  font-size: 13px;
+  cursor: pointer;
+}

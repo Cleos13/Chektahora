@@ -1,0 +1,172 @@
+.formularios {
+    h1 {
+        color: $purple;
+        font-size: 30px;
+        strong {
+            font-weight: 700;
+        }
+    }
+    p {
+        color: $purple;
+        a {
+            font-weight: bold;
+            color: $purple;
+        }
+    }
+    input[type=number] {
+        background-color: #E7E3EE !important;
+        color: $purple !important;
+        border: none;
+        padding: 0 5%;
+    }
+    select {
+        background-color: #E7E3EE !important;
+        color: $purple !important;
+        border: none !important;
+        padding: 0 5%;
+    }
+    input[type=password] {
+        background-color: #E7E3EE !important;
+        color: $purple !important;
+        border: none;
+        padding: 0 5%;
+    }
+    input[type=text]::placeholder {
+        color: $purple;
+        text-align: center !important;
+    }
+    input[type=number]::placeholder {
+        color: $purple;
+    }
+    input[type=password]::placeholder {
+        color: $purple;
+    }
+    select {
+        color: $purple;
+    }
+    input[type=checkbox] {
+        zoom: 2;
+    }
+    label {
+        color: $purple;
+    }
+    .checkbox {
+        display: flex;
+    }
+}
+
+input[type=text],
+textarea,
+select,
+input[type=number],
+input[type=password] {
+    background-color: #E7E3EE !important;
+    color: $purple !important;
+    border: none;
+    padding: 0 5%;
+    box-shadow: 5px 5px 5px 0px #66666675;
+    -webkit-appearance: none;
+    text-align: center !important;
+    &::placeholder {
+        /* modern browser */
+        color: $purple;
+    }
+}
+
+.ingresaCuenta {
+    input[type=text] {
+        width: 350px;
+        text-align: center;
+    }
+}
+
+.creaCuenta {
+    input[type=text] {
+        width: 500px;
+        text-align: center;
+    }
+}
+
+textarea {
+    &::placeholder {
+        padding: 2% 3%;
+    }
+}
+
+.tarjetas {
+    color: $purple;
+    margin: 2% 0 0 0;
+    padding-left: 5%;
+    h2 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    form {
+        label {
+            color: $purple;
+        }
+        fieldset {
+            display: flex;
+            justify-content: space-around;
+            margin-left: 2%;
+        }
+        input[type=text] {
+            background: rgba(79, 45, 131, 0.1);
+        }
+        input[type=password] {
+            background: rgba(79, 45, 131, 0.1);
+        }
+        input[type=number] {
+            background: rgba(79, 45, 131, 0.1);
+        }
+        input[type=text]::placeholder {
+            color: $purple;
+        }
+        input[type=number]::placeholder {
+            color: $purple;
+        }
+        input[type=password]::placeholder {
+            color: $purple;
+        }
+    }
+}
+
+.textBox {
+    display: flex;
+}
+
+.pago,
+.metodos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        color: $purple !important;
+        font-size: 20px !important;
+        font-weight: bold;
+        margin-right: 5%;
+    }
+}
+
+.metodos {
+    margin: 5%;
+}
+
+.formulariosDashboard {
+    overflow: hidden;
+    .spaceX {
+        padding: 0 5%;
+    }
+    footer {
+        h5 {
+            margin: 1%;
+        }
+    }
+    a.btnPurple {
+        padding: 2% 6% !important;
+    }
+}

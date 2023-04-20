@@ -1,0 +1,8 @@
+a.menuAnimado {
+    margin: 0 18px;
+    font-size: 13px;
+    color: $purple !important;
+    &:hover {
+        border-bottom: 1px solid $purple;
+    }
+}

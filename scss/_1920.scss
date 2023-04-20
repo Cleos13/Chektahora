@@ -1,0 +1,48 @@
+@media screen and (min-width: 1920px) {
+    .step1920 {
+        display: block;
+    }
+    .step {
+        display: none;
+    }
+    ul.comoFunciona {
+        li {}
+    }
+    .promesa {
+        .Blaine {
+            background: url(img/blaine.png) no-repeat 10% 17%;
+            background-size: 80%;
+            display: flex;
+            justify-content: right;
+            flex-flow: column;
+            align-items: flex-end;
+            text-align: right;
+            padding-right: 25%;
+            height: 325px;
+            p {
+                width: 53%;
+            }
+        }
+        .Rodrigo {
+            background: url(img/rodrigo.png) no-repeat 80% 0%;
+            background-size: 80%;
+        }
+    }
+    .covidPruebas {
+        background: url('img/banners/covidPrueba/microscopic.jpg') no-repeat 0 0;
+        color: white;
+        padding: 17%;
+        background-size: cover;
+        h3 {
+            text-align: left;
+            font-size: 2rem;
+        }
+        a {
+            color: #fff;
+            text-decoration: underline;
+            &:visited {
+                color: white;
+            }
+        }
+    }
+}

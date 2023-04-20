@@ -1,0 +1,47 @@
+{
+  "operation": {
+    "country": "CO",
+    "partner": {
+      "id": "0a8a530c-7086-4d56-8ed8-bd6e5ed5c46f",
+      "type": "STORE"
+    },
+    "checkout": {
+      "id": "624f9ca06341574a29240da8",
+      "external_checkout_id": "1649384572",
+      "external_checkout_origin": "CUSTOM"
+    },
+    "payment": {
+      "code": "d962e0b6-c0b0-4626-97bf-ae681a91292a",
+      "amount": 5300,
+      "currency": "COP",
+      "status": "APPROVED",
+      "date_time": "2022-04-08T02:23:48.241Z",
+      "type": "PURCHASE",
+      "invoice_contact": null
+    },
+    "shipping": {
+      "cost": 300,
+      "method": "Terrestre",
+      "address": {
+        "zip": "",
+        "street": "",
+        "number": "",
+        "city": "",
+        "country": "",
+        "name": "Usuario",
+        "email": "usuariodvv1163@test.com",
+        "phone": "5529660054",
+        "description": "",
+        "state": ""
+      }
+    },
+    "payer": {
+      "email": "usuariodvv1163@test.com",
+      "name": "Usuario",
+      "phone": "5529660054"
+    },
+    "products": [
+      { "code": "", "name": "VPH Kit", "price": 2500, "removed": false }
+    ]
+  }
+}
