@@ -114,7 +114,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-box">
     <img src="../img/goold.jpg" alt="Product 1" />
     <h3>KIT GOLD DETECTA 7 ITS</h3>
-    <p class="price">$2,299</p>
+    <p class="price">$2,720</p>
     <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC">Comprar Ahora</a></button>
   </div>
   <div class="product-box">
