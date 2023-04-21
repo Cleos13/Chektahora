@@ -137,14 +137,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   <div class="product-box">
-    <img src="../img/bphpp.jpg" alt="Product 4" />
+    <img src="../img/Producto-Kits-Black-Pareja-Sitio-Web.jpg" alt="Product 4" />
     <h3>KIT BLACK COMBO PAREJA	</h3>
     <p class="price">$7,999</p>
     <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/7sIbL30aS6Ly8Hm2bG">Comprar Ahora</a></button>
   </div>
 
   <div class="product-box">
-    <img src="../img/bphpp.jpg" alt="Product 4" />
+    <img src="../img/Producto-Kits-Platinum-Pareja-Sitio-Web.jpg" alt="Product 4" />
     <h3>KIT PLATINUM COMBO PAREJA</h3>
     <p class="price">$5,312</p>
     <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/28obL36zg0naaPubNd">Comprar Ahora</a></button>
