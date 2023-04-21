@@ -114,26 +114,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-box">
     <img src="../img/goold.jpg" alt="Product 1" />
     <h3>KIT GOLD DETECTA 7 ITS</h3>
-    <p class="price">$2,720</p>
+    <p class="price">$2,299</p>
     <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC">Comprar Ahora</a></button>
   </div>
   <div class="product-box">
     <img src="../img/blaack.jpg" alt="Product 2" />
     <h3>KIT BLACK DETECTA 13 ITS</h3>
-    <p class="price">$4,999</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/3cs2at6zggm8f5K4js">Comprar Ahora</a></button>
+    <p class="price">$4,250</p>
+    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/aEUbL3cXE5Hu5va03z">Comprar Ahora</a></button>
   </div>
   <div class="product-box">
     <img src="../img/platinuumm.jpg" alt="Product 3" />
     <h3>KIT PLATINUM DETECTA 12 ITS</h3>
-    <p class="price">$3,320</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c">Comprar Ahora</a></button>
+    <p class="price">$2,822</p>
+    <button class="buy-button"><a style="color: white;" href="	https://buy.stripe.com/8wMcP73n4fi4g9OcRg">Comprar Ahora</a></button>
   </div>
   <div class="product-box">
     <img src="../img/bphpp.jpg" alt="Product 4" />
     <h3>KIT VPH	</h3>
     <p class="price">$2,620</p>
     <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/00g6qJ2j0d9W3n214h">Comprar Ahora</a></button>
+  </div>
+
+  <div class="product-box">
+    <img src="../img/bphpp.jpg" alt="Product 4" />
+    <h3>KIT BLACK COMBO PAREJA	</h3>
+    <p class="price">$7,999</p>
+    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/7sIbL30aS6Ly8Hm2bG">Comprar Ahora</a></button>
+  </div>
+
+  <div class="product-box">
+    <img src="../img/bphpp.jpg" alt="Product 4" />
+    <h3>KIT PLATINUM COMBO PAREJA</h3>
+    <p class="price">$5,312</p>
+    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/28obL36zg0naaPubNd">Comprar Ahora</a></button>
   </div>
 </div>
 
@@ -504,8 +518,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
 
-            
-
+          
             <div class="cell text-left bkSpacial ">
                 <div class="grid-x ">
                     
