@@ -103,7 +103,88 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 ?>
             </div>
             <!-- Banners Home page -->
+            
 
+            <section>
+  <div class="productos-linea">
+    <div class="producto">
+      <img src="../img/goold.jpg" alt="Producto 1">
+      <div class="tipo">Vacuna</div>
+      <div class="titulo">Producto 1</div>
+      <hr>
+      <div class="descripcion">Descripción del producto 1.</div>
+      <div class="precio">$10.00</div>
+      <div class="botones">
+        <button>Ver más</button>
+        <button>Comprar</button>
+      </div>
+    </div>
+    <div class="producto">
+      <img src="../img/blaack.jpg" alt="Producto 2">
+      <div class="tipo">Vacuna</div>
+      <div class="titulo">Producto 2</div>
+      <hr>
+      <div class="descripcion">Descripción del producto 2.</div>
+      <div class="precio">$20.00</div>
+      <div class="botones">
+        <button>Ver más</button>
+        <button>Comprar</button>
+      </div>
+    </div>
+    <div class="producto">
+      <img src="../img/platinuumm.jpg" alt="Producto 3">
+      <div class="tipo">Vacuna</div>
+      <div class="titulo">Producto 3</div>
+      <hr>
+      <div class="descripcion">Descripción del producto 3.</div>
+      <div class="precio">$30.00</div>
+      <div class="botones">
+        <button>Ver más</button>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </div>
+  <div class="productos-linea">
+    <div class="producto">
+      <img src="../img/bphpp.jpg" alt="Producto 4">
+      <div class="tipo">Vacuna</div>
+      <div class="titulo">Producto 4</div>
+      <hr>
+      <div class="descripcion">Descripción del producto 4.</div>
+      <div class="precio">$40.00</div>
+      <div class="botones">
+        <button>Ver más</button>
+        <button>Comprar</button>
+      </div>
+    </div>
+    <div class="producto">
+      <img src="../img/Producto-Kits-Black-Pareja-Sitio-Web.jpg" alt="Producto 5">
+      <div class="tipo">Vacuna</div>
+      <div class="titulo">Producto 5</div>
+      <hr>
+      <div class="descripcion">Descripción del producto 5.</div>
+      <div class="precio">$50.00</div>
+      <div class="botones">
+        <button>Ver más</button>
+        <button>Comprar</button>
+      </div>
+    </div>
+    <div class="producto">
+      <img src="../img/Producto-Kits-Platinum-Pareja-Sitio-Web.jpg" alt="Producto 6">
+      <div class="tipo">Vacuna</div>
+      <div class="titulo">Producto 6</div>
+      <hr>
+      <div class="descripcion">Descripción del producto 6.</div>
+      <div class="precio">$60.00</div>
+      <div class="botones">
+        <button>Ver más</button>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
   
 
             <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
