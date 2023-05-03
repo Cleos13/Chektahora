@@ -95,97 +95,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>'; */
                 foreach ($banners as $b) {
                     echo '<div class="item">
-                                    <img src="../img/banners/desktop/pasaraan.jpg" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
-                                    <img src="../img/banners/mobile/tampoco.jpg" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
+                                    <img src="../img/banners/desktop/CA_WEB_COVER_MAYO.jpg" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
+                                    <img src="../img/banners/mobile/CA_MOBILE_COVER_MAYO.jpg" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
                                 </div>';
                 }
                 echo '</div>';
                 ?>
             </div>
             <!-- Banners Home page -->
-            
 
-            <section>
-  <div class="productos-linea">
-    <div class="producto">
-      <img src="../img/goold.jpg" alt="Producto 1">
-      <div class="tipo">Vacuna</div>
-      <div class="titulo">Producto 1</div>
-      <hr>
-      <div class="descripcion">Descripción del producto 1.</div>
-      <div class="precio">$10.00</div>
-      <div class="botones">
-        <button>Ver más</button>
-        <button>Comprar</button>
-      </div>
-    </div>
-    <div class="producto">
-      <img src="../img/blaack.jpg" alt="Producto 2">
-      <div class="tipo">Vacuna</div>
-      <div class="titulo">Producto 2</div>
-      <hr>
-      <div class="descripcion">Descripción del producto 2.</div>
-      <div class="precio">$20.00</div>
-      <div class="botones">
-        <button>Ver más</button>
-        <button>Comprar</button>
-      </div>
-    </div>
-    <div class="producto">
-      <img src="../img/platinuumm.jpg" alt="Producto 3">
-      <div class="tipo">Vacuna</div>
-      <div class="titulo">Producto 3</div>
-      <hr>
-      <div class="descripcion">Descripción del producto 3.</div>
-      <div class="precio">$30.00</div>
-      <div class="botones">
-        <button>Ver más</button>
-        <button>Comprar</button>
-      </div>
-    </div>
+            <div class="producto cruz-azul">
+  <img src="ruta-de-la-imagen" alt="Nombre del producto">
+  <h3>Nombre del producto</h3>
+  <span class="precio">$100.00</span>
+  <div class="botones">
+    <button class="boton-ver-mas">Ver más</button>
+    <button class="boton-comprar">Comprar</button>
   </div>
-  <div class="productos-linea">
-    <div class="producto">
-      <img src="../img/bphpp.jpg" alt="Producto 4">
-      <div class="tipo">Vacuna</div>
-      <div class="titulo">Producto 4</div>
-      <hr>
-      <div class="descripcion">Descripción del producto 4.</div>
-      <div class="precio">$40.00</div>
-      <div class="botones">
-        <button>Ver más</button>
-        <button>Comprar</button>
-      </div>
-    </div>
-    <div class="producto">
-      <img src="../img/Producto-Kits-Black-Pareja-Sitio-Web.jpg" alt="Producto 5">
-      <div class="tipo">Vacuna</div>
-      <div class="titulo">Producto 5</div>
-      <hr>
-      <div class="descripcion">Descripción del producto 5.</div>
-      <div class="precio">$50.00</div>
-      <div class="botones">
-        <button>Ver más</button>
-        <button>Comprar</button>
-      </div>
-    </div>
-    <div class="producto">
-      <img src="../img/Producto-Kits-Platinum-Pareja-Sitio-Web.jpg" alt="Producto 6">
-      <div class="tipo">Vacuna</div>
-      <div class="titulo">Producto 6</div>
-      <hr>
-      <div class="descripcion">Descripción del producto 6.</div>
-      <div class="precio">$60.00</div>
-      <div class="botones">
-        <button>Ver más</button>
-        <button>Comprar</button>
-      </div>
-    </div>
-  </div>
-</section>
+</div>
 
-  
-  
 
             <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                         <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
