@@ -11,7 +11,6 @@
     <meta http-equiv="cache-control" content="no-cache" />
     <title>ChektAhora</title>
     <?php include 'template/favicon.php'; ?>
-    <link rel="preload" as="image" href="../css/img/iconos/chktahora.png">
     <link rel="stylesheet" href="../css/app.css?update=<?php echo constant('UPDATE'); ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +19,7 @@
     <link rel="preconnect" href="https://www.google.com">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../css/blog.css">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
@@ -72,44 +72,98 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
     <div class="fluid" id="home">
-        
+    <?php include 'template/header.php'; ?>
+
+        <!--Banner Principal de Blog-->
 
         
-            
+        <div class="banner">
+           <img src="../img/woaoooo.jpg" alt="Descripción de la imagen">
+            <div class="texto-imagen">
+             <h1>Nuestro BLOG</h1>
+             </div>
+        </div>
+
+        <!--Final de Banner Principal de Blog-->
+
+        <!--Inicio de 2da Sección-->
+
+        <div class="seccion">
+    <div class="imagen">
+      <img src="../img/libertad.jpg" alt="Imagen de ejemplo">
+    </div>
+    <div class="contenido">
+      <h2>Título de la sección</h2>
+      <h1>Título del blog</h1>
+      <p class="fecha">Fecha de publicación: 02 de mayo de 2023</p>
+      <p class="descripcion">Descripción del blog Lorem ipsum dolor sit amet, consectetur adipiscing elit <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <br> aliquip ex ea commodo consequat.</p>
+      <a href="#" class="leer-mas">Leer más</a>
+    </div>
+  </div>
 
 
-  
+  <!--Fianl de 2da sección-->
 
-<section class="blog-section">
-  <div class="wrapper">
-    <div class="blog">Blog</div>
-    <div class="box">
-      <img src="../img/1.jpeg" alt="Imagen 1">
-      <h2>Infecciones de Transmisión Sexual (ITS): Salud y fertilidad</h2>
-      <p class="date">21 de Marzo del 2023</p>
-      <p class="date">Tiempo de lectura 15 mins.</p>
-      <p>Las ITS han sido históricamente un problema difícil de resolver. En los últimos años se han incrementado los casos, debido principalmente al aumento de compañeros sexuales.</p>
-      <button> <a href="entradauno.php">Ver más</a></button>
+  <!--Inicio de 3ra sección-->
+
+  <div class="seccion-azul">
+    <div class="titulo">
+      <h2>Noticias <br> por categoría</h2>
+      <div class="botones">
+        <a href="#" class="boton">Botón 1</a>
+        <a href="#" class="boton">Botón 2</a>
+        <a href="#" class="boton">Botón 3</a>
+        <a href="#" class="boton">Botón 4</a>
+        <a href="#" class="boton">Botón 5</a>
+        <a href="#" class="boton">Botón 6</a>
+      </div>
     </div>
-    <div class="box">
-      <img src="../img/2.jpeg" alt="Imagen 2">
-      <h2>(ITS): Mecanismos de infección en semen</h2>
-      <p class="date">22 de Marzo del 2023</p>
-      <p class="date">Tiempo de lectura 15 mins.</p>
-      <p>Como explicamos antes, los microorganismos pueden estar en el semen, asociarse con espermatozoides y otras células presentes en el líquido seminal, como glóbulos blancos, células epiteliales, glóbulos rojos, entre otros.</p>
-      <button> <a href="entradados.php">Ver más</a></button>
+  </div>
+
+  <!--Fin de 3ra seccion-->
+
+  <!--Inicio de 4ta sección-->
+
+  <div class="seccion">
+    <div class="elemento">
+      <img src="../img/sefeliz.jpg" alt="Imagen 1">
+      <div class="contenido">
+        <h2>Categoría del Artículo 1</h2>
+        <h3>Título del Artículo 1</h3>
+        <a href="#" class="boton">Leer</a>
+      </div>
     </div>
-    <div class="box">
-      <img src="../img/3.jpeg" alt="Imagen 3">
-      <h2>(ITS):  Mecanismos de infección en semen</h2>
-      <p class="date">23 de Marzo del 2023</p>
-      <p class="date">Tiempo de lectura 15 mins.</p>
-      <p>Como explicamos antes, los microorganismos pueden estar en el semen, asociarse con espermatozoides y otras células presentes en el líquido seminal, como glóbulos blancos, células epiteliales, glóbulos rojos, entre otros.</p>
-      <button> <a href="entradatres.php">Ver más</a></button>
+    <div class="elemento">
+      <img src="../img/sefeliz.jpg" alt="Imagen 2">
+      <div class="contenido">
+        <h2>Categoría del Artículo 2</h2>
+        <h3>Título del Artículo 2</h3>
+        <a href="#" class="boton">Leer</a>
+      </div>
     </div>
+    <div class="elemento">
+      <img src="../img/sefeliz.jpg" alt="Imagen 3">
+      <div class="contenido">
+        <h2>Categoría del Artículo 3</h2>
+        <h3>Título del Artículo 3</h3>
+        <a href="#" class="boton">Leer</a>
+      </div>
+    </div>
+  </div>
+
+  <!--Fin de 4ta de sección-->
+
+
+  <!--Inicio de 5ta seccion-->
+
+  <section class="image-section">
+  <div class="image-container">
+    <img src="../img/CA_BannerWeb_bottom_4.jpg" alt="Descripción de la imagen">
+    <h2>En Chektahora <br> Nos preocupamos por tu  salud</h2>
   </div>
 </section>
 
+<!--Fin de la 5ta seccion-->
 
         <?php include 'template/footer.php'; ?>
     </div>
