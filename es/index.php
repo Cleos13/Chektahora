@@ -13,6 +13,7 @@
     <?php include 'template/favicon.php'; ?>
     <link rel="preload" as="image" href="../css/img/iconos/chktahora.png">
     <link rel="stylesheet" href="../css/app.css?update=<?php echo constant('UPDATE'); ?>">
+    <link rel="stylesheet" href="../css/inicio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
@@ -103,8 +104,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <!-- Banners Home page -->
 
-            
-            
+  
 
             <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                         <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>

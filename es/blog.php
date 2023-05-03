@@ -158,8 +158,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <section class="image-section">
   <div class="image-container">
-    <img src="../img/CA_BannerWeb_bottom_4.jpg" alt="Descripción de la imagen">
-    <h2>En Chektahora <br> Nos preocupamos por tu  salud</h2>
+    <img src="../img/woaoooo.jpg" alt="Descripción de la imagen">
+    <h2>En Chektahora <br> Nos preocupamos por t  salud</h2>
   </div>
 </section>
 
