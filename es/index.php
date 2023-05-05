@@ -104,15 +104,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <!-- Banners Home page -->
 
-            <div class="producto cruz-azul">
-  <img src="ruta-de-la-imagen" alt="Nombre del producto">
-  <h3>Nombre del producto</h3>
-  <span class="precio">$100.00</span>
-  <div class="botones">
-    <button class="boton-ver-mas">Ver más</button>
-    <button class="boton-comprar">Comprar</button>
-  </div>
-</div>
 
 
             <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
@@ -684,7 +675,7 @@ function ocultarPopup() {
 
 </script>
 
-
+<script> ( function (){ var  s = document.createElement( " script" ) ; s.setAttribute( " cuenta-datos" , "mWr7pnNPQK" ) ; s. setAttribute( "src" , " https:// cdn. userway.org/widget.js " ) ; do cument.body.appendChild(s) ; })( ) ; </script> <noscript> Habilite JavaScript para garantizar  <a href =" https:// userway.org " > accesibilidad del sitio web </a></noscript>
 </body>
 
 </html> 
