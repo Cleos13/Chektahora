@@ -127,7 +127,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <img src="../img/platinuumm.jpg" alt="Product 3" />
     <h3>KIT PLATINUM DETECTA 12 ITS</h3>
     <p class="price">$2,822</p>
-    <button class="buy-button"><a style="color: white;" href="	https://buy.stripe.com/8wMcP73n4fi4g9OcRg">Comprar Ahora</a></button>
+    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/8wMcP73n4fi4g9OcRg">Comprar Ahora</a></button>
   </div>
   <div class="product-box">
     <img src="../img/bphpp.jpg" alt="Product 4" />
