@@ -115,25 +115,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <img src="../img/goold.jpg" alt="Product 1" />
     <h3>KIT GOLD DETECTA 7 ITS</h3>
     <p class="price">$2,720</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC">Comprar Ahora</a></button>
+    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/7sI9CVcXE2vi1eU9Fm">Comprar Ahora</a></button>
   </div>
   <div class="product-box">
     <img src="../img/blaack.jpg" alt="Product 2" />
     <h3>KIT BLACK DETECTA 13 ITS</h3>
     <p class="price">$4,250</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/aEUbL3cXE5Hu5va03z">Comprar Ahora</a></button>
+    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/dR67uN6zg9XK2iY2cT">Comprar Ahora</a></button>
   </div>
   <div class="product-box">
     <img src="../img/platinuumm.jpg" alt="Product 3" />
     <h3>KIT PLATINUM DETECTA 12 ITS</h3>
     <p class="price">$2,822</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/8wMcP73n4fi4g9OcRg">Comprar Ahora</a></button>
+    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/8wM7uN3n43zmbTybKr">Comprar Ahora</a></button>
   </div>
   <div class="product-box">
     <img src="../img/bphpp.jpg" alt="Product 4" />
     <h3>KIT VPH	</h3>
     <p class="price">$2,620</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/00g6qJ2j0d9W3n214h">Comprar Ahora</a></button>
+    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/aEUeXf8Hogm8e1G9Fn">Comprar Ahora</a></button>
   </div>
 
   <div class="product-box">
