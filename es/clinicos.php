@@ -67,7 +67,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
     <img src="../img/Biometría-ematica.jpg" alt="Producto 1">
     <h2 style="font-weight: bold; color: #662480:">BIOMETRIA <br> HEMATICA</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $281.25</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $281</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/9AQdTb6zg0nae1G7xl" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
@@ -127,7 +127,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
     <img src="../img/13.-Quimica-sanguinea-4-elementos.jpg" alt="Producto 45">
     <h2 style="font-weight: bold; color: #662480:">QUIMICA SANGUINEA DE 4 ELEMENTOS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $294.80</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $295</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/8wM16p4r8fi40aQ6tp" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
@@ -137,7 +137,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
     <img src="../img/14.-Quimica-sanguinea-5-elementos.jpg" alt="Producto 45">
     <h2 style="font-weight: bold; color: #662480:">QUIMICA SANGUINEA DE 5 ELEMENTOS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $316.80</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $317</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/8wM16p0aSc5S3n27xu" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
@@ -277,7 +277,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
     <img src="../img/31.-Depuracion-de-creatinina.jpg" alt="Producto 45">
     <h2 style="font-weight: bold; color: #662480:">DEPURACION DE CREATININA</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $237.50</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $238</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/dR67uN2j0gm89Lqg4f" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
