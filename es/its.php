@@ -61,58 +61,80 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 ?>
             </div>
             <!-- Banners Home page -->
-            <div class="cell text-left" style="margin-top: 150px">
-                <div class="grid-x">
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle">
-                        <h2 class="morado" id="nuestrasPruebas"><strong>NUESTROS</strong> KITS DE ITS</h2>
+            <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection pt-5">
+                        <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
                     </div>
-                    <div class="grid-container py-5 grid-x large-12 small-12">
-                        <div class="owl-carousel owl-theme grid-x large-10 small-12 mx-auto" id="carousel-products"> 
-                            <?php
-                            global $items;
-                            global $images;
-                            global $conn;
-                            foreach ($items as $p){
-                                $img = '';
-                                foreach ($images as $image){
-                                    if($image['id_product'] === $p['id']){
-                                        $img = $image['img'];
-                                    }
-                                }
-                                if ($p['category'] === 'its') {
-                                    echo '<div class="item">
-                                                <div class="card-product" style="width: 90%;">
-                                                    <div class="name-product">
-                                                        <h4>' . $p['name'] . '</h4>
-                                                    </div>
-                                                    <div style="width: 60%; margin: auto;">
-                                                        <img src="../img/products/' . $img . '" alt="">
-                                                    </div>
-                                                    <div class="price-product py-2">
-                                                        $' . $p['price'] . ' <span class="fs-2">MXN</span>
-                                                    </div>
-                                                    <div class="grid-x cell px-1 mb-2">
-                                                        <div class="large-6 small-6">
-                                                            <button class="" plus-cart="' . $p['id'] . '">Añadir</button>
-                                                        </div>
-                                                        <div class="large-6 small-6 ver-mas-link tc-facet-header tc-toggle-show">
-                                                            <button class="' . $p['id'] . '">Ver más</button>
-                                                            
-                                                        </div>
-                                                        <div class="tc-facet tc-facet-open">
-                                                            <br>
-                                                            ' . $p['description'] . '
-                                                        </div>                                        
-                                                    </div>
-                                                </div>
-                                            </div>';
-                                }
-                            }
-                            ?>
-                        </div>
-                    </div>
-                </div>
+
+                    <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <img src="../img/Producto-Kit-Gold-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/7sI9CVcXE2vi1eU9Fm" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+  
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT BLACK DETECTA 13 <br> ITS</h2>
+    <img src="../img/Producto-Kit-Black-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$4,999</del> <br> $3,999</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/dR67uN6zg9XK2iY2cT" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT PLATINUM DETECTA 12 ITS</h2>
+    <img src="../img/Producto-Kit-Platinum-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$3,320</del> <br> $2,656</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/8wM7uN3n43zmbTybKr" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT <br> VPH</h2>
+    <img src="../img/Producto-Kit-VPH-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,620</del> <br> $2,096</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/aEUeXf8Hogm8e1G9Fn" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
             </div>
+
+
+
+  <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                        <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS) <b style="color:red;">PROMOCIÓN</b> </strong></h2>
+                    </div>
+
+                    <div class="product-container-2 large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT BLACK<br> COMBO PAREJA</h2>
+    <img src="../img/Producto-Kits-Black-Pareja-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,620</del> <br> $2,096</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/7sIbL30aS6Ly8Hm2bG" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+  
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT PLATINUM  <br> COMBO PAREJA</h2>
+    <img src="../img/Producto-Kits-Platinum-Pareja-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,620</del> <br> $2,096</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/28obL36zg0naaPubNd" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+</div>
             <div class="cell text-left spaceSection">
                 <div class="grid-x show-for-medium">
                     <div class="large-6 medium-6 grid-padding-x video">

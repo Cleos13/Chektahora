@@ -79,84 +79,51 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <?php include 'template/header.php'; ?>
 
             <!-- Banners Home page -->
-            <div class="cell spaceTop relative" style="margin-top: 100px;">
-                <?php
-                include 'master/banners.php';
-                $banners = getBanners('covid');
-                echo '<div class="owl-carousel owl-theme" id="carousel-banner">
-                            <div class="covid item">
-                                <div class="callCovid">
-                                    <h1 class="home text-center">Pruebas COVID-19 </h1>
-                                    <p>Nuestros kits son privados y seguros, utilizamos la mejor tecnología PCR para proporcionar resultados altamente confiables, con amplificaciones de ácidos nucleicos del ADN con una seguridad mayor al 98%</p>
-                                    <div class="orbitBTn">
-                                        <a class="btnPurple4" href="#nuestrasPruebas">Pruebas Covid</a>
-                                    </div>
-                                </div>
-                            </div>';
-                foreach ($banners as $b) {
-                    echo '<div class="item">
-                                    <img src="../img/banners/desktop/coovid.jpg" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
-                                    <img src="../img/banners/mobile/' . $b['img_mobile'] . '" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
-                                </div>';
-                }
-                echo '</div>';
-                ?>
-            </div>
+            <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+<h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
+                    </div>
 
-            <div class="cell text-left">
-                <div class="grid-x spaceSection">
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
-                    </div>
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h3 class="morado"><p class="moradito">DIAGNÓSTICOS OPORTUNOS Y CONFIABLES PARA</p></h2>
-                    </div>
-                    <div class="grid-container py-5 grid-x large-12 small-12">
-                        <div class="owl-carousel owl-theme grid-x large-10 small-12 mx-auto" id="carousel-products-resp"> 
-                            <?php
-                            global $items;
-                            global $images;
-                            global $conn;
-                            foreach ($items as $p){
-                                $img = '';
-                                foreach ($images as $image){
-                                    if($image['id_product'] === $p['id']){
-                                        $img = $image['img'];
-                                    }
-                                }
-                                if ($p['category'] === 'covid') {
-                                    echo '<div class="item">
-                                                <div class="card-product" style="width: 90%;">
-                                                    <div class="name-product">
-                                                        <h4>' . $p['name'] . '</h4>
-                                                    </div>
-                                                    <div style="width: 60%; margin: auto;">
-                                                        <img src="../img/products/' . $img . '" alt="">
-                                                    </div>
-                                                    <div class="price-product py-2">
-                                                        $' . $p['price'] . ' <span class="fs-2">MXN</span>
-                                                    </div>
-                                                    <div class="grid-x cell px-1 mb-2">
-                                                        <div class="large-6 small-6">
-                                                            <button class="" plus-cart="' . $p['id'] . '">Añadir</button>
-                                                        </div>
-                                                        <div class="large-6 small-6 ver-mas-link tc-facet-header tc-toggle-show">
-                                                            <button class="' . $p['id'] . '">Ver más</button>
-                                                            
-                                                        </div>
-                                                        <div class="tc-facet tc-facet-open">
-                                                            <br>
-                                                            ' . $p['description'] . '
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>';
-                                }
-                            }
-                            ?>
-                        </div>
-                    </div>
-                </div>
+                    <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">PRUEBA INFLUENZA + COVID<br> ITS</h2>
+    <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price">  $1,399</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/6oE02le1I3zmaPu6s2" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+  
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> PCR</h2>
+    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> $599</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> ANTÍGENOS</h2>
+    <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> $599</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">PRUEBA  <br> ANTICUERPOS</h2>
+    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price">$1,050</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/cN28yR0aSee05va4jI" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
             </div>
             <!-- Banners Home page -->
 
