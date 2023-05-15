@@ -175,131 +175,131 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/18.-Quimica-sanguinea-de-32-elementos.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">QUIMICA SANGUINEA DE 32 ELEMENTOS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $1,100</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/bIY9CV5vc2vi3n2aJL" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/19.-Reacciones-febriles.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">REACCIONES FEBRILES</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $350</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/7sI02lbTA4Dq2iY2dg" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/20.-Cultivo-de-heces.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">CULTIVO DE HECES (COPROCULTIVO)</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $385</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/dR62atg9Q2vi9Lqg47" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/Perfil-de-drogas-3.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">PERFIL 3 DROGAS DE ABUSO (AMP,THC,COC)</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $750</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/3cs16p1eWfi47Di5pu" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/22.-Perfil-enzimas-cardiaco.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">PERFIL ENZIMAS CARDIACO</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $330</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/7sI02lg9Q6Ly2iYdW1" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/27.-VIH-1-2-ANTICUERPOS-y-AG-p24.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">VIH 1-2 ANTICUERPOS Y AG P24 DE VIH1</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $380</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/9AQaGZ6zggm8cXCf07" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/23.-Perfil-drogas-de-abuso-(5).jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">PERFIL 5 DROGAS DE ABUSO (AMP,THC,COC,BAR,BDZ)</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $1,300</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/aEUdTb6zg5Hu0aQ9FM" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/28.-Perfil-de-lipidos.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">PERFIL DE LIPIDOS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $310</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/14k2at3n41re1eUdW4" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/29.-Perfil-pancratico.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">PERFIL PANCREATICO</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $396</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/aEUbL30aSd9W5vabNX" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/4.-Biometria-hepatica.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">PERFIL HEPATICO</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $910</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/4gwcP79Ls6Ly5vacS2" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/31.-Depuracion-de-creatinina.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">DEPURACION DE CREATININA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $237.50</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/dR67uN2j0gm89Lqg4f" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/32.-Depuracion-de-urea.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">DEPURACION DE UREA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $260</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/28oaGZcXE2vi2iY9FT" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/33.-hemoglobina-glucosilada-(HB-A1C).jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">HEMOGLOBINA GLUCOSILADA (HB-A1C)</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $338</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/00gaGZ4r85HuaPu5pE" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
