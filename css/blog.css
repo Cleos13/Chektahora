@@ -223,3 +223,140 @@
   }
   
   
+  @media only screen and (max-width: 768px) {
+    /* Banner section */
+    .texto-imagen h1 {
+      font-size: 48px;
+      padding-top: 90px;
+    }
+    
+    /* Second section */
+    .seccion {
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem 0;
+    }
+    
+    .imagen {
+      padding: 0;
+    }
+    
+    .imagen img {
+      border-radius: 25px;
+    }
+    
+    .contenido {
+      padding: 0;
+      margin-top: 1rem;
+    }
+    
+    .contenido h1 {
+      font-size: 2rem;
+      margin: 0.5rem 0;
+      text-align: center;
+    }
+    
+    .contenido .fecha {
+      font-size: 0.9rem;
+    }
+    
+    .contenido .descripcion {
+      font-size: 1rem;
+    }
+    
+    .contenido .leer-mas {
+      padding: 1rem;
+    }
+    
+    /* Third section */
+    .titulo h2 {
+      font-size: 2.5rem;
+    }
+    
+    .botones {
+      margin-top: 0.5rem;
+    }
+    
+    .boton {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
+      margin: 0.25rem;
+    }
+    
+    .seccion {
+      padding: 1rem;
+    }
+    
+    .elemento {
+      width: calc(50% - 1rem);
+    }
+    
+    .elemento img {
+      border-radius: 20px;
+    }
+    
+    .contenido h2 {
+      font-size: 1.2rem;
+    }
+    
+    .contenido h3 {
+      font-size: 1rem;
+      margin-top: 0.3rem;
+    }
+    
+    .boton {
+      margin-top: 0.5rem;
+    }
+    
+    /* Image section */
+    .image-container h2 {
+      font-size: 32px;
+      bottom: 120px;
+      left: 15px;
+      top: 33px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Banner section */
+    .texto-imagen h1 {
+      font-size: 36px;
+      padding-top: 40px;
+    }
+    
+    /* Third section */
+    .titulo h2 {
+      font-size: 2rem;
+    }
+    
+    .elemento {
+      width: 100%;
+    }
+    
+    .elemento img {
+      border-radius: 15px;
+    }
+    
+    .contenido h2 {
+      font-size: 1rem;
+    }
+    
+    .contenido h3 {
+      font-size: 0.9rem;
+      margin-top: 0.2rem;
+    }
+    
+    .boton {
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+      margin-top: 0.3rem;
+    }
+    
+    /* Image section */
+    .image-container h2 {
+      font-size: 30px;
+      bottom: 80px;
+      left: 10px;
+    }
+  }
+  

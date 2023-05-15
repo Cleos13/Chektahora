@@ -4819,6 +4819,7 @@ a.logoWebsite {
         margin-bottom: 50px;
         margin-left: auto;
         margin-right: auto
+        
     }
 
     footer .section-two .redes img {
@@ -4856,8 +4857,8 @@ a.logoWebsite {
     }
 
     footer .section-two .galeria div div {
-        padding-left: 10px;
-        padding-right: 10px
+        padding: 43px 10px 10px 10px;
+        
     }
 
     footer .copy {
@@ -17525,4 +17526,7 @@ screen and (min-width: 75em) {
   .cruz-azul {
     /* Estilos para la clase cruz-azul */
   }
+  
+
+
   

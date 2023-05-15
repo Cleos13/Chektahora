@@ -90,7 +90,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="seccion">
     <div class="imagen">
-      <img src="../img/libertad.jpg" alt="Imagen de ejemplo">
+      <img src="../img/cristiano.jpg" alt="Imagen de ejemplo">
     </div>
     <div class="contenido">
       <h2>Título de la sección</h2>
@@ -126,7 +126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <div class="seccion">
     <div class="elemento">
-      <img src="../img/sefeliz.jpg" alt="Imagen 1">
+      <img src="../img/cristiannn.jpg" alt="Imagen 1">
       <div class="contenido">
         <h2>Categoría del Artículo 1</h2>
         <h3>Título del Artículo 1</h3>
@@ -134,7 +134,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
     <div class="elemento">
-      <img src="../img/sefeliz.jpg" alt="Imagen 2">
+      <img src="../img/cristiannn.jpg" alt="Imagen 2">
       <div class="contenido">
         <h2>Categoría del Artículo 2</h2>
         <h3>Título del Artículo 2</h3>
@@ -142,7 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
     <div class="elemento">
-      <img src="../img/sefeliz.jpg" alt="Imagen 3">
+      <img src="../img/cristiannn.jpg" alt="Imagen 3">
       <div class="contenido">
         <h2>Categoría del Artículo 3</h2>
         <h3>Título del Artículo 3</h3>
