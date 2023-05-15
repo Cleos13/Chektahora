@@ -164,7 +164,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">KIT BLACK<br> COMBO PAREJA</h2>
     <img src="../img/Producto-Kits-Black-Pareja-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,620</del> <br> $2,096</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $7,999</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/7sIbL30aS6Ly8Hm2bG" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
@@ -174,7 +174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">KIT PLATINUM  <br> COMBO PAREJA</h2>
     <img src="../img/Producto-Kits-Platinum-Pareja-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,620</del> <br> $2,096</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $5,312</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/28obL36zg0naaPubNd" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>

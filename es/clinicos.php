@@ -63,84 +63,458 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <!-- Banners Home page -->
             <div class="cell text-left" style="background-color: #fff; margin-bottom: 60px; margin-top: 50px">
-                <div class="grid-x spaceSection relative">
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center productos-clinicos">
-                        <h2 class="morado">Nuestros estudios clinicos</h2>
-                        <div class="separator-purple"></div>
-                    </div>
-                    <div class="mx-auto section-products">
-                        <div class="relative">
-                            <input class="search-products" id="search-products">
-                            <span class="absolute" style="right: 20px; top: 9px">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                                </svg>
-                            </span>
-                            <div class="absolute text-morado display-none" id="products-list">
-                                <?php
-                                global $items;
-                                global $images;
-                                global $conn;
-                                foreach ($items as $p) {
-                                    $img = '';
-                                    foreach ($images as $image) {
-                                        if ($image['id_product'] === $p['id']) {
-                                            $img = $image['img'];
-                                        }
-                                    }
-                                    if ($p['category'] === 'clinicos') {
-                                        echo '<div class="mb-2 display-none">
-                                                    <a href="producto?_ref=' . $p['id'] . '" class="fs-3">
-                                                        <img src="../img/products/' . $img . '" alt="" width="25px" class="mx-2">
-                                                        ' . $p['name'] . '</span>
-                                                    </a>
-                                                </div>';
-                                    }
-                                }
-                                ?>
-                            </div>
+            <div class="product-container-3">
+  <div class="product-item">
+    <img src="../img/Biometría-ematica.jpg" alt="Producto 1">
+    <h2 style="font-weight: bold; color: #662480:">BIOMETRIA <br> HEMATICA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $281.25</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/9AQdTb6zg0nae1G7xl" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+  <!-- Repite el código del producto para los demás productos -->
+  <div class="product-item">
+    <img src="../img/dfisjio.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">COPROPARASITOSCOPICO 1 MUESTRA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $180</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/14k6qJ9Ls9XKcXCdVK" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
 
-                        </div>
-                    </div>
-                    <div class="grid-container py-5 grid-x large-12 small-12">
-                        <div class="owl-carousel owl-theme grid-x large-10 small-12 mx-auto" id="carousel-products">
-                            <?php
-                            foreach ($items as $p){
-                                $img = '';
-                                foreach ($images as $image){
-                                    if($image['id_product'] === $p['id']){
-                                        $img = $image['img'];
-                                    }
-                                }
-                                if ($p['category'] === 'clinicos') {
-                                    echo '<div class="item">
-                                                <div class="card-product" style="width: 90%;">
-                                                    <div class="name-product">
-                                                        <h4>' . $p['name'] . '</h4>
-                                                    </div>
-                                                    <div style="width: 60%; margin: auto;">
-                                                        <img src="../img/products/' . $img . '" alt="">
-                                                    </div>
-                                                    <div class="price-product py-2">
-                                                        $' . $p['price'] . ' <span class="fs-2">MXN</span>
-                                                    </div>
-                                                    <div class="grid-x cell px-1 mb-2">
-                                                        <div class="large-6 small-6">
-                                                            <button class="" plus-cart="' . $p['id'] . '">Añadir</button>
-                                                        </div>
-                                                        <div class="large-6 small-6 ver-mas-link">
-                                                            <a href="producto?_ref=' . $p['id'] . '">Ver más</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>';
-                                }
-                            }
-                            ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="product-item">
+    <img src="../img/get.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">COPROPARASITOSCOPICO 3 MUESTRAS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $240</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/bIYdTb7Dk1re7DidVL" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/9.-Examen-general-de-orina.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">EXAMEN GENERAL DE ORINA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $180</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/28o4iB6zg3zmcXC5pg" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/11.-Grupo-sanguineo-y-factor-RH.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">GRUPO SANGUINEO Y FACTOR RH</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $250</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/9AQ5mF0aS0na7Di8Bv" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/12.-Quimica-sanguinea-3-elementos.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">QUIMICA SANGUINEA DE 3 ELEMENTOS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $279</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/8wM3ex4r84Dq7Dig3Y" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/13.-Quimica-sanguinea-4-elementos.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">QUIMICA SANGUINEA DE 4 ELEMENTOS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $294.80</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/8wM16p4r8fi40aQ6tp" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/14.-Quimica-sanguinea-5-elementos.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">QUIMICA SANGUINEA DE 5 ELEMENTOS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $316.80</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/8wM16p0aSc5S3n27xu" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/Químca-sanguinea-6-elementos.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">QUIMICA SANGUINEA DE 6 ELEMENTOS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $325</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/00g3ex7Dk0na7Di6ts" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/16.-Quimica-sanguinea-12.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">QUIMICA SANGUINEA DE 12 ELEMENTOS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $838</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/14kbL30aS6Ly9Lq5pq" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/17.-Quimica-sanguinea-28-elementos.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">QUIMICA SANGUINEA DE 28 ELEMENTOS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $950</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/5kAdTbf5M0naaPucRR" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="imagen-producto-45.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <div class="buttons">
+      <a href="#" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+</div>
+
             <div class="cell text-left spaceSection como funciona-clinicos" id="como-funciona">
                 <div class="large-12 medium-12 small-12 grid-padding-x text-center title-section">
                     <h2 class="morado">¿Cómo funciona?</h2>

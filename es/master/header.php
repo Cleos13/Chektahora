@@ -20,130 +20,26 @@
             <div class="d-flex">
                <a href="its" menu-pruebas="its" class="subMenu text-morado d-flex align-height-center fw-medium">DIAGNÓSTICO DE INFECCIONES SEXUALES
                     <div class="pl-5">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#4F2D83" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                        </svg>
+                       
                     </div>
                 </a>
-                <div class="absolute menu-pruebas display-none menu-its" menu="active">
-                    <div class="submenu-opciones-sm submenu-its" menu-action="its" style="height:500px; overflow-y: auto !important; overflow-x: hidden">
-                        <!-- <ul class="dropdown-menu dropdown-menu-left" role="menu"> -->
-                            
-                                <!-- <div class="grid-x d-flex align-height-center large-12 pruebas fw-medium">
-                                    <a class="large-12" href="#">Infecciones de Transmisión Sexual</a>
-                                </div> -->
-                            
-                            <!-- <ul class="dropdown-menu dropdown-menu-left" role="menu"> -->
-                                <div class="grid-x d-flex align-height-center large-12 pruebas fw-medium">
-                                    <?php
-                                        foreach ($items as $item){
-                                            if($item['category'] === 'its'){
-                                                echo '<a class="large-12" href="producto?_ref='. $item['id'] .'"><img src="../css/img/menu/itss.png" alt="" width="35px">'. ucwords(mb_strtolower($item['name'], 'UTF-8')) .'</a>';
-                                            }
-                                        }
-                                    ?>
-                                </div>
-                            <!-- </ul> -->
-                                    <!-- </ul> -->
-                        <!-- <div class="grid-x d-flex align-height-center large-12 pruebas fw-medium">
-                            <?php
-                                foreach ($items as $item){
-                                    if($item['category'] === 'its'){
-                                        echo '<a class="large-12" href="producto?_ref='. $item['id'] .'"><img src="../css/img/menu/itss.png" alt="" width="35px">'. ucwords(mb_strtolower($item['name'], 'UTF-8')) .'</a>';
-                                    }
-                                }
-                            ?>
-                        </div>-->
-                    </div>
-                </div>
+                
             </div>
             <div class="d-flex">
                 <a href="covid-19" menu-pruebas="covid" class="subMenu text-morado d-flex align-height-center fw-medium">COVID-19
                     <div class="pl-5">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#4F2D83" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                        </svg>
+                        
                     </div>
                 </a>
-                <div class="absolute menu-pruebas display-none menu-covid" menu="active">
-                    <div class="submenu-opciones-sm submenu-covid" menu-action="covid" style="height:500px; overflow-y: auto !important; overflow-x: hidden">
-                        <div class="grid-x d-flex align-height-center large-12 pruebas fw-medium">
-                            <?php
-                            foreach ($items as $item){
-                                if($item['category'] === 'covid'){
-                                    echo '<a class="large-12" href="producto?_ref='. $item['id'] .'"><img src="../css/img/menu/covidd.png" alt="" width="35px">'. ucwords($item['name'], 'UTF-8') .'</a>';
-                                }
-                            }
-                            ?>
-                            <!--<a class="large-12" href="producto?_ref=135Fab4Q-4002-4300-0580-8879T79OPI09977"><img src="../css/img/menu/covidd.png" alt="" width="35px">Prueba PCR</a>
-                            <a class="large-12" href="producto?_ref=135bab4G-4015-4305-0586-8879T79ODI09977"><img src="../css/img/menu/covidd.png" alt="" width="35px">Prueba Anticuerpos</a>
-                            <a class="large-12" href="producto?_ref=135Fab4Q-4905-4300-0580-8879T79ODI09977"><img src="../css/img/menu/covidd.png" alt="" width="35px">Influenza+COVID-19</a>
-                            <a class="large-12" href="producto?_ref=135Fab4Q-4005-4305-0586-8879T79ODI09977"><img src="../css/img/menu/covidd.png" alt="" width="35px">Prueba de Antígeno</a>-->
-                        </div>
-                        <!-- <div class="text-center">
-                            <a class="btn-banner-2 text-white text-center" href="covid-19">CONOCE MÁS</a>
-                        </div> -->
-                    </div>
-                </div>
+                
             </div>
             <div class="d-flex">
                 <a href="clinicos" menu-pruebas="clinicos" class="subMenu text-morado d-flex align-height-center fw-medium">CLÍNICOS
                     <div class="pl-5">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#4F2D83" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                        </svg>
+                       
                     </div>
                 </a>
-                <div class="absolute menu-pruebas display-none menu-clinicos" menu="active">
-                    <div class="submenu-opciones-lg" menu-action="clinicos" style="height:500px; overflow-y: auto !important; overflow-x: hidden">
-                    <div class="grid-x d-flex align-height-center large-12 pruebas fw-medium text-blue">
-                            <?php
-                            foreach ($items as $item){
-                                if($item['category'] === 'clinicos'){
-                                    echo '<a class="d-flex large-3 py-1 align-height-center" href="producto?_ref='. $item['id'] .'"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">'. ucwords(mb_strtolower($item['name'], 'UTF-8')) .'</a>';
-                                }
-                            }
-                            ?>
-                            <!--<a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=8a4aac4d-e29d-43aa-b930-5149b7f709c3"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">
-                                <div>Química Sanguínea De<br>32 Elementos</div>
-                            </a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=8a4aac4d-e29d-43aa-b930-5849b70709c3"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil Hepático</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=4a4aac4d-e24d-43aa-b930-5849b70709c3"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil De Lípidos</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=3a4aac4d-r24d-43aa-b960-5849b70709c3"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil Pancreático</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=425aac4d-r24d-43aa-b960-5849b707094c7"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil Enzimas Cardíaco</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=425aac4d-r24d-43aa-b960-5849b7070937"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Depuración De Creatinina</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=345aac4d-r24d-43aa-b960-5849b708094c7"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Depuración De Urea</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=345aac4d-r24d-43aa-b960-584956708094c7"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil Prenatal I</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=345aac4d-4245-43aa-b960-584956708094c7"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil Prenatal II</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=345aac4d-4245-43aa-b960-584956708784c7"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil Prenatal III</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=235aac4d-4245-43aa-b560-584967708094c7"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil Prenatal IV</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135aac4d-4245-43aa-b560-58496780809477"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Check-up Básico</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135aac4d-4245-43aa-b560-58496780809477"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Check-up Completo</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135aac4d-4245-43aa-b566-58496785809477"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil De Drogas 3 Analitos</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135aac4d-4245-43aa-b366-58496785809477"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil De Drogas 5 Analitos</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135aac4d-4245-43va-b366-58496785809477"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Química Sanguínea De 3 Elementos</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135aac4d-4245-43va-b366-5879j785809477"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Química Sanguínea De 3 Elementos modificada</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135aac4d-4245-43va-b3k6-5879j785809477"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Química Sanguínea De 6 Elementos</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135aac4d-4245-43va-b3k6-5879j785i09477"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Química Sanguínea De 15 Elementos</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135bac4d-4545-43v0-b3O6-8879j765p09U77"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil Tiroideo</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135bab4d-4545-43v0-b3O6-8879j765p09U77"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Grupo Sanguíneos</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135bab4d-4515-43v0-b3O6-8879j765p09U77"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Marcadores Tumorales<br>(AFP, CA125, ACE, CA153)</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135bab4d-4415-43v0-b3O6-8879j760p09U77"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Antígeno De Próstata (PSA)</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135bab4d-4515-43v0-b5O6-8879j760p09U77"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Insulina</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135bab4d-4515-43O0-b5O6-8879j760p09U71"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Urocultivo</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135bab4d-4515-4325-b5O6-8879j760p09U72"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Perfil Hormonal</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135bab4d-4515-4325-b5O6-8879H760p09977"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Prueba De Embarazo</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135bab4d-4515-4325-b5O6-8879j760p09977"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Homoglobina Glicosilada</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135bab4d-4515-4325-b5O6-8879T700p09977"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">Electrocardiograma En Reposo</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135aac4d-4245-43v0-b3O6-5879j785i09U77"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">TP</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135vac4d-4545-43v0-b3O6-8879j765i09U77"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">TPT</a>
-                            <a class="d-flex large-3 py-1 align-height-center" href="producto?_ref=135aac4d-4245-43va-b3k6-5879j785i09U77"><img src="../css/img/menu/clinicoss.png" alt="" width="30px">EGO</a>-->
-                        </div>
-                        <!-- <div class="text-center">
-                            <a class="btn-banner-2 text-white text-center" style="margin-bottom: 25px !important;" href="clinicos">CONOCE MÁS</a>
-                        </div> -->
-                    </div>
-                </div>
+               
             </div>
            
             <a href="blog" role="menuitem" class="menuAnimado text-morado svg fw-medium">BLOG</a>
