@@ -346,7 +346,8 @@ h2.morado {
 }
 
 h2.morado strong {
-    font-weight: bold
+    font-weight: bold;
+    font-size: 25px;
 }
 
 h4.morado {
@@ -17650,3 +17651,35 @@ screen and (min-width: 75em) {
     background-color: #333;
   }
   
+
+  @keyframes llamativo {
+    0% {
+      filter: brightness(100%);
+    }
+    50% {
+      filter: brightness(150%);
+    }
+    100% {
+      filter: brightness(100%);
+    }
+  }
+  
+  .product-container .product-item img.llamativo {
+    animation: llamativo 2s ease-in-out infinite;
+  }
+
+  @keyframes llamativo {
+    0% {
+      filter: brightness(100%);
+    }
+    50% {
+      filter: brightness(150%);
+    }
+    100% {
+      filter: brightness(100%);
+    }
+  }
+  
+  .product-container-2 .product-item img.llamativo {
+    animation: llamativo 2s ease-in-out infinite;
+  }
