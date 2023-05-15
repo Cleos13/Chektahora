@@ -103,6 +103,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 ?>
             </div>
             <!-- Banners Home page -->
+          
 
 
 
@@ -110,7 +111,79 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
                     </div>
 
-            <div class="products-container">
+                    <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+  <div class="product-item">
+    <img src="../img/goold.jpg" alt="Producto 1">
+    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black;">$2,720</del> A $2,176</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/7sI9CVcXE2vi1eU9Fm" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+  
+  <div class="product-item">
+    <img src="../img/blaack.jpg" alt="Producto 2">
+    <h2 style="font-weight: bold; color: #662480:">KIT BLACK DETECTA 13 <br> ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black;">$4,999</del> A $3,999</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/dR67uN6zg9XK2iY2cT" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/platinuumm.jpg" alt="Producto 3">
+    <h2 style="font-weight: bold; color: #662480:">KIT PLATINUM DETECTA 12 ITS</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black;">$3,320</del> A $2,656</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/8wM7uN3n43zmbTybKr" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/bphpp.jpg" alt="Producto 4">
+    <h2 style="font-weight: bold; color: #662480:">KIT <br> VPH</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black;">$2,620</del> A $2,096</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/aEUeXf8Hogm8e1G9Fn" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+            </div>
+
+
+
+  <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                        <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS) <b style="color:red;">PROMOCIÓN</b> </strong></h2>
+                    </div>
+
+                    <div class="product-container-2 large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+  <div class="product-item">
+    <img src="../img/Producto-Kits-Black-Pareja-Sitio-Web.jpg" alt="Producto 1">
+    <h2 style="font-weight: bold; color: #662480:">KIT BLACK<br> COMBO PAREJA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black;">$2,620</del> A $2,096</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/7sIbL30aS6Ly8Hm2bG" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+  
+  <div class="product-item">
+    <img src="../img/Producto-Kits-Platinum-Pareja-Sitio-Web.jpg" alt="Producto 2">
+    <h2 style="font-weight: bold; color: #662480:">KIT PLATINUM  <br> COMBO PAREJA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black;">$2,620</del> $2,096</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/28obL36zg0naaPubNd" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+</div>
+
+           <!-- <div class="products-container">
+                
   <div class="product-box">
     <img src="../img/goold.jpg" alt="Product 1" />
     <h3>KIT GOLD DETECTA 7 ITS</h3>
@@ -186,7 +259,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-
+            -->
 
 
             
@@ -677,6 +750,32 @@ function ocultarPopup() {
 </script>
 
 <script> ( function (){ var  s = document.createElement( " script" ) ; s.setAttribute( " cuenta-datos" , "mWr7pnNPQK" ) ; s. setAttribute( "src" , " https:// cdn. userway.org/widget.js " ) ; do cument.body.appendChild(s) ; })( ) ; </script> <noscript> Habilite JavaScript para garantizar  <a href =" https:// userway.org " > accesibilidad del sitio web </a></noscript>
+
+<script>
+  $(document).ready(function() {
+  $('.product-carousel').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    prevArrow: '<button type="button" class="slick-prev">Anterior</button>',
+    nextArrow: '<button type="button" class="slick-next">Siguiente</button>',
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+
+</script>
 </body>
 
 </html> 

@@ -17527,6 +17527,126 @@ screen and (min-width: 75em) {
     /* Estilos para la clase cruz-azul */
   }
   
-
-
+  
+  .product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .product-container .product-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 84%);
+    max-width: 300px;
+    flex-basis: calc(33.33% - 20px);
+  }
+  
+  .product-container .product-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .product-container .product-item h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-container .product-item .price {
+    font-size: 16px;
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
+  .product-container .product-item .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .product-container .product-item .buttons a {
+    display: inline-block;
+    width: 120px;
+    padding: 8px 0;
+    margin: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .product-container .product-item .buy-button {
+    background-color: #ff0000;
+  }
+  
+  .product-container .product-item .more-button {
+    background-color: #662480;
+  }
+  
+  .product-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .product-container-2 .product-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 84%);
+    width: 300px;
+  }
+  
+  .product-container-2 .product-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .product-container-2 .product-item h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-container-2 .product-item .price {
+    font-size: 16px;
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
+  .product-container-2 .product-item .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .product-container-2 .product-item .buttons a {
+    display: inline-block;
+    width: 120px;
+    padding: 8px 0;
+    margin: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .product-container-2 .product-item .buy-button {
+    background-color: #ff0000;
+  }
+  
+  .product-container-2 .product-item .more-button {
+    background-color: #333;
+  }
   
