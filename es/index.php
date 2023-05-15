@@ -182,52 +182,59 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 
-           <!-- <div class="products-container">
-                
-  <div class="product-box">
-    <img src="../img/goold.jpg" alt="Product 1" />
-    <h3>KIT GOLD DETECTA 7 ITS</h3>
-    <p class="price">$2,720</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/7sI9CVcXE2vi1eU9Fm">Comprar Ahora</a></button>
-  </div>
-  <div class="product-box">
-    <img src="../img/blaack.jpg" alt="Product 2" />
-    <h3>KIT BLACK DETECTA 13 ITS</h3>
-    <p class="price">$4,250</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/dR67uN6zg9XK2iY2cT">Comprar Ahora</a></button>
-  </div>
-  <div class="product-box">
-    <img src="../img/platinuumm.jpg" alt="Product 3" />
-    <h3>KIT PLATINUM DETECTA 12 ITS</h3>
-    <p class="price">$2,822</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/8wM7uN3n43zmbTybKr">Comprar Ahora</a></button>
-  </div>
-  <div class="product-box">
-    <img src="../img/bphpp.jpg" alt="Product 4" />
-    <h3>KIT VPH	</h3>
-    <p class="price">$2,620</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/aEUeXf8Hogm8e1G9Fn">Comprar Ahora</a></button>
-  </div>
-
-  <div class="product-box">
-    <img src="../img/Producto-Kits-Black-Pareja-Sitio-Web.jpg" alt="Product 4" />
-    <h3>KIT BLACK COMBO PAREJA	</h3>
-    <p class="price">$7,999</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/7sIbL30aS6Ly8Hm2bG">Comprar Ahora</a></button>
-  </div>
-
-  <div class="product-box">
-    <img src="../img/Producto-Kits-Platinum-Pareja-Sitio-Web.jpg" alt="Product 4" />
-    <h3>KIT PLATINUM COMBO PAREJA</h3>
-    <p class="price">$5,312</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/28obL36zg0naaPubNd">Comprar Ahora</a></button>
-  </div>
-</div>
 
 
 
-
+        
 <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+<h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
+                    </div>
+
+                    <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">PRUEBA INFLUENZA + COVID<br> ITS</h2>
+    <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price">  $1,399</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/6oE02le1I3zmaPu6s2" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+  
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> PCR</h2>
+    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> $599</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> ANTÍGENOS</h2>
+    <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> $599</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">PRUEBA  <br> ANTICUERPOS</h2>
+    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price">$1,050</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/cN28yR0aSee05va4jI" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+            </div>
+
+
+<!--<div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                         <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
                     </div>
 
