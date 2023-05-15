@@ -305,9 +305,79 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/34.-Perfil-tiroideo.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">PERFIL TIROIDEO</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $630</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/7sI9CV4r8ee06ze4lB" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/35.-Calcio.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">CALCIO</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $210</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/aEU2ate1I5Hu8HmcS8" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/36.-Rpr-vdrl-sifilis.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">VDRL</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $250</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/00g5mF1eW3zmbTy2dv" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/40.-AC-anti-hepatitis.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">AC. ANTI Treponema pallidum</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $415</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/8wM4iB1eW5HuaPubO6" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/38.-Hepatitis-B-AG.-SUPERFICIE.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">Antigeno de Superficie de la hepatitis B</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $286</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/cN26qJg9Q6Ly2iYbO7" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/39.-Nitrogeno-ureico.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">NITROGENO UREICO (BUN)</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $180</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/9AQaGZ7Dk7PC4r62dy" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/30.-Perfil-hepatico.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">AC ANTI-HEPATITIS C</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $275</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/4gw16p9Ls4Dq1eU2dz" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="../img/41.-Albumina.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">ALBUMINA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $196</p>
     <div class="buttons">
       <a href="#" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
@@ -315,204 +385,105 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/42.-Cultivo-de-orina.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">CULTIVO DE ORINA (UROCULTIVO)</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $380</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/bIYcP79Ls2vi2iY3hF" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/44.-tiempo-de-tromboplastina.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">TIEMPO DE PROTROMBINA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $320</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/3cs6qJ0aS1re1eUbOc" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/44.-tiempo-de-tromboplastina.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">TIEMPO DE TROMBOPLASTINA  PARCIAL ACTIVADA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $310</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/aEUg1j8Ho9XK0aQaK9" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/49.-Antigeno-prostatico.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">ANTIGENO PROSTATICO ESPECIFICO TOTAL</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $350</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/cN22at3n4d9We1G6tU" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/46.-Glucosa.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">GLUCOSA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $160</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/28o6qJcXE0nae1Gf0r" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/47.-Electrolitos.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">ELECTROLITOS Na, K, Cl</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $375</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/dR66qJ5vc2vicXCf0s" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/52.-Insulina.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">INSULINA</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $220</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/cN202l9Lsb1O9LqdWr" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/53.-Exudado-faringeo.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">EXUDADO FARÍNGEO</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $385</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/cN2dTbcXE2viaPuaKg" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/50.-Citologia-cervico-vaginal.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">CITOLOGIA CERVICO - VAGINAL (PAPANICOLAOU)</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $360</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/14k2at5vc5Hu4r605z" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
   <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <img src="../img/51.-Hormona-estimulante.jpg" alt="Producto 45">
+    <h2 style="font-weight: bold; color: #662480:">HORMONA ESTIMULANTE DE TIROIDES TSH</h2>
+    <p style="font-weight: bold; font-size: 28px;" class="price"><br> $180</p>
     <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/3cs02lcXEfi41eU6tY" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
 
-  <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
-    <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-
-  <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
-    <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-
-  <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
-    <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-
-  <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
-    <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-
-  <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
-    <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-
-  <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
-    <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-
-  <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
-    <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-
-  <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
-    <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-
-  <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
-    <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-
-  <div class="product-item">
-    <img src="imagen-producto-45.jpg" alt="Producto 45">
-    <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
-    <div class="buttons">
-      <a href="#" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
 </div>
 
             <div class="cell text-left spaceSection como funciona-clinicos" id="como-funciona">
