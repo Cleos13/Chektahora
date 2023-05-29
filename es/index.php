@@ -154,9 +154,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             </div>
 
+    
 
-
-  <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+  <!--<div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                         <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS) <b style="color:red;">PROMOCIÓN</b> </strong></h2>
                     </div>
 
@@ -180,7 +180,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
-</div>
+</div>-->
+
+
 
 
 
