@@ -98,8 +98,6 @@ políticas de cambios, devolucuón y reembolsos</a>
                                 <span>Aviso de Funcionamiento 203300536X1651</span>
                             </div>
                             <div class="large-6 small-12 fs-6 text-2 text-center">Ouim. Rosalba Mendez Cédula Profesional 4653757</div>
-                            <div class="large-6 small-12 fs-9 text-2 text-center">El precio de nuestros productos puede cambiar sin previo aviso.</div>
-                            <div class="large-6 small-12 fs-9 text-2 text-center">El empaque del producto puede cambiar sin previo aviso.</div>
                         </div>
 
                         <div class="large-12 small-11 grid-x mx-auto">
@@ -109,6 +107,8 @@ políticas de cambios, devolucuón y reembolsos</a>
                             <div class="large-6 small-12 fs-6 text-2 text-center">ISO 9001:2015 NMX-CC-9001-IMNC-2015</div>
                             <div class="large-6 small-12 fs-6 text-2 text-center">15-08-2022/JM-43/14-08-2025</div>
                             <img class="large-6 small-12 fs-6 text-2 mx-auto d-block" style="width: 200px;" src="../img/full.png" alt="">
+                            <div class="large-6 small-12 fs-9 text-2 text-center">El precio de nuestros productos puede cambiar sin previo aviso.</div>
+                            <div class="large-6 small-12 fs-9 text-2 text-center">El empaque del producto puede cambiar sin previo aviso.</div>
                         </div>
                     </div>
                 </div>
