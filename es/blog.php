@@ -93,9 +93,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <img src="../img/cristiano.jpg" alt="Imagen de ejemplo">
     </div>
     <div class="contenido">
-      <h2>Título de la sección</h2>
-      <h1>Título del blog</h1>
-      <p class="fecha">Fecha de publicación: 02 de mayo de 2023</p>
+      <h2>ITS</h2>
+      <h1>Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)</h1>
+      <p class="fecha">Fecha de publicación: 15 mayo 2023</p>
       <p class="descripcion">Las Infecciones de Transmisión Sexual (ITS) <br> son un tema que muchas personas evitan discutir debido <br> al estigma social sobre el diagnóstico y la falta de información precisa. 
 .</p>
       <a href="#" class="leer-mas">Leer más</a>
