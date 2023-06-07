@@ -115,9 +115,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
     <img src="../img/Producto-Kit-Gold-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $1,904</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">$2,720</p>
     <div class="buttons">
-      <a href="https://buy.stripe.com/dR6aGZ6zg3zm1eUbOr" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
@@ -125,7 +125,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">KIT BLACK DETECTA 13 <br> ITS</h2>
     <img src="../img/Producto-Kit-Black-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$4,999</del> <br> $3,500</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">$4,999</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/4gw02lbTAd9W0aQ9Gh" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
@@ -135,9 +135,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">KIT PLATINUM DETECTA 12 ITS</h2>
     <img src="../img/Producto-Kit-Platinum-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$3,320</del> <br> $2,324</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">$3,320</p>
     <div class="buttons">
-      <a href="https://buy.stripe.com/7sI8yR9Ls2vi2iY5q2" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
@@ -145,9 +145,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">KIT <br> VPH</h2>
     <img src="../img/Producto-Kit-VPH-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,620</del> <br> $1,834</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">$2,620</p>
     <div class="buttons">
-      <a href="https://buy.stripe.com/7sI5mF0aS5Hu5va19O" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
