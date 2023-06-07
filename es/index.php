@@ -131,6 +131,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="https://buy.stripe.com/4gw02lbTAd9W0aQ9Gh" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
+    <p style="color: red;">Los precios pueden variar sin previo aviso.</p>
   </div>
 
   <div class="product-item">
@@ -141,6 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
+    <p style="color: red;">Los precios pueden variar sin previo aviso.</p>
   </div>
 
   <div class="product-item">
@@ -152,6 +154,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="#" class="more-button">Ver más</a>
       <p></p>
     </div>
+    <p style="color: red;">Los precios pueden variar sin previo aviso.</p>
   </div>
 
             </div>
