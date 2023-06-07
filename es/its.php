@@ -61,7 +61,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 ?>
             </div>
             <!-- Banners Home page -->
-            <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection pt-5">
+            <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                         <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
                     </div>
 
@@ -69,9 +69,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
     <img src="../img/Producto-Kit-Gold-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,720</del> <br> $2,176</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">$2,720</p>
     <div class="buttons">
-      <a href="https://buy.stripe.com/7sI9CVcXE2vi1eU9Fm" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
@@ -79,9 +79,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">KIT BLACK DETECTA 13 <br> ITS</h2>
     <img src="../img/Producto-Kit-Black-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$4,999</del> <br> $3,999</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">$4,999</p>
     <div class="buttons">
-      <a href="https://buy.stripe.com/dR67uN6zg9XK2iY2cT" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/4gw02lbTAd9W0aQ9Gh" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
@@ -89,9 +89,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">KIT PLATINUM DETECTA 12 ITS</h2>
     <img src="../img/Producto-Kit-Platinum-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$3,320</del> <br> $2,656</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">$3,320</p>
     <div class="buttons">
-      <a href="https://buy.stripe.com/8wM7uN3n43zmbTybKr" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
   </div>
@@ -99,10 +99,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">KIT <br> VPH</h2>
     <img src="../img/Producto-Kit-VPH-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,620</del> <br> $2,096</p>
+    <p style="font-weight: bold; font-size: 28px;" class="price">$2,620</p>
     <div class="buttons">
-      <a href="https://buy.stripe.com/aEUeXf8Hogm8e1G9Fn" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
+      <p></p>
     </div>
   </div>
 

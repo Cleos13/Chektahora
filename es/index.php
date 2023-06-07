@@ -149,6 +149,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="buttons">
       <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
+      <p></p>
     </div>
   </div>
 
