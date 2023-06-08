@@ -111,12 +111,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="titulo">
       <h2>Noticias <br> por categoría</h2>
       <div class="botones">
-        <a href="#" class="boton">Botón 1</a>
-        <a href="#" class="boton">Botón 2</a>
-        <a href="#" class="boton">Botón 3</a>
-        <a href="#" class="boton">Botón 4</a>
-        <a href="#" class="boton">Botón 5</a>
-        <a href="#" class="boton">Botón 6</a>
+        <a href="#" class="boton">ITS</a>
+        <a href="#" class="boton">ITS</a>
+        <a href="#" class="boton">ITS</a>
+        <a href="#" class="boton">ITS</a>
+        <a href="#" class="boton">ITS</a>
+        <a href="#" class="boton">ITS</a>
       </div>
     </div>
   </div>
