@@ -198,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </ul>
                     </div>
                     <div class="large-6 medium-6 grid-padding-x text-center show-for-medium">
-                        <img src="../css/img/comoFunciona-Paso1.png" />
+                        <img src="../css/img/Kit Black WEB.webp" />
                     </div>
                 </div>
             </div>
