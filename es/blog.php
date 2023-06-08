@@ -129,24 +129,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="elemento">
       <img src="../img/cristiannn.jpg" alt="Imagen 1">
       <div class="contenido">
-        <h2>Categoría del Artículo 1</h2>
-        <h3>Título del Artículo 1</h3>
+        <h2>ITS</h2>
+        <h3>Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)</h3>
         <a href="#" class="boton">Leer</a>
       </div>
     </div>
     <div class="elemento">
       <img src="../img/cristiannn.jpg" alt="Imagen 2">
       <div class="contenido">
-        <h2>Categoría del Artículo 2</h2>
-        <h3>Título del Artículo 2</h3>
+        <h2>ITS</h2>
+        <h3>Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)</h3>
         <a href="#" class="boton">Leer</a>
       </div>
     </div>
     <div class="elemento">
       <img src="../img/cristiannn.jpg" alt="Imagen 3">
       <div class="contenido">
-        <h2>Categoría del Artículo 3</h2>
-        <h3>Título del Artículo 3</h3>
+        <h2>ITS</h2>
+        <h3>Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)</h3>
         <a href="#" class="boton">Leer</a>
       </div>
     </div>
