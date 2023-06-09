@@ -270,7 +270,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  
         <?php include 'template/footer.php'; ?>
     </div>
     <script src="../js/main.min.js?update=<?php echo constant('UPDATE'); ?>"></script>
