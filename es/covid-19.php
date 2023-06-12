@@ -87,7 +87,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">PRUEBA INFLUENZA + COVID<br> ITS</h2>
     <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price">  $1,399</p>
+    <p style="font-weight: bold; font-size: 28px; color:black;" class="price">  $1,399</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/6oE02le1I3zmaPu6s2" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
@@ -97,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> PCR</h2>
     <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"><del style="color: red;">$1,100</del> $599</p>
+    <p style="font-weight: bold; font-size: 28px; color:black;" class="price"><del style="color: red;">$1,100</del> $599</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
@@ -107,7 +107,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> ANTÍGENOS</h2>
     <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price"> $599</p>
+    <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $599</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
@@ -117,7 +117,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">PRUEBA  <br> ANTICUERPOS</h2>
     <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price">$1,050</p>
+    <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$1,050</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/cN28yR0aSee05va4jI" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
