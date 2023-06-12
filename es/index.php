@@ -207,7 +207,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="product-item">
   <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> PCR</h2>
     <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $599</p>
+    <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $599 <del style="color: red;">$1,100</del></p></p>
     <div class="buttons">
       <a href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
