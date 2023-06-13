@@ -134,9 +134,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="https://buy.stripe.com/4gw02lbTAd9W0aQ9Gh" class="buy-button">Comprar</a>
     <a href="#" class="more-button">Ver más</a>
   </div>
-  <div class="additional-info" style="display: none;">
-    <!-- Aquí puedes agregar la información adicional que deseas mostrar -->
-    <p>Información adicional del producto 2...</p>
+  <div class="additional-info">
+    <h3>Procesamientos por PCR:</h3>
+    <ul>
+      <li>VPH</li>
+      <li>Clamidia</li>
+      <li>Gonorrea</li>
+      <li>Tricomoniasis</li>
+      <li>Mycloplasma Hominis</li>
+      <li>Mycoplasma Genitalium</li>
+      <li>Ureaplasma Urealyticum</li>
+      <li>Ureaplasmas parvu</li>
+    </ul>
+    <h3>Procesamiento por INMUNOCROMATOGRAFÍA:</h3>
+    <ul>
+      <li>VIH</li>
+      <li>Sífilis</li>
+      <li>Herpes</li>
+      <li>Hepatitis B</li>
+      <li>Hepatitis C</li>
+    </ul>
+    <h3>Tipos de muestra:</h3>
+    <p><img src="ruta-al-icono.png" alt="Icono" style="width: 20px; height: 20px;"> Persona con vulva: Cervical, vaginal y sanguínea.</p>
   </div>
 </div>
 

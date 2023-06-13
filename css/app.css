@@ -17734,3 +17734,7 @@ screen and (min-width: 75em) {
     background-color: #662480;
   }
   
+  .additional-info {
+    display: none;
+    margin-top: 10px;
+  }
