@@ -17738,3 +17738,17 @@ screen and (min-width: 75em) {
     display: none;
     margin-top: 10px;
   }
+
+  .additional-info-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    display: none;
+  }
+  
+  .product-item.open .additional-info-container {
+    display: block;
+  }
