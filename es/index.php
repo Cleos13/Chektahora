@@ -136,6 +136,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="additional-info" style="display: none;">
     <!-- Aquí puedes agregar la información adicional que deseas mostrar -->
+    <p>Información adicional del producto 2...</p>
     <h3>Procesamientos por PCR:</h3>
     <ul>
       <li>VPH</li>
