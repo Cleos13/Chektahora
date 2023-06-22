@@ -103,12 +103,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 ?>
             </div>
             <!-- Banners Home page -->
-          
-
-
 
             <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
+                        <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL    (ITS)</strong></h2>
                     </div>
 
                     <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
@@ -122,7 +119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="additional-info">
     <h3>Procesamientos por PCR:</h3>
-    <ul>
+    <ol>
       <li>VPH</li>
       <li>Clamidia</li>
       <li>Gonorrea</li>
@@ -131,7 +128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>Mycoplasma Genitalium</li>
       <li>Ureaplasma Urealyticum</li>
       <li>Ureaplasmas parvu</li>
-    </ul>
+    </ol>
     <h3>Procesamiento por INMUNOCROMATOGRAFÍA:</h3>
     <ul>
       <li>VIH</li>
