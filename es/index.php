@@ -121,7 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="#" class="more-button">Ver más</a>
   </div>
   <div class="additional-info">
-    <h3>Procesamientos por PCR:</h3>
+    <h3 style="font-size: 20px;">Procesamientos por PCR</h3>
     <ol>
       <li>VPH</li>
       <li>Clamidia</li>
@@ -132,7 +132,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>Ureaplasma Urealyticum</li>
       <li>Ureaplasmas parvu</li>
     </ol>
-    <h3>Procesamiento por INMUNOCROMATOGRAFÍA</h3>
+    <h3 style="font-size: 20px;">Procesamiento por INMUNOCROMATOGRAFÍA</h3>
     <ul>
       <li>VIH</li>
       <li>Sífilis</li>
@@ -140,7 +140,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>Hepatitis B</li>
       <li>Hepatitis C</li>
     </ul>
-    <h3>Tipos de muestra:</h3>
+    <h3 style="font-size: 20px;">Tipos de muestra</h3>
     <p><img src="ruta-al-icono.png" alt="Icono" style="width: 20px; height: 20px;"> Persona con vulva: Cervical, vaginal y sanguínea.</p>
   </div>
 </div>
