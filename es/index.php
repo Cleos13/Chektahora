@@ -143,10 +143,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
     <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con vulva: Vaginal.</p>
     <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina.</p>
-  </div>
-  <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado
+    <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado
 
     El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
+  </div>
 </div>
 
 <div class="product-item">
