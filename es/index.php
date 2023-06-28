@@ -42,6 +42,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body>
 <div>
 
+<div>
+     
+</div>
 
 
 
@@ -129,7 +132,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>Ureaplasma Urealyticum</li>
       <li>Ureaplasmas parvu</li>
     </ol>
-    <h3>Procesamiento por INMUNOCROMATOGRAFÍA:</h3>
+    <h3>Procesamiento por INMUNOCROMATOGRAFÍA</h3>
     <ul>
       <li>VIH</li>
       <li>Sífilis</li>
@@ -677,7 +680,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <?php include 'template/footer.php'; ?>
     </div>
-    <script src="../js/main.min.js?update=<?php echo constant('UPDATE'); ?>"></script>
+    <script src="../js/main.min.js?update=<?php echo constant('UPDATE'); ?>"></scrip>
     <script src="../js/main/owl.carousel.min.js"></script>
     <script src="../js/pop-up.js?update=<?php echo constant('UPDATE'); ?>"></script>
     <script>
@@ -858,7 +861,7 @@ moreButtons.forEach(function(button) {
       additionalInfo.style.display = "none";
     }
   });
-});
+}); 
 </script>
 
 </body>
