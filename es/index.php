@@ -143,7 +143,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
     <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con vulva: Vaginal.</p>
     <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina.</p>
-    <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado
+    <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
 
     El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
   </div>
@@ -194,6 +194,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
     <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con Vulva: Cervical, vaginal y Sanguínea.</p>
     <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina, uretral y sanguínea.</p>
+    <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
+
+    El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
   </div>
 </div>
 
@@ -205,9 +208,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
     <a href="#" class="more-button">Ver más</a>
   </div>
-  <div class="additional-info" style="display: none;">
-    <!-- Aquí puedes agregar la información adicional que deseas mostrar -->
-    <p>Información adicional del producto 3...</p>
+  <div class="additional-info">
+    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
+    <ul>
+      <li>Clamidia</li>
+      <li>Gonorrea</li>
+      <li>Tricomoniasis</li>
+      <li>Mycoplasma Hominis</li>
+      <li>Mycoplasma Genitalium</li>
+      <li>Ureaplasma Urealyticum</li>
+      <li>Ureaplasma Parvum</li>
+    </ul>
+
+    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por INMUNOCROMATOGRAFÍA</h3>
+    <ul>
+      <li>VPH</li>
+      <li>Sífilis</li>
+      <li>Herpes</li>
+      <li>Hepatitis B</li>
+      <li>Hepatitis C</li>
+    </ul>
+
+    <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
+    <ul>
+      <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
+      <li>1 PeeCanter (Kit pene).</li>
+      <li>1 Tubo de recolección para muestra sanguínea BD Vacutainer.</li>
+      <li>1 Aguja para punción venosa.</li>
+      <li>1 Cinta adhesiva circular.</li>
+      <li>1 Toallita desinfectante</li>
+      <li>2 Tubos de recolección con medio de transporte.</li>
+      <li>1 Bolsa de recolección.</li>
+      <li>1 Plantilla de etiquetas ID</li>
+    </ul>
+    <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
+    <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con Vulva: Cervical, vaginal y Sanguínea.</p>
+    <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina, uretral y sanguínea.</p>
+    <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
+
+    El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
   </div>
 </div>
 
