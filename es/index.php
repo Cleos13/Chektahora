@@ -122,26 +122,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="additional-info">
     <h3 style="font-size: 20px;">Procesamientos por PCR</h3>
-    <ol>
-      <li>VPH</li>
+    <ul>
       <li>Clamidia</li>
       <li>Gonorrea</li>
       <li>Tricomoniasis</li>
-      <li>Mycloplasma Hominis</li>
+      <li>Mycoplasma Hominis</li>
       <li>Mycoplasma Genitalium</li>
       <li>Ureaplasma Urealyticum</li>
-      <li>Ureaplasmas parvu</li>
-    </ol>
-    <h3 style="font-size: 20px;">Procesamiento por INMUNOCROMATOGRAFÍA</h3>
+      <li>Ureaplasma Parvum</li>
+    </ul>
+    <h3 style="font-size: 20px;">El KIT incluye</h3>
     <ul>
-      <li>VIH</li>
-      <li>Sífilis</li>
-      <li>Herpes</li>
-      <li>Hepatitis B</li>
-      <li>Hepatitis C</li>
+      <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
+      <li>1 PeeCanter (Kit pene).</li>
+      <li>1 Tubo de recolección con medio de transporte.</li>
+      <li>1 Instructivo.</li>
+      <li>1 Bolsa de recolección.</li>
+      <li>1 Plantilla de etiquetas ID</li>
     </ul>
     <h3 style="font-size: 20px;">Tipos de muestra</h3>
-    <p><img src="ruta-al-icono.png" alt="Icono" style="width: 20px; height: 20px;"> Persona con vulva: Cervical, vaginal y sanguínea.</p>
+    <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 20px; height: 20px;"> Persona con vulva: Vaginal.</p>
+    <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 20px; height: 20px;"> Persona con pene: Orina.</p>
   </div>
 </div>
 
