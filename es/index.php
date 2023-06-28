@@ -121,7 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="#" class="more-button">Ver más</a>
   </div>
   <div class="additional-info">
-    <h3 style="font-size: 20px;">Procesamientos por PCR</h3>
+    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
     <ul>
       <li>Clamidia</li>
       <li>Gonorrea</li>
@@ -131,7 +131,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>Ureaplasma Urealyticum</li>
       <li>Ureaplasma Parvum</li>
     </ul>
-    <h3 style="font-size: 20px;">El KIT incluye</h3>
+    <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
     <ul>
       <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
       <li>1 PeeCanter (Kit pene).</li>
@@ -140,7 +140,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>1 Bolsa de recolección.</li>
       <li>1 Plantilla de etiquetas ID</li>
     </ul>
-    <h3 style="font-size: 20px;">Tipos de muestra</h3>
+    <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
     <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 20px; height: 20px;"> Persona con vulva: Vaginal.</p>
     <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 20px; height: 20px;"> Persona con pene: Orina.</p>
   </div>
