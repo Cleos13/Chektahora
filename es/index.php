@@ -258,9 +258,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
     <a href="#" class="more-button">Ver más</a>
   </div>
-  <div class="additional-info" style="display: none;">
-    <!-- Aquí puedes agregar la información adicional que deseas mostrar -->
-    <p>Información adicional del producto 4...</p>
+  <div class="additional-info">
+    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
+    <ul>
+      <h3 style="font-size: 20px; color: #4F2D83;">Genotipos de Alto Riesgo</h3>
+      <li>16,18,26,31,33,35,39,45,51,52,53,56,58,59,66,68,69,73,82.</li>
+      <h3 style="font-size: 20px; color: #4F2D83;">Genotipos de Bajo Riesgo</h3>
+      <li>6,11,40,42,43,44,54,61,70.</li>
+    </ul>
+
+    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por INMUNOCROMATOGRAFÍA</h3>
+    <ul>
+      <li>VPH</li>
+      <li>Sífilis</li>
+      <li>Herpes</li>
+      <li>Hepatitis B</li>
+      <li>Hepatitis C</li>
+    </ul>
+
+    <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
+    <ul>
+      <li>1 Cytobrush (Kit Vulva).</li>
+      <li>1 Hisopo Uretral (Kit pene).</li>
+      <li>1 Tubo de recolección con medio de transporte.</li>
+      <li>1 Instructivo.</li>
+      <li>1 Bolsa de recolección</li>
+    <li>1 Plantilla de etiquetas ID</li>
+    </ul>
+    <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
+    <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con Vulva: Cervical.</p>
+    <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Uretral.</p>
+    <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
+
+    El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
   </div>
 </div>
 
