@@ -17753,45 +17753,4 @@ screen and (min-width: 75em) {
     display: block;
   }
 
-
-  .product-item {
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-  }
   
-  .additional-info-container {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    padding: 10px;
-    display: none;
-    text-align: left;
-  }
-  
-  .product-item.open .additional-info-container {
-    display: block;
-  }
-  
-  .additional-info h3 {
-    text-align: center;
-  }
-  
-  .additional-info ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .additional-info li {
-    margin-bottom: 5px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .additional-info ul {
-      text-align: left;
-    }
-}

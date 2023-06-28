@@ -141,8 +141,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>1 Plantilla de etiquetas ID</li>
     </ul>
     <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
-    <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 20px; height: 20px;"> Persona con vulva: Vaginal.</p>
-    <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 20px; height: 20px;"> Persona con pene: Orina.</p>
+    <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con vulva: Vaginal.</p>
+    <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina.</p>
   </div>
 </div>
 
