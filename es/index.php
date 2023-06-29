@@ -122,7 +122,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="additional-info">
     <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
-    <ul>
+    <ul class="text-center">
       <li>Clamidia</li>
       <li>Gonorrea</li>
       <li>Tricomoniasis</li>
