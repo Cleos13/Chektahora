@@ -78,12 +78,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Banners Home page -->
             <div class="cell spaceTop relative" style="margin: 100px 0;">
                 <?php
-                include 'master/banners.php';
+                include 'master/banners.php'; 
                 $banners = getBanners('home');
                 echo '<div class="owl-carousel owl-theme" id="carousel-banner">';
                 /* echo '<div class="owl-carousel owl-theme" id="carousel-banner">
                         <div class="bannerHome item">
-                                <div class="call">
+                                <div class="call">c
                                     <h1 class="home text-left"></h1>
                                     <p><strong>En ChektAhora</strong> a un sólo clic, obtén atención médica, diagnósticos oportunos y confiables.</p>
                                     <div class="orbitBTn grid-x large-12 small-12 py-1">
@@ -227,8 +227,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>Herpes</li>
       <li>Hepatitis B</li>
       <li>Hepatitis C</li>
-    </ul>
-
+    </ul> 
+    
+     
     <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
     <ul>
       <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
