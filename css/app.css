@@ -374,8 +374,9 @@ ul {
 
 footer {
     background-color: #4F2D83;
-    height: 600px;
-    position: relative
+    height: 100%;
+    padding: 5%;
+    position: relative;
 }
 
 footer .logo {
@@ -455,6 +456,11 @@ footer .info .text-1 {
 
 footer .info .text-2 {
     text-align: center
+}
+
+footer .section-one {
+    display: block;
+    margin: 0 auto;
 }
 
 footer .section-two {
@@ -573,7 +579,7 @@ p.whiteText {
 
 p.morado {
     color: #4F2D83;
-    font-size: 1em
+    font-size: 1.2em
 }
 
 .espaciado {
@@ -581,13 +587,14 @@ p.morado {
 }
 
 p.espacio {
-    margin: 3%
+    margin: 2.5%
 }
 
 ul.numeros {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 0px !important
+    margin-left: 0px !important;
+    padding: 0;
 }
 
 ul.numeros li {
@@ -1514,33 +1521,44 @@ p.seccionMoradaClara {
 .comments {
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 .comments .commentCliente {
     display: flex;
     justify-content: center;
-    width: 20%
+    padding: 0 10px;
+    margin: 0 10px;
+    height: 100%;
 }
 
 .comments .commentCliente .comment {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 7%;
+    padding: 20px;
     color: #4F2D83;
-    height: 271px;
+    height: 100%;
     border-radius: 13px
+}
+.comments .commentCliente .comment img {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .comments .commentCliente .comment p {
-    font-size: 1.2em
+    font-size: 1.2em;
+    margin: 0;
+}
+.comments .commentCliente .comment>p {
+    margin-bottom: 15%;
 }
 
 .comments .commentCliente .comment p.name {
     color: #4F2D83;
     font-weight: 700;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .bkMoradaClara {
@@ -1569,6 +1587,33 @@ p.seccionMoradaClara {
     align-items: center
 }
 
+@media screen and (max-width: 1023px) {
+    
+    footer .section-two{
+        padding: 0;
+        margin:0;
+    }
+    
+    footer .separator-footer {
+        display: none
+    }
+    footer .section-two .title-redes {
+        text-align: center;
+    }
+    
+    footer .footer__disclaimer{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1024px) {
+    footer {
+        padding: 2%;
+    }
+    footer .section-one {
+      padding:  0 2rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .img-products-car {
         width: 110px !important
@@ -1578,19 +1623,20 @@ p.seccionMoradaClara {
 ul.comoFunciona {
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
 }
 
 ul.comoFunciona li {
     color: #4F2D83;
-    width: 14%
+    width: 14%;
 }
 
 ul.comoFunciona li p {
     margin: 0;
     font-size: 1rem;
     margin: 10% 0 0 0;
-    min-height: 95px
 }
 
 ul.comoFunciona li strong {
@@ -1643,6 +1689,18 @@ ul.comoFunciona li strong {
     margin-left: 50px;
     width: 450px;
     font-size: 1.5rem
+}
+
+.banner_inmunochek.spaceSection .contenido{
+    position: relative;
+}
+.banner_inmunochek.spaceSection .contenido a{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 7px;
+    text-decoration: none;
 }
 
 .its {
@@ -3659,16 +3717,15 @@ a.logoWebsite {
     .comments .commentCliente {
         display: flex;
         justify-content: center;
-        width: 25%
+        align-items: center;
     }
 
     .comments .commentCliente .comment {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 7%;
+        padding: 10px;
         color: #4F2D83;
-        height: 400px
     }
 
     .comments .commentCliente .comment p {
@@ -3678,12 +3735,12 @@ a.logoWebsite {
     .comments .commentCliente .comment p.name {
         color: #4F2D83;
         font-weight: 700;
-        font-size: 1.5rem
+        font-size: 1.2rem;
     }
 
     ul.comoFunciona li {
         width: 27%;
-        margin: 10px 0px
+        margin: 20px 0px
     }
 
     .nuestrosProductos h4 {
@@ -4482,7 +4539,7 @@ a.logoWebsite {
 
     img.logos {
         width: 100% !important;
-        margin: 6% 0
+        /* margin: 6% 0 */
     }
 
     ul.comoFunciona li {
@@ -4545,20 +4602,19 @@ a.logoWebsite {
 
     #slideshow {
         position: relative;
-        width: 100%;
-        height: 350px
+        width: 95%;
+        height: 320px;
+        margin: 0 auto;
     }
 
     #slideshow .comentario {
-        border-radius: 13px
+        border-radius: 13px;
     }
 
     #slideshow>div {
         position: absolute;
-        
-       /* left: 10px;
-        right: 10px;*/
-        bottom: 10px
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     #slideshow>div p {
@@ -4732,7 +4788,7 @@ a.logoWebsite {
     }
 
     footer {
-        height: 1100px
+        height: 100%;
     }
 
     footer .logo img {
@@ -4808,7 +4864,6 @@ a.logoWebsite {
     footer .section-two {
         position: relative;
         padding-right: 0px;
-        margin-bottom: 50px
     }
 
     footer .section-two .title-redes {
@@ -4866,10 +4921,6 @@ a.logoWebsite {
         position: absolute;
         bottom: 0;
         font-size: 12px
-    }
-
-    footer .separator-footer {
-        display: none
     }
 
     .card-product {
@@ -6384,8 +6435,8 @@ textarea::placeholder {
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
-    *border-right-width: 2px;
-    *border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
     color: #333;
     font-size: 13px;
     line-height: 18px
@@ -6692,6 +6743,16 @@ a.link-white {
         width: 95% !important;
         margin: 10px auto !important
     }
+    .footer__social_links{
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .footer__social_links a {
+        margin: 0 5px; 
+    }
+    .footer__disclaimer{
+        margin-top: 2rem;
+    }
 }
 
 .required:after {
@@ -6959,7 +7020,7 @@ button.owl-prev-gallery {
 .owl-theme .owl-dots .owl-dot {
     display: inline-block;
     zoom: 1;
-    *display: inline
+    /* display: inline */
 }
 
 .owl-theme .owl-dots .owl-dot span {
