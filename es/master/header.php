@@ -123,7 +123,7 @@
         <div class="large-1 d-flex align-height-center" style="justify-content: space-evenly;">
             <!--<a href="../en/" class="lenguaje" style="background-image: url(../css/img/usa.png);"></a>-->
             <div class="shopingCart">
-                <a href="detalle-compra" class="float" space="button-cart">
+                <a href="detalle-compra" class="float d-none" space="button-cart">
                     <div class="num-products" space="num-products">0</div>
                     <img alt="carrito" src="../css/img/iconos/carrito.svg" width="35px" />
                 </a>
@@ -158,7 +158,7 @@
             </svg>
         </a>
         <a class="logo-blog text-center" href="index"><img src="../css/img/blog/chektahora-iso.svg" style="width: 40px;"></a>
-        <a href="detalle-compra" class="float" space="button-cart">
+        <a href="detalle-compra" class="float d-none" space="button-cart">
             <div class="num-products" space="num-products">0</div>
             <img alt="carrito" src="../css/img/iconos/carrito.svg" width="35px" />
         </a>
