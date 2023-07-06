@@ -3,7 +3,7 @@
 <html lang="es-MX" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
 <head>
-   
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script>
         ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
@@ -40,94 +41,110 @@
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=686668561821805&ev=PageView&noscript=1" /></noscript>
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11060448578"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11060448578"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'AW-11060448578');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11060448578"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        gtag('config', 'AW-11060448578');
+    </script>
 
-  gtag('config', 'AW-11060448578');
-</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11060448578"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NNR8MBT');</script>
-<!-- End Google Tag Manager -->
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11060448578');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NNR8MBT');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNR8MBT"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNR8MBT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="fluid">
-        
-        <div class="grid-x" style="overflow: hidden;">
+
+        <div class="grid-x main__content" style="overflow: hidden;">
             <?php include 'template/header.php'; ?>
 
             <!-- Banners Home page -->
             <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-<h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
+                <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
+            </div>
+
+            <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                <div class="product-item">
+                    <h2 style="font-weight: bold; color: #662480">PRUEBA INFLUENZA + COVID<br> ITS</h2>
+                    <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+                    <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $1,399</p>
+                    <div class="buttons">
+                        <a href="https://buy.stripe.com/6oE02le1I3zmaPu6s2" class="buy-button">Comprar</a>
+                        <a href="#" class="more-button">Ver más</a>
                     </div>
+                </div>
 
-                    <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-  <div class="product-item">
-  <h2 style="font-weight: bold; color: #662480:">PRUEBA INFLUENZA + COVID<br> ITS</h2>
-    <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px; color:black;" class="price">  $1,399</p>
-    <div class="buttons">
-      <a href="https://buy.stripe.com/6oE02le1I3zmaPu6s2" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-  
-  <div class="product-item">
-  <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> PCR</h2>
-    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px; color:red;" class="price"><del style="color: black;">$1,100</del> $599</p>
-    <div class="buttons">
-      <a href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
+                <div class="product-item">
+                    <h2 style="font-weight: bold; color: #662480">PRUEBA <br> PCR</h2>
+                    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+                    <p style="font-weight: bold; font-size: 28px; color:red;" class="price"><del style="color: black;">$1,100</del> $599</p>
+                    <div class="buttons">
+                        <a href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp" class="buy-button">Comprar</a>
+                        <a href="#" class="more-button">Ver más</a>
+                    </div>
+                </div>
 
-  <div class="product-item">
-  <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> ANTÍGENOS</h2>
-    <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $599</p>
-    <div class="buttons">
-      <a href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
+                <div class="product-item">
+                    <h2 style="font-weight: bold; color: #662480">PRUEBA <br> ANTÍGENOS</h2>
+                    <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
+                    <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $599</p>
+                    <div class="buttons">
+                        <a href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS" class="buy-button">Comprar</a>
+                        <a href="#" class="more-button">Ver más</a>
+                    </div>
+                </div>
 
-  <div class="product-item">
-  <h2 style="font-weight: bold; color: #662480:">PRUEBA  <br> ANTICUERPOS</h2>
-    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$1,050</p>
-    <div class="buttons">
-      <a href="https://buy.stripe.com/cN28yR0aSee05va4jI" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
+                <div class="product-item">
+                    <h2 style="font-weight: bold; color: #662480">PRUEBA <br> ANTICUERPOS</h2>
+                    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
+                    <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$1,050</p>
+                    <div class="buttons">
+                        <a href="https://buy.stripe.com/cN28yR0aSee05va4jI" class="buy-button">Comprar</a>
+                        <a href="#" class="more-button">Ver más</a>
+                    </div>
+                </div>
 
             </div>
             <!-- Banners Home page -->
 
-           
+
             <div class="cell">
                 <div class="grid-x bkPurple spaceX ">
                     <div class="large-6 medium-6 small-12 grid-padding-x align-self-middle certificado">
@@ -139,7 +156,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
             </div>
-            
+
 
 
             <div class="cell spaceSection spaceX py-5">

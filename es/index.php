@@ -74,10 +74,10 @@
         </div>
 
         <div class="fluid" id="home">
-            <div class="grid-x">
+            <div class="grid-x main__content">
                 <?php include 'template/header.php'; ?>
                 <!-- Banners Home page -->
-                <div class="cell spaceTop relative" style="margin: 100px 0;">
+                <div class="cell spaceTop relative">
                     <div class="item">
                         <img src="../img/banners/desktop/Covers-Hot-Junio.webp" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
                         <img src="../img/banners/mobile/Covers-Junio-mobile.webp" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">

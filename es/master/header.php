@@ -1,4 +1,4 @@
-<div class="menuFixed relative">
+<div class="menuFixed relative header__page">
     <div class="cell">
         <div class="row purple promo ">
             <!-- <div><img class="regalo" alt="promocion" src="../css/img/iconos/regalo.svg" /></div> -->
@@ -460,7 +460,9 @@
             </div>
         </div>
     </div>
+    
 </div>
+<div class="header__space"></div>
 <div id="message-add-product" class="message-add-cart">
     <div class="text-center text-message-add-cart">
         ¡Producto agregado al carrito!
