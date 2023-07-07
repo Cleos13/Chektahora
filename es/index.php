@@ -85,7 +85,7 @@
                 </div>
                 <!-- Banners Home page -->
 
-                <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4">
                     <h2 style="font-size: 35px;" class="morado">
                         <strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong>
                     </h2>
@@ -305,7 +305,7 @@
 </div>-->
 
 
-                <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4">
                     <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
                 </div>
 
@@ -561,7 +561,7 @@
                 </div>
             </div>
                         -->
-                <div class="cell text-left spaceSection banner_inmunochek">
+                <div class="cell text-left spaceSection banner_inmunochek mt-3">
                     <div class="grid-x ">
                         <div class="large-12 medium-12 grid-padding-x mb-3 " style="text-align: center">
                             <div class="contenido ">
@@ -578,7 +578,7 @@
 
                 <div class="cell text-left ">
                     <div class="grid-x ">
-                        <div class="large-12 medium-12 small-12 grid-padding-x ">
+                        <div class="large-12 medium-12 small-12 grid-padding-x my-4">
                             <h2 class="morado text-center" ><strong>NUESTROS NÚMEROS</strong></h2>
                         </div>
                         <div class="large-12 medium-12 small-12 grid-padding-x text-center ">
@@ -656,7 +656,7 @@
 
                 <div class="cell text-left spaceSection ">
                     <div class="grid-x ">
-                        <div class="large-12 medium-12 small-12 grid-padding-x align-self-middle text-center py-4 ">
+                        <div class="large-12 medium-12 small-12 grid-padding-x align-self-middle text-center py-3 ">
                             <h2 class="morado px-1 "><strong>¿Qué dicen nuestros clientes?</strong></h2>
                         </div>
                         <div class="large-12 medium-12 small-12 grid-padding-x comments show-for-medium ">

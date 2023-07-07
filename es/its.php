@@ -53,7 +53,7 @@
             </div>
             <!-- Banners Home page -->
             <div class="large-10 mx-auto">
-                <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4">
+                <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4 mx-2">
                     <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
                 </div>
 
@@ -101,7 +101,7 @@
 
                 </div>
 
-                <div class="cell text-left spaceSection py-5 px-5">
+                <div class="cell text-left spaceSection py-5 px-2">
                     <div class="grid-x">
                         <div class="large-12 small-12 mx-auto">
                             <div class="grid-x">

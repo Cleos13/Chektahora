@@ -96,7 +96,7 @@
             <?php include 'template/header.php'; ?>
 
             <!-- Banners Home page -->
-            <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+            <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection mt-4 mb-2">
                 <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
             </div>
 
@@ -144,7 +144,6 @@
             </div>
             <!-- Banners Home page -->
 
-
             <div class="cell">
                 <div class="grid-x bkPurple spaceX ">
                     <div class="large-6 medium-6 small-12 grid-padding-x align-self-middle certificado">
@@ -152,98 +151,112 @@
                         <img alt="certificado" class="show-for-small-only" src="../css/img/maletas.png" />
                     </div>
                     <div class="large-6 medium-6 small-12 grid-padding-x align-self-middle text-right certificado ">
-                        <p><a href="#nuestrasPruebas">Obtén tus resultados de Pruebas PCR COVID-19 en 12 horas o menos y solicita tu certificado de viaje.<a></p>
+                        <p>
+                            Obtén tus resultados de Pruebas PCR COVID-19 en 12 horas o menos y solicita tu certificado de viaje.
+                        </p>
                     </div>
                 </div>
             </div>
-
-
 
             <div class="cell spaceSection spaceX py-5">
                 <div class="grid-x">
                     <div class="large-12 medium-12 small-12 grid-padding-x text-center">
-                        <h2 class="morado"><strong>¿Cómo funciona?</strong></h2>
+                        <h2 class="morado"><strong>¿CÓMO FUNCIONA?</strong></h2>
                     </div>
                 </div>
             </div>
+
             <div class="cell">
-                <div class="grid-x show-for-medium">
+                <div class="grid-x show-for-large">
                     <div class="large-12 medium-12 grid-padding-x  bkLila step1">
-                        <!-- <a data-open="exampleModal1"><img class="pasos1" alt="pasos" src="../css/img/pasos.png" /></a>
-                        <img class="pasos2" alt="pasos" src="../css/img/pasosMobile.jpeg" /> -->
-                        <div>
-                            <img class="step" alt="pasos" src="../css/img/pasos/step1.png" />
-                        </div>
-                        <div class="infoSteps">
-
-                            <h2>Ordene su prueba en línea</h2>
-                            <p>Selecciona la prueba de tu interés, completa el cuestionario, elige la fecha y hora para realizar tu toma de muestra y completa tu compra. </p>
-
-                            <p>Recibirás confirmación de pago vía correo electrónico. </p>
-                            <p>Nuestro equipo de profesionales se pondrá en contacto contigo vía telefónica para confirmar los detalles de compra y toma de muestra.</p>
-                        </div>
-                        <div>
-                            <img class="right" alt="pasos" src="../css/img/kit.png" />
-                        </div>
-                    </div>
-                    <div class="large-12 medium-12 grid-padding-x step2">
-
-                        <div>
-                            <img class="step" alt="pasos" src="../css/img/pasos/step2.png" />
-                        </div>
-                        <div class="infoSteps">
-
-                            <h2>Visita a tu domicilio</h2>
-                            <p>Nuestro equipo capacitado llegará a tu domicilio y realizará tu toma de muestra.</p>
-                            <div class="step2-Video">
-                                <a data-open="exampleModal1">
-                                    <img class="pasos1" alt="pasos" src="../css/img/step2-Video.png" />
-                                </a>
-                                <p>Ver cómo se realiza todo el proceso de toma de muestra.</p>
+                        <div class="grid-x">
+                            <div class="large-2 step__number">
+                                <img class="step mx-auto" alt="pasos" src="../css/img/pasos/step1.png" />
                             </div>
+                            <div class="infoSteps large-6">
+                                <h2>Ordene su prueba en línea</h2>
+                                <p>Selecciona la prueba de tu interés, completa el cuestionario, elige la fecha y hora para realizar tu toma de muestra y completa tu compra. </p>
 
-                        </div>
-                        <div>
-                            <img class="right" alt="pasos" src="../css/img/step2.png" />
+                                <p>Recibirás confirmación de pago vía correo electrónico. </p>
+                                <p>Nuestro equipo de profesionales se pondrá en contacto contigo vía telefónica para confirmar los detalles de compra y toma de muestra.</p>
+                            </div>
+                            <div class="large-4 step__img">
+                                <img class="right p-5" alt="pasos" src="../css/img/kit.png" />
+                            </div>
                         </div>
                     </div>
+
+                    <div class="large-12 medium-12 grid-padding-x step2">
+                        <div class="grid-x">
+                            <div class="large-2 step__number">
+                                <img class="step mx-auto" alt="pasos" src="../css/img/pasos/step2.png" />
+                            </div>
+    
+                            <div class="infoSteps large-6">
+    
+                                <h2>Visita a tu domicilio</h2>
+                                <p>Nuestro equipo capacitado llegará a tu domicilio y realizará tu toma de muestra.</p>
+                                <div class="step2-Video d-none">
+                                    <a data-open="exampleModal1">
+                                        <img class="pasos1" alt="pasos" src="../css/img/step2-Video.png" />
+                                    </a>
+                                    <p>Ver cómo se realiza todo el proceso de toma de muestra.</p>
+                                </div>
+    
+                            </div>
+    
+                            <div class="large-4 step__img">
+                                <img class="right p-5" alt="pasos" src="../css/img/step2.png" />
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="large-12 medium-12 grid-padding-x step3">
 
-                        <div>
+                    <div class="grid-x">
+                        <div class="large-2 step__number">
                             <img class="step" alt="pasos" src="../css/img/pasos/step3.png" />
                         </div>
-                        <div class="infoSteps">
-
+    
+                        <div class="infoSteps large-6">
+    
                             <h2>Consulta tus resultados</h2>
                             <p>Nuestro personal médico asistirán a tu domicilio para realizar la toma de muestra, si requieres certificado de viaje, por favor indícalo a nuestro equipo. </p>
-
-
-                        </div>
-                        <div class="condition">
                             <p>Tus resultados se encuentran seguros gracias a nuestros certificados de seguridad</p>
-                        </div>
+    
+                        </div>      
+                    </div>
+                    
                     </div>
                 </div>
-                <div class="grid-x show-for-small-only pasosMobile">
-                    <div class="small-12 grid-padding-x text-center bkLila py-5">
-                        <img alt="paso1" src="../css/img/pasos/step1.png" />
-                        <h2>Ordene su prueba en línea</h2>
-                        <p>Completa el cuestionario en línea en cuestión de minutos, agenda tu toma de muestra y realiza el pago de tu prueba.</p>
-                        <p>Le proporcionaremos un recibo detallado automático de su pedido. </p>
-                    </div>
-                    <div class="small-12 grid-padding-x text-center py-5">
-                        <img alt="paso2" src="../css/img/pasos/step2.png" />
-                        <h2>Visita a tu domicilio</h2>
-                        <p>Nuestro equipo capacitado llegará a tu domicilio y realizará tu toma de muestra.</p>
-                        <iframe class="show-for-medium" width="100%" height="300" src="https://www.youtube.com/embed/oeHkGkmIeX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p class="videoMobile show-for-medium"> Ver como se realiza todo el proceso de toma de muestra. </p>
 
+                <div class="grid-x hide-for-large pasosMobile">
+                    <div class="small-12 grid-padding-x text-center bkLila py-4">
+                        <div class="pasosMobile__wrapper">
+                            <img alt="paso1" src="../css/img/pasos/step1.png" />
+                            <h2>Ordene su prueba en línea</h2>
+                            <p>Completa el cuestionario en línea en cuestión de minutos, agenda tu toma de muestra y realiza el pago de tu prueba.</p>
+                            <p>Le proporcionaremos un recibo detallado automático de su pedido. </p>
+                        </div>
                     </div>
-                    <div class="small-12 grid-padding-x text-center paso3Mobile py-6">
-                        <img alt="paso3" src="../css/img/pasos/step3.png" />
-                        <h2>Consulta tus resultados</h2>
-                        <p>Con tu ID podrás consultar y descargar tus resultados en línea, también los enviaremos por correo electrónico y WhatsApp</p>
+                    <div class="small-12 grid-padding-x text-center py-4">
+                        <div class="pasosMobile__wrapper">
+                            <img alt="paso2" src="../css/img/pasos/step2.png" />
+                            <h2>Visita a tu domicilio</h2>
+                            <p>Nuestro equipo capacitado llegará a tu domicilio y realizará tu toma de muestra.</p>
+                        </div>
+                        <iframe class="d-none" width="100%" height="300" src="https://www.youtube.com/embed/oeHkGkmIeX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="videoMobile show-for-medium"> Ver como se realiza todo el proceso de toma de muestra. </p>
                     </div>
+
+                    <div class="small-12 grid-padding-x text-center paso3Mobile py-4">
+                        <div class="pasosMobile__wrapper">
+                            <img alt="paso3" src="../css/img/pasos/step3.png" />
+                            <h2>Consulta tus resultados</h2>
+                            <p>Con tu ID podrás consultar y descargar tus resultados en línea, también los enviaremos por correo electrónico y WhatsApp</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

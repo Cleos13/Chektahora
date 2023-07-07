@@ -545,14 +545,14 @@ p.purpleText {
 }
 
 .certificado {
-    padding: 10% 0
+    padding: 9% 0
 }
 
 .certificado p {
     margin: 0;
-    padding: 0 14%;
+    padding: 0 10%;
     text-align: left;
-    font-size: 1.2rem
+    font-size: 1.1rem
 }
 
 .certificado p a {
@@ -1600,10 +1600,29 @@ p.seccionMoradaClara {
     padding: 0 3%;
 }   
 
+.pasosMobile .pasosMobile__wrapper {
+    padding: 0 10%;
+}
+
+.pasosMobile h2,
+.pasosMobile p {
+    color: #4F2D83;
+    text-align: center;
+}
+
 @media screen and (max-width: 1023px) {
   
     .spaceSection.step .pasos p{
         padding: 0 3%;
+    }
+
+    .pasosMobile h2{
+        background: url("img/borderBottomMobile.png") no-repeat 50% 100%;
+    }
+
+    .pasosMobile h2,
+    .pasosMobile img{
+        margin-bottom: 3%;
     }    
     
     footer .section-two{
@@ -1659,11 +1678,24 @@ p.seccionMoradaClara {
         background: url('img/circuloBlanco.png') 47% 50% no-repeat;
     }
 
+    .spaceSection.step.step__three .step-number .pasos {
+        padding-right: 15px;
+    }
+
     .spaceSection.step.step__four .step-number{
         margin-left: -5%;
         padding: 0 3%;
     }
 
+    .bkPurple .certificado p {
+        font-size: 1.4rem;
+    }
+
+    .bkPurple .certificado  {
+        display: flex;
+        justify-content: center;
+    }
+    
     footer {
         padding:  0 2%;
     }
@@ -1679,6 +1711,9 @@ p.seccionMoradaClara {
     .spaceSection.step .pasos .number{
         font-size: 4rem;
     }   
+    .bkPurple .certificado p {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -3551,14 +3586,15 @@ input {
     padding: 16px 30px
 }
 
+
 .step1,
 .step2,
 .step3 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 6%;
-    height: 600px
+    padding: 5%;
+}
+
+.step3 {
+    padding: 7% 5%;
 }
 
 .step1 h2,
@@ -3578,37 +3614,29 @@ input {
     width: 70%
 }
 
-.step1 img,
-.step2 img,
-.step3 img {
-    width: 80%
-}
-
-.step1 img.right,
-.step2 img.right,
-.step3 img.right {
-    padding: 0 0 6% 6%
-}
-
-.step1 .step2-Video,
-.step2 .step2-Video,
-.step3 .step2-Video {
+.step1 .step__number,
+.step2 .step__number,
+.step3 .step__number{
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .step1 .infoSteps,
 .step2 .infoSteps,
-.step3 .infoSteps {
-    width: 600px
+.step3 .infoSteps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
-.step1 img.step,
-.step2 img.step,
-.step3 img.step {
-    width: 143px;
-    padding-right: 10%
+.step1 .step__img img,
+.step2 .step__img img,
+.step3 .step__img img{
+   max-width: 75%;
+   display: block;
+   margin: 0 auto;
 }
 
 .step3 {
@@ -3626,27 +3654,6 @@ input {
 .step3 .condition p {
     font-size: .7rem;
     width: 100%
-}
-
-@media screen and (max-width: 640px) {
-
-    .step1,
-    .step2,
-    .step3 {
-        flex-flow: column
-    }
-
-    .step1 .infoSteps,
-    .step2 .infoSteps,
-    .step3 .infoSteps {
-        width: auto
-    }
-
-    .step1 .step,
-    .step2 .step,
-    .step3 .step {
-        width: 50%
-    }
 }
 
 .menuFixed {
@@ -4049,7 +4056,7 @@ a.logoWebsite {
     }
 
     .certificado p {
-        text-align: justify
+        text-align: center
     }
 
     .certificado p a {
@@ -4283,10 +4290,13 @@ a.logoWebsite {
         background-image: url("img/banners/covidPrueba/microscopic.jpg")
     }
 
+    .pasosMobile .pasosMobile__wrapper {
+        padding: 0 10%;
+    }
+
     .pasosMobile h2,
     .pasosMobile p {
         color: #4F2D83;
-        margin: 0 20%;
         text-align: center;
         font-size: .8rem
     }
@@ -4294,8 +4304,6 @@ a.logoWebsite {
     .pasosMobile h2 {
         font-size: 1rem;
         font-weight: bold;
-        margin: 10% 0;
-        background: url("img/borderBottomMobile.png") no-repeat 50% 100%;
         padding-bottom: 5%;
         text-align: center
     }
