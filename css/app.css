@@ -4991,10 +4991,6 @@ a.logoWebsite {
         margin-bottom: 50px !important
     }
 
-    .funciona-clinicos .title-section {
-        margin-bottom: 30px !important
-    }
-
     .funciona-clinicos h2 {
         font-size: 22px !important
     }
@@ -5159,8 +5155,6 @@ a.logoWebsite {
     }
 
     .menu-pruebas .submenu-opciones .title-section {
-        margin-bottom: -30px;
-        margin-top: 40px;
         padding: 0 40px;
         font-weight: 600;
         text-decoration: underline
@@ -6809,10 +6803,6 @@ a.link-white {
 
 .funciona-clinicos {
     margin-bottom: 150px
-}
-
-.funciona-clinicos .title-section {
-    margin-bottom: 100px
 }
 
 .section-products {
@@ -17657,6 +17647,8 @@ screen and (min-width: 75em) {
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
+    margin: 0 auto;
+    display: block;
   }
   
   .product-container .product-item h2 {
@@ -17810,6 +17802,8 @@ screen and (min-width: 75em) {
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
+    margin: 0 auto;
+    display: block;
   }
   
   .product-container-3 .product-item h2 {
