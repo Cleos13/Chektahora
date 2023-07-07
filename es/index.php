@@ -278,32 +278,6 @@
 
                 </div>
 
-               <!--<div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS) <b style="color:red;">PROMOCIÓN</b> </strong></h2>
-                    </div>
-
-                    <div class="product-container-2 large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-  <div class="product-item">
-  <h2 style="font-weight: bold; color: #662480">KIT BLACK<br> COMBO PAREJA</h2>
-    <img src="../img/Producto-Kits-Black-Pareja-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $7,999</p>
-    <div class="buttons">
-      <a href="https://buy.stripe.com/7sIbL30aS6Ly8Hm2bG" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-  
-  <div class="product-item">
-  <h2 style="font-weight: bold; color: #662480">KIT PLATINUM  <br> COMBO PAREJA</h2>
-    <img src="../img/Producto-Kits-Platinum-Pareja-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px;" class="price">  <br> $5,312</p>
-    <div class="buttons">
-      <a href="https://buy.stripe.com/28obL36zg0naaPubNd" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-</div>-->
-
 
                 <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4">
                     <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
@@ -354,213 +328,6 @@
 
                 </div>
 
-
-                <!--<div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
-                    </div>
-
-            <div class="products-container">
-  <div class="product-box">
-    <img src="../img/2650.jpg" alt="Product 1" />
-    <h3>PRUEBA INFLUENZA + COVID</h3>
-    <p class="price">$1,399</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/6oE02le1I3zmaPu6s2">Comprar Ahora</a></button>
-  </div>
-  <div class="product-box">
-    <img src="../img/1100.jpg" alt="Product 2" />
-    <h3>PRUEBA PCR</h3>
-    <p class="price">$599</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp">Comprar Ahora</a></button>
-  </div>
-  <div class="product-box">
-    <img src="../img/600.jpg" alt="Product 3" />
-    <h3>PRUEBA ANTÍGENOS</h3>
-    <p class="price">$599</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS">Comprar Ahora</a></button>
-  </div>
-  <div class="product-box">
-    <img src="../img/1050.jpg" alt="Product 4" />
-    <h3>PRUEBA ANTICUERPOS</h3>
-    <p class="price">$1,050</p>
-    <button class="buy-button"><a style="color: white;" href="https://buy.stripe.com/cN28yR0aSee05va4jI">Comprar Ahora</a></button>
-  </div>
-</div>
-
-
-            -->
-
-
-
-                <!--<div class="cell text-left">
-                <div class="grid-x spaceSection">
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
-                    </div>
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h2 class="morado"><p class="moradito">NUESTROS KITS DETECTAN HASTA</p></h2>
-                    </div>
-                    <div class="grid-container py-5 grid-x large-12 small-12">
-                        <div class="owl-carousel owl-theme grid-x large-10 small-12 mx-auto" id="carousel-products"> 
-                            <?php
-                            global $items;
-                            global $images;
-                            global $conn;
-                            foreach ($items as $p) {
-                                $img = '';
-                                foreach ($images as $image) {
-                                    if ($image['id_product'] === $p['id']) {
-                                        $img = $image['img'];
-                                    }
-                                }
-                                if ($p['category'] === 'its') {
-                                    echo '<div class="item">
-                                                <div class="card-product" style="width: 90%;">
-                                                    <div class="name-product">
-                                                        <h4>' . $p['name'] . '</h4>
-                                                    </div>
-                                                    <div style="width: 60%; margin: auto;">
-                                                        <img src="../img/products/' . $img . '" alt="">
-                                                    </div>
-                                                    <div class="price-product py-2">
-                                                        $' . $p['price'] . ' <span class="fs-2">MXN</span>
-                                                    </div>
-                                                    <div class="grid-x cell px-1 mb-2">
-                                                        <div class="large-6 small-6">
-                                                            <button class="" plus-cart="' . $p['id'] . '">Añadir</button>
-                                                        </div>
-                                                        <div class="large-6 small-6 ver-mas-link tc-facet-header tc-toggle-show">
-                                                            <button class="' . $p['id'] . '">Ver más</button>
-                                                            
-                                                        </div>
-                                                        <div class="tc-facet tc-facet-open">
-                                                            <br>
-                                                            ' . $p['description'] . '
-                                                        </div>                                        
-                                                    </div>
-                                                </div>
-                                            </div>';
-                                }
-                            }
-                            ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cell text-left">
-                <div class="grid-x spaceSection">
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
-                    </div>
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h3 class="morado"><p class="moradito">DIAGNÓSTICOS OPORTUNOS Y CONFIABLES PARA</p></h2>
-                    </div>
-                    <div class="grid-container py-5 grid-x large-12 small-12">
-                        <div class="owl-carousel owl-theme grid-x large-10 small-12 mx-auto" id="carousel-products-resp"> 
-                            <?php
-                            global $items;
-                            global $images;
-                            global $conn;
-                            foreach ($items as $p) {
-                                $img = '';
-                                foreach ($images as $image) {
-                                    if ($image['id_product'] === $p['id']) {
-                                        $img = $image['img'];
-                                    }
-                                }
-                                if ($p['category'] === 'covid') {
-                                    echo '<div class="item">
-                                                <div class="card-product" style="width: 90%;">
-                                                    <div class="name-product">
-                                                        <h4>' . $p['name'] . '</h4>
-                                                    </div>
-                                                    <div style="width: 60%; margin: auto;">
-                                                        <img src="../img/products/' . $img . '" alt="">
-                                                    </div>
-                                                    <div class="price-product py-2">
-                                                        $' . $p['price'] . ' <span class="fs-2">MXN</span>
-                                                    </div>
-                                                    <div class="grid-x cell px-1 mb-2">
-                                                        <div class="large-6 small-6">
-                                                            <button class="" plus-cart="' . $p['id'] . '">Añadir</button>
-                                                        </div>
-                                                        <div class="large-6 small-6 ver-mas-link tc-facet-header tc-toggle-show">
-                                                            <button class="' . $p['id'] . '">Ver más</button>
-                                                            
-                                                        </div>
-                                                        <div class="tc-facet tc-facet-open">
-                                                            <br>
-                                                            ' . $p['description'] . '
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            ';
-                                }
-                            }
-                            ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cell text-left">
-                <div class="grid-x spaceSection">
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h2 class="morado"><strong>KITS DE DIAGNÓSTICO MÉDICO</strong></h2>
-                    </div>
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h3 class="morado"><p class="moradito"
-                        >ANÁLISIS CLÍNICOS</p></h2>
-                    </div>
-                    <div class="grid-container py-5 grid-x large-12 small-12">
-                        <div class="owl-carousel owl-theme grid-x large-10 small-12 mx-auto" id="carousel-products-clinicos"> 
-                            <?php
-                            global $items;
-                            global $images;
-                            global $conn;
-                            foreach ($items as $p) {
-                                $img = '';
-                                foreach ($images as $image) {
-                                    if ($image['id_product'] === $p['id']) {
-                                        $img = $image['img'];
-                                    }
-                                }
-                                if ($p['category'] === 'clinicos') {
-                                    echo '<div class="item">
-                                                <div class="card-product" style="width: 90%;">
-                                                    <div class="name-product">
-                                                        <h4>' . $p['name'] . '</h4>
-                                                    </div>
-                                                    <div style="width: 60%; margin: auto;">
-                                                        <img src="../img/products/' . $img . '" alt="">
-                                                    </div>
-                                                    <div class="price-product py-2">
-                                                        $' . $p['price'] . ' <span class="fs-2">MXN</span>
-                                                    </div>
-                                                    <div class="grid-x cell px-1 mb-2">
-                                                        <div class="large-6 small-6">
-                                                            <button class="" plus-cart="' . $p['id'] . '">Añadir</button>
-                                                        </div>
-                                                        <div class="large-6 small-6 ver-mas-link tc-facet-header tc-toggle-show">
-                                                            <button class="' . $p['id'] . '">Ver más</button>
-                                                            
-                                                        </div>
-                                                        <div class="tc-facet tc-facet-open">
-                                                            <br>
-                                                            ' . $p['description'] . '
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>';
-                                }
-                            }
-                            ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                        -->
                 <div class="cell text-left spaceSection banner_inmunochek mt-3">
                     <div class="grid-x ">
                         <div class="large-12 medium-12 grid-padding-x mb-3 " style="text-align: center">
@@ -579,7 +346,7 @@
                 <div class="cell text-left ">
                     <div class="grid-x ">
                         <div class="large-12 medium-12 small-12 grid-padding-x my-4">
-                            <h2 class="morado text-center" ><strong>NUESTROS NÚMEROS</strong></h2>
+                            <h2 class="morado text-center"><strong>NUESTROS NÚMEROS</strong></h2>
                         </div>
                         <div class="large-12 medium-12 small-12 grid-padding-x text-center ">
                             <p class="morado espacio ">Estamos convencidos que la mejor forma de cuidar tu salud</br>
@@ -622,7 +389,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="cell text-left spaceSection ">
                     <div class="grid-x ">
                         <div class="large-13 medium-12 small-12 grid-padding-x ">
@@ -739,16 +506,6 @@
                 </div>
             </div>
 
-            <!-- <div class="reveal py-5 border-radius" id="pop-up-message" data-reveal style="margin-top: 6%;">
-            <button class="close-button btn-modal-close" data-close aria-label="Close modal" type="button">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="py-3 px-3">
-                <div class="text-center">
-                    <div style="color: #4F2D83; font-size: 22px;" class="fw-bold">El próximo sábado 27 de agosto no tendremos servicio a domicilio ni tomas de muestra en nuestro laboratorio, reiniciaremos operaciones normales el lunes 29, les pedimos por favor tomen sus precauciones y programen sus tomas de muestra con anticipación. Les ofrecemos una disculpa y agracemos su comprensión.</div>
-                </div>
-            </div>
-        </div> -->
 
             <?php include 'template/footer.php'; ?>
         </div>
