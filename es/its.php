@@ -42,7 +42,6 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNR8MBT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div class="fluid">
-
         <div class="grid-x">
             <?php include 'template/header.php'; ?>
             <!-- Banners Home page -->
@@ -53,170 +52,189 @@
                 </div>
             </div>
             <!-- Banners Home page -->
-            <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4">
-                <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
-            </div>
-
-            <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">KIT GOLD DETECTA 7 <br> ITS</h2>
-                    <img src="../img/Producto-Kit-Gold-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
-                    <p style="font-weight: bold; font-size: 28px;" class="price">$2,720</p>
-                    <div class="buttons">
-                        <a href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC" class="buy-button">Comprar</a>
-                        <a href="#" class="more-button">Ver más</a>
-                    </div>
+            <div class="large-10 mx-auto">
+                <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4">
+                    <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
                 </div>
 
-                <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">KIT BLACK DETECTA 13 <br> ITS</h2>
-                    <img src="../img/Producto-Kit-Black-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-                    <p style="font-weight: bold; font-size: 28px;" class="price">$4,999</p>
-                    <div class="buttons">
-                        <a href="https://buy.stripe.com/4gw02lbTAd9W0aQ9Gh" class="buy-button">Comprar</a>
-                        <a href="#" class="more-button">Ver más</a>
+                <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                    <div class="product-item">
+                        <h2 style="font-weight: bold; color: #662480">KIT GOLD DETECTA 7 <br> ITS</h2>
+                        <img src="../img/Producto-Kit-Gold-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px;" class="price">$2,720</p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                        </div>
                     </div>
+
+                    <div class="product-item">
+                        <h2 style="font-weight: bold; color: #662480">KIT BLACK DETECTA 13 <br> ITS</h2>
+                        <img src="../img/Producto-Kit-Black-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px;" class="price">$4,999</p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/4gw02lbTAd9W0aQ9Gh" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <h2 style="font-weight: bold; color: #662480">KIT PLATINUM DETECTA 12 ITS</h2>
+                        <img src="../img/Producto-Kit-Platinum-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px;" class="price">$3,320</p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <h2 style="font-weight: bold; color: #662480">KIT <br> VPH</h2>
+                        <img src="../img/Producto-Kit-VPH-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px;" class="price">$2,620</p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                            <p></p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">KIT PLATINUM DETECTA 12 ITS</h2>
-                    <img src="../img/Producto-Kit-Platinum-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
-                    <p style="font-weight: bold; font-size: 28px;" class="price">$3,320</p>
-                    <div class="buttons">
-                        <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
-                        <a href="#" class="more-button">Ver más</a>
-                    </div>
-                </div>
-
-                <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">KIT <br> VPH</h2>
-                    <img src="../img/Producto-Kit-VPH-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
-                    <p style="font-weight: bold; font-size: 28px;" class="price">$2,620</p>
-                    <div class="buttons">
-                        <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
-                        <a href="#" class="more-button">Ver más</a>
-                        <p></p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="cell text-left spaceSection">
-                <div class="grid-x">
-                    <div class="large-10 small-12 mx-auto">
+                <div class="cell text-left spaceSection py-5 px-5">
                     <div class="grid-x">
-                        <div class="large-6 small-12 grid-padding-x youtube_container">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ackw2ljoYf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="large-12 small-12 mx-auto">
+                            <div class="grid-x">
+                                <div class="large-6 small-12 grid-padding-x youtube_container">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ackw2ljoYf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="large-6 small-12 grid-padding-x text-left queEsIts">
+                                    <h2>Kits de infección de transmisión sexual</h2>
+                                    <p>Actualmente, las ITS son más comunes de lo que pensamos; sin embargo, un diagnóstico oportuno ayuda a determinar el tratamiento adecuado y prevenir futuras complicaciones.</p>
+                                    <p>Las ITS, no distinguen orientación sexual, identidad de género o edad, es importante realizar pruebas periódicas de detección desde el comienzo de la vida sexual. </p>
+                                    <p>En ChektAhora somos expertos en la prevención y diagnóstico de Infecciones de Transmisión Sexual. Confía… tenemos la respuesta.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="large-6 small-12 grid-padding-x text-left queEsIts">
-                            <h2>Kits de infección de transmisión sexual</h2>
-                            <p>Actualmente, las ITS son más comunes de lo que pensamos; sin embargo, un diagnóstico oportuno ayuda a determinar el tratamiento adecuado y prevenir futuras complicaciones.</p>
-                            <p>Las ITS, no distinguen orientación sexual, identidad de género o edad, es importante realizar pruebas periódicas de detección desde el comienzo de la vida sexual. </p>
-                            <p>En ChektAhora somos expertos en la prevención y diagnóstico de Infecciones de Transmisión Sexual. Confía… tenemos la respuesta.</p>
+                    </div>
+                </div>
+
+                <div class="cell text-left spaceSection">
+                    <div class="grid-x">
+                        <div class="large-12 medium-12 small-12 grid-padding-x text-center">
+                            <h2 class="morado"><strong>¿CÓMO FUNCIONA?</strong></h2>
                         </div>
                     </div>
+                </div>
+
+                <div class="cell text-left spaceSection step step__one">
+                    <div class="grid-x spaceX">
+                        <div class="large-12 medium-10 small-12 mx-auto">
+                            <div class="grid-x">
+                                <div class="large-8 small-12 align-self-middle">
+                                    <ul class="pasos">
+                                        <li>
+                                            <div class="grid-x step-number">
+                                                <div class="large-4 medium-4 small-12 grid-padding-x">
+                                                    <p class="number">1</p>
+                                                </div>
+                                                <div class="large-8 medium-8 small-12 grid-padding-x pasos">
+                                                    <h3>ORDENA TU KIT</h3>
+                                                    <p>Selecciona el producto de tu interés e ingrésalo a tu carrito de compra, llena el formulario con los datos requeridos. Finaliza tu compra, recibirás confirmación de tu compra en el correo electrónico que nos compartiste.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="large-4 small-12 grid-padding-x text-center show-for-large">
+                                    <img src="../img/Kit Black WEB.webp" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cell text-left spaceSection step step__two">
+                    <div class="grid-x spaceX">
+                        <div class="large-12 medium-10 small-12 mx-auto">
+                            <div class="grid-x justify-content-end">
+                                <div class="large-9 small-12 align-self-middle">
+                                    <ul class="pasos">
+                                        <li>
+                                            <div class="grid-x step-number">
+                                                <div class="large-4 medium-4 small-12 grid-padding-x">
+                                                    <p class="number">2</p>
+                                                </div>
+                                                <div class="large-8 medium-8 grid-padding-x pasos">
+                                                    <h3>CONFIRMACIÓN DE COMPRA</h3>
+                                                    <p>Nuestro equipo médico se contactará contigo y te proporcionará toda la información que necesites para realizar tu toma de muestra.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cell text-left spaceSection step step__three">
+                    <div class="grid-x spaceX">
+                        <div class="large-12 medium-10 small-12 mx-auto">
+                            <div class="grid-x">
+                                <div class="large-7 small-12 align-self-middle">
+                                    <ul class="pasos">
+                                        <li>
+                                            <div class="grid-x step-number">
+                                                <div class="large-4 medium-4 small-12 grid-padding-x">
+                                                    <p class="number">3</p>
+                                                </div>
+                                                <div class="large-8 medium-8 small-12 grid-padding-x pasos">
+                                                    <h3>TOMA DE MUESTRA</h3>
+                                                    <p>Nuestro equipo de profesionales de la salud acudirá a tu domicilio y te asistirá con la toma de muestra (aplica para CDMX y Área Metropolitana). </p>
+                                                    <p>Si lo requieres, puedes agendar tu toma de muestra en nuestro laboratorio o si tu compra es realizada desde el interior de la república, consulta los costos de envío y recolección.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="large-5 small-12 grid-padding-x text-center show-for-large youtube_container">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-_n8GcQmREQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cell text-left spaceSection step step__four">
+                    <div class="grid-x spaceX bkLila py-4">
+                        <div class="large-12 medium-10 small-12 mx-auto">
+                            <div class="grid-x">
+                                <div class="large-5 medium-6 grid-padding-x text-center show-for-large">
+                                    <img src="../css/img/comoFunciona-Paso3.png" />
+                                </div>
+                                <div class="large-7 small-12 align-self-middle">
+                                    <ul class="pasos">
+                                        <li>
+                                            <div class="grid-x step-number">
+                                                <div class="large-4 medium-4 small-12 grid-padding-x">
+                                                    <p class="number">4</p>
+                                                </div>
+                                                <div class="large-8 medium-8 grid-padding-x pasos">
+                                                    <h3>RESULTADOS</h3>
+                                                    <p>Una vez procesadas las muestras, recibirás tus resultados vía correo electrónico y/o WhatsApp. Si lo requieres, nuestros especialistas podrán asesorarte respecto a los siguientes pasos. (Opciones de médicos para iniciar tratamiento).</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="cell text-left spaceSection">
-                <div class="grid-x">
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center">
-                        <h2 class="morado"><strong>¿CÓMO FUNCIONA?</strong></h2>
-                    </div>
-                </div>
-            </div>
 
-            <div class="cell text-left spaceSection">
-                <div class="grid-x spaceX">
-                    <div class="large-6 medium-6 align-self-middle">
-                        <ul class="pasos">
-                            <li>
-                                <div class="grid-x">
-                                    <div class="large-4 medium-4 small-12 grid-padding-x">
-                                        <p class="number">1</p>
-                                    </div>
-                                    <div class="large-8 medium-8 small-12 grid-padding-x pasos">
-                                        <h3>ORDENA TU KIT</h3>
-                                        <p>Selecciona el producto de tu interés e ingrésalo a tu carrito de compra, llena el formulario con los datos requeridos. Finaliza tu compra, recibirás confirmación de tu compra en el correo electrónico que nos compartiste.</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="large-6 medium-6 grid-padding-x text-center show-for-medium">
-                        <img style="height: 500px;" src="../img/Kit Black WEB.webp" />
-                    </div>
-                </div>
-            </div>
-            <div class="cell text-left spaceSection">
-                <div class="grid-x paso2 spaceX">
-                    <div class="large-6 medium-6 align-self-middle">
-
-                    </div>
-                    <div class="large-6 medium-6 align-self-middle">
-                        <ul class="pasos">
-                            <li>
-                                <div class="grid-x">
-                                    <div class="large-4 medium-4 small-12 grid-padding-x paso2b">
-                                        <p class="number">2</p>
-                                    </div>
-                                    <div class="large-8 medium-8 grid-padding-x pasos">
-                                        <h3>CONFIRMACIÓN DE COMPRA</h3>
-                                        <p>Nuestro equipo médico se contactará contigo y te proporcionará toda la información que necesites para realizar tu toma de muestra.</p>
-                                    </div>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="cell text-left spaceSection py-6">
-                <div class="grid-x spaceX">
-                    <div class="large-6 medium-6 align-self-middle">
-                        <ul class="pasos">
-                            <li>
-                                <div class="grid-x">
-                                    <div class="large-4 medium-4 small-12 grid-padding-x">
-                                        <p class="number">3</p>
-                                    </div>
-                                    <div class="large-8 medium-8 small-12 grid-padding-x pasos">
-                                        <h3>TOMA DE MUESTRA</h3>
-                                        <p>Nuestro equipo de profesionales de la salud acudirá a tu domicilio y te asistirá con la toma de muestra (aplica para CDMX y Área Metropolitana). </p>
-                                        <p>Si lo requieres, puedes agendar tu toma de muestra en nuestro laboratorio o si tu compra es realizada desde el interior de la república, consulta los costos de envío y recolección.</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="large-6 medium-6 grid-padding-x text-center show-for-medium">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-_n8GcQmREQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="cell text-left py-6">
-                <div class="grid-x spaceX bkLila py-5">
-                    <div class="large-6 medium-6 grid-padding-x text-center show-for-medium">
-                        <img src="../css/img/comoFunciona-Paso3.png" />
-                    </div>
-                    <div class="large-6 medium-6 align-self-middle">
-                        <ul class="pasos">
-                            <li>
-                                <div class="grid-x">
-                                    <div class="large-4 medium-4 small-12 grid-padding-x">
-                                        <p class="number">4</p>
-                                    </div>
-                                    <div class="large-8 medium-8 grid-padding-x pasos">
-                                        <h3>RESULTADOS</h3>
-                                        <p>Una vez procesadas las muestras, recibirás tus resultados vía correo electrónico y/o WhatsApp. Si lo requieres, nuestros especialistas podrán asesorarte respecto a los siguientes pasos. (Opciones de médicos para iniciar tratamiento).</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
         <?php include 'template/footer.php'; ?>
     </div>
