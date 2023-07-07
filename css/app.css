@@ -10,9 +10,6 @@
     height: 20px
 }
 
-.spaceTop {
-    margin-top: 7%
-}
 
 .header {
     display: flex;
@@ -374,8 +371,9 @@ ul {
 
 footer {
     background-color: #4F2D83;
-    height: 600px;
-    position: relative
+    height: 100%;
+    padding:  0 5%;
+    position: relative;
 }
 
 footer .logo {
@@ -457,6 +455,11 @@ footer .info .text-2 {
     text-align: center
 }
 
+footer .section-one {
+    display: block;
+    margin: 0 auto;
+}
+
 footer .section-two {
     position: relative;
     padding-right: 50px;
@@ -494,8 +497,6 @@ footer .section-two .galeria div #img-4-footer {
 }
 
 footer .copy {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 50px;
     color: #fff;
@@ -503,7 +504,8 @@ footer .copy {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 500
+    font-weight: 500;
+    padding: 10px;
 }
 
 footer .separator-footer {
@@ -521,10 +523,6 @@ footer .separator-footer {
 
 .top-bar ul {
     background: none !important
-}
-
-.spaceSection {
-    margin: 1% 0
 }
 
 .pistacheResultados {
@@ -547,14 +545,14 @@ p.purpleText {
 }
 
 .certificado {
-    padding: 10% 0
+    padding: 9% 0
 }
 
 .certificado p {
     margin: 0;
-    padding: 0 14%;
+    padding: 0 10%;
     text-align: left;
-    font-size: 1.2rem
+    font-size: 1.1rem
 }
 
 .certificado p a {
@@ -573,7 +571,7 @@ p.whiteText {
 
 p.morado {
     color: #4F2D83;
-    font-size: 1em
+    font-size: 1.2em
 }
 
 .espaciado {
@@ -581,13 +579,14 @@ p.morado {
 }
 
 p.espacio {
-    margin: 3%
+    margin: 2.5%
 }
 
 ul.numeros {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 0px !important
+    margin-left: 0px !important;
+    padding: 0;
 }
 
 ul.numeros li {
@@ -720,7 +719,8 @@ ul.pasos li .number {
     align-items: center;
     justify-content: center;
     font-size: 4rem;
-    font-weight: bold
+    font-weight: bold;
+    margin: 0 auto;
 }
 
 ul.pasos li p.texto {
@@ -731,22 +731,6 @@ ul.pasos li p.texto {
 ul.pasos li h3 {
     font-size: 3rem;
     font-weight: bold
-}
-
-.paso2 {
-    background: url("img/comoFunciona-Paso2.png") 0 0 no-repeat;
-    height: 600px;
-    background-size: cover
-}
-
-.paso2 p,
-.paso2 h3 {
-    color: white;
-    font-size: 1.3rem
-}
-
-.paso2 ul.pasos li .number {
-    background: url("img/circuloBlanco.png") 47% 50% no-repeat
 }
 
 .newsletter {
@@ -1368,7 +1352,7 @@ p.condiciones {
 .queEsIts {
     display: flex;
     flex-flow: column;
-    padding: 5%;
+    padding: 3%;
     color: #4F2D83;
     justify-content: center;
     align-items: flex-end
@@ -1514,33 +1498,44 @@ p.seccionMoradaClara {
 .comments {
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 .comments .commentCliente {
     display: flex;
     justify-content: center;
-    width: 20%
+    padding: 0 10px;
+    margin: 0 10px;
+    height: 100%;
 }
 
 .comments .commentCliente .comment {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 7%;
+    padding: 20px;
     color: #4F2D83;
-    height: 271px;
+    height: 100%;
     border-radius: 13px
+}
+.comments .commentCliente .comment img {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .comments .commentCliente .comment p {
-    font-size: 1.2em
+    font-size: 1.2em;
+    margin: 0;
+}
+.comments .commentCliente .comment>p {
+    margin-bottom: 15%;
 }
 
 .comments .commentCliente .comment p.name {
     color: #4F2D83;
     font-weight: 700;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .bkMoradaClara {
@@ -1569,6 +1564,163 @@ p.seccionMoradaClara {
     align-items: center
 }
 
+.header__space{
+    height: 110px;
+    width: 100%;
+}
+
+.youtube_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;   
+}
+
+.youtube_container iframe{
+    width: 100%;
+    max-width: 560px;
+}
+
+.spaceSection.step .pasos{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.spaceSection.step .step-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spaceSection.step img{
+    padding: 10px;
+}
+
+.spaceSection.step .pasos p{
+    padding: 0 3%;
+}   
+
+.pasosMobile .pasosMobile__wrapper {
+    padding: 0 10%;
+}
+
+.pasosMobile h2,
+.pasosMobile p {
+    color: #4F2D83;
+    text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  
+    .spaceSection.step .pasos p{
+        padding: 0 3%;
+    }
+
+    .pasosMobile h2{
+        background: url("img/borderBottomMobile.png") no-repeat 50% 100%;
+    }
+
+    .pasosMobile h2,
+    .pasosMobile img{
+        margin-bottom: 3%;
+    }    
+    
+    footer .section-two{
+        padding: 0;
+        margin:0;
+    }
+    
+    footer .separator-footer {
+        display: none
+    }
+    footer .section-two .title-redes {
+        text-align: center;
+    }
+    
+    footer .footer__disclaimer{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1024px) {
+
+    .banner_inmunochek.spaceSection .contenido a{
+        left: 37% !important;
+        bottom: 17% !important;
+    }
+
+    .spaceSection.step {
+        padding: 3% 0;
+    }
+
+    .spaceSection.step .pasos p{
+        padding: 0;
+        font-size: 1.1rem;
+    }    
+
+    .spaceSection.step .pasos .number{
+        font-size: 3.5rem;
+    }   
+
+    .spaceSection.step.step__one > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .spaceSection.step.step__one img {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    .spaceSection.step.step__two {
+        background: url("img/comoFunciona-Paso2.png") 0 0 no-repeat;
+        padding: 10% 0;
+        background-size: cover;
+    }
+    .spaceSection.step.step__two .step-number{
+        color:white;
+    }
+
+    .spaceSection.step.step__two .step-number .number{
+        background: url('img/circuloBlanco.png') 47% 50% no-repeat;
+    }
+
+    .spaceSection.step.step__three .step-number .pasos {
+        padding-right: 15px;
+    }
+
+    .spaceSection.step.step__four .step-number{
+        margin-left: -5%;
+        padding: 0 3%;
+    }
+
+    .bkPurple .certificado p {
+        font-size: 1.4rem;
+    }
+
+    .bkPurple .certificado  {
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer {
+        padding:  0 2%;
+    }
+    footer .section-one {
+      padding:  0 2rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .spaceSection.step .pasos p{
+        font-size: 1.3rem;
+    }   
+    .spaceSection.step .pasos .number{
+        font-size: 4rem;
+    }   
+    .bkPurple .certificado p {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .img-products-car {
         width: 110px !important
@@ -1578,19 +1730,20 @@ p.seccionMoradaClara {
 ul.comoFunciona {
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
 }
 
 ul.comoFunciona li {
     color: #4F2D83;
-    width: 14%
+    width: 14%;
 }
 
 ul.comoFunciona li p {
     margin: 0;
     font-size: 1rem;
     margin: 10% 0 0 0;
-    min-height: 95px
 }
 
 ul.comoFunciona li strong {
@@ -1643,6 +1796,18 @@ ul.comoFunciona li strong {
     margin-left: 50px;
     width: 450px;
     font-size: 1.5rem
+}
+
+.banner_inmunochek.spaceSection .contenido{
+    position: relative;
+}
+.banner_inmunochek.spaceSection .contenido a{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 7px;
+    text-decoration: none;
 }
 
 .its {
@@ -2373,10 +2538,6 @@ p.codigo {
     font-size: 15px;
     margin: 5% 0;
     color: #4F2D83
-}
-
-.spaceX {
-    padding: 0 5%
 }
 
 .spaceCard {
@@ -3430,14 +3591,15 @@ input {
     padding: 16px 30px
 }
 
+
 .step1,
 .step2,
 .step3 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 6%;
-    height: 600px
+    padding: 5%;
+}
+
+.step3 {
+    padding: 7% 5%;
 }
 
 .step1 h2,
@@ -3457,37 +3619,29 @@ input {
     width: 70%
 }
 
-.step1 img,
-.step2 img,
-.step3 img {
-    width: 80%
-}
-
-.step1 img.right,
-.step2 img.right,
-.step3 img.right {
-    padding: 0 0 6% 6%
-}
-
-.step1 .step2-Video,
-.step2 .step2-Video,
-.step3 .step2-Video {
+.step1 .step__number,
+.step2 .step__number,
+.step3 .step__number{
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .step1 .infoSteps,
 .step2 .infoSteps,
-.step3 .infoSteps {
-    width: 600px
+.step3 .infoSteps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
-.step1 img.step,
-.step2 img.step,
-.step3 img.step {
-    width: 143px;
-    padding-right: 10%
+.step1 .step__img img,
+.step2 .step__img img,
+.step3 .step__img img{
+   max-width: 75%;
+   display: block;
+   margin: 0 auto;
 }
 
 .step3 {
@@ -3505,27 +3659,6 @@ input {
 .step3 .condition p {
     font-size: .7rem;
     width: 100%
-}
-
-@media screen and (max-width: 640px) {
-
-    .step1,
-    .step2,
-    .step3 {
-        flex-flow: column
-    }
-
-    .step1 .infoSteps,
-    .step2 .infoSteps,
-    .step3 .infoSteps {
-        width: auto
-    }
-
-    .step1 .step,
-    .step2 .step,
-    .step3 .step {
-        width: 50%
-    }
 }
 
 .menuFixed {
@@ -3659,16 +3792,15 @@ a.logoWebsite {
     .comments .commentCliente {
         display: flex;
         justify-content: center;
-        width: 25%
+        align-items: center;
     }
 
     .comments .commentCliente .comment {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 7%;
+        padding: 10px;
         color: #4F2D83;
-        height: 400px
     }
 
     .comments .commentCliente .comment p {
@@ -3678,12 +3810,12 @@ a.logoWebsite {
     .comments .commentCliente .comment p.name {
         color: #4F2D83;
         font-weight: 700;
-        font-size: 1.5rem
+        font-size: 1.2rem;
     }
 
     ul.comoFunciona li {
         width: 27%;
-        margin: 10px 0px
+        margin: 20px 0px
     }
 
     .nuestrosProductos h4 {
@@ -3729,7 +3861,7 @@ a.logoWebsite {
     }
 
     .covidPruebas {
-        background-image: url("img/banners/covidPrueba/microscopic.jpg")
+        background-image: url("img/banners/covidPrueba/Banner_Covid.webp")
     }
 
     .promesa .Blaine {
@@ -3862,7 +3994,7 @@ a.logoWebsite {
     }
 
     .covidPruebas {
-        background-image: url("img/banners/covidPrueba/microscopic.jpg")
+        background-image: url("img/banners/covidPrueba/Banner_Covid.webp")
     }
 
     .covidPruebas a {
@@ -3877,10 +4009,6 @@ a.logoWebsite {
 @media screen and (min-width: 1920px) {
     .step1920 {
         display: block
-    }
-
-    .step {
-        display: none
     }
 
     .promesa .Blaine {
@@ -3905,7 +4033,7 @@ a.logoWebsite {
     }
 
     .covidPruebas {
-        background: url("img/banners/covidPrueba/microscopic.jpg") no-repeat 0 0;
+        background: url("img/banners/covidPrueba/Banner_Covid.webp") no-repeat 0 0;
         color: white;
         padding: 17%;
         background-size: cover
@@ -3933,7 +4061,7 @@ a.logoWebsite {
     }
 
     .certificado p {
-        text-align: justify
+        text-align: center
     }
 
     .certificado p a {
@@ -3948,9 +4076,6 @@ a.logoWebsite {
         padding: 0
     }
 
-    .spaceTop {
-        margin-top: 40%
-    }
 
     ul.numeros {
         flex-flow: column
@@ -4167,13 +4292,16 @@ a.logoWebsite {
     }
 
     .covidPruebas {
-        background-image: url("img/banners/covidPrueba/microscopic.jpg")
+        background-image: url("img/banners/covidPrueba/Banner_Covid.webp")
+    }
+
+    .pasosMobile .pasosMobile__wrapper {
+        padding: 0 10%;
     }
 
     .pasosMobile h2,
     .pasosMobile p {
         color: #4F2D83;
-        margin: 0 20%;
         text-align: center;
         font-size: .8rem
     }
@@ -4181,8 +4309,6 @@ a.logoWebsite {
     .pasosMobile h2 {
         font-size: 1rem;
         font-weight: bold;
-        margin: 10% 0;
-        background: url("img/borderBottomMobile.png") no-repeat 50% 100%;
         padding-bottom: 5%;
         text-align: center
     }
@@ -4267,10 +4393,6 @@ a.logoWebsite {
         text-align: center
     }
 
-    .spaceX {
-        padding: 0 5%
-    }
-
     a.btn-banner-border {
         width: auto
     }
@@ -4281,12 +4403,7 @@ a.logoWebsite {
         color: white;
         height: 0
     }
-
-    .paso2 {
-        background-image: none;
-        height: 477px
-    }
-
+    
     .otrosProductos {
         background-color: white;
         border-radius: 20px;
@@ -4316,20 +4433,6 @@ a.logoWebsite {
         color: #4F2D83;
         font-size: 1rem;
         padding-top: 5%
-    }
-
-    .paso2b {
-        display: flex;
-        justify-content: center;
-        align-items: center
-    }
-
-    .paso2b p.number {
-        background: url(img/circulo.png) 50% 0% no-repeat !important;
-        width: 150px !important;
-        color: #4F2D83;
-        height: 155px !important;
-        border: none
     }
 
     ul.pasos p.number {
@@ -4482,7 +4585,7 @@ a.logoWebsite {
 
     img.logos {
         width: 100% !important;
-        margin: 6% 0
+        /* margin: 6% 0 */
     }
 
     ul.comoFunciona li {
@@ -4545,20 +4648,19 @@ a.logoWebsite {
 
     #slideshow {
         position: relative;
-        width: 100%;
-        height: 350px
+        width: 95%;
+        height: 320px;
+        margin: 0 auto;
     }
 
     #slideshow .comentario {
-        border-radius: 13px
+        border-radius: 13px;
     }
 
     #slideshow>div {
         position: absolute;
-        
-       /* left: 10px;
-        right: 10px;*/
-        bottom: 10px
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     #slideshow>div p {
@@ -4638,7 +4740,7 @@ a.logoWebsite {
     }
 
     .covidPruebas {
-        background-image: url("img/banners/microscopic.jpg")
+        background-image: url("img/banners/covidPrueba/Banner_Covid.webp")
     }
 
     ul.comoFunciona {
@@ -4732,7 +4834,7 @@ a.logoWebsite {
     }
 
     footer {
-        height: 1100px
+        height: 100%;
     }
 
     footer .logo img {
@@ -4808,7 +4910,6 @@ a.logoWebsite {
     footer .section-two {
         position: relative;
         padding-right: 0px;
-        margin-bottom: 50px
     }
 
     footer .section-two .title-redes {
@@ -4863,13 +4964,8 @@ a.logoWebsite {
     }
 
     footer .copy {
-        position: absolute;
-        bottom: 0;
+        padding: 10px;
         font-size: 12px
-    }
-
-    footer .separator-footer {
-        display: none
     }
 
     .card-product {
@@ -4898,10 +4994,6 @@ a.logoWebsite {
 
     .funciona-clinicos {
         margin-bottom: 50px !important
-    }
-
-    .funciona-clinicos .title-section {
-        margin-bottom: 30px !important
     }
 
     .funciona-clinicos h2 {
@@ -5068,8 +5160,6 @@ a.logoWebsite {
     }
 
     .menu-pruebas .submenu-opciones .title-section {
-        margin-bottom: -30px;
-        margin-top: 40px;
         padding: 0 40px;
         font-weight: 600;
         text-decoration: underline
@@ -6384,8 +6474,8 @@ textarea::placeholder {
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
-    *border-right-width: 2px;
-    *border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
     color: #333;
     font-size: 13px;
     line-height: 18px
@@ -6692,6 +6782,16 @@ a.link-white {
         width: 95% !important;
         margin: 10px auto !important
     }
+    .footer__social_links{
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .footer__social_links a {
+        margin: 0 5px; 
+    }
+    .footer__disclaimer{
+        margin-top: 2rem;
+    }
 }
 
 .required:after {
@@ -6708,10 +6808,6 @@ a.link-white {
 
 .funciona-clinicos {
     margin-bottom: 150px
-}
-
-.funciona-clinicos .title-section {
-    margin-bottom: 100px
 }
 
 .section-products {
@@ -6959,7 +7055,7 @@ button.owl-prev-gallery {
 .owl-theme .owl-dots .owl-dot {
     display: inline-block;
     zoom: 1;
-    *display: inline
+    /* display: inline */
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -17524,15 +17620,10 @@ screen and (min-width: 75em) {
     background-color: #555;
   }
   
-  .cruz-azul {
-    /* Estilos para la clase cruz-azul */
-  }
-  
-  
   .product-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
     text-align: center;
   }
@@ -17546,17 +17637,29 @@ screen and (min-width: 75em) {
     max-width: 300px;
     flex-basis: calc(33.33% - 20px);
   }
-  
+
+  .product-container .product-item ul{
+      padding: 0;
+      margin: 0;
+    }
+    
+  .product-container .product-item ul {
+    overflow-wrap: break-word;
+  }
+
   .product-container .product-item img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
+    margin: 0 auto;
+    display: block;
   }
   
   .product-container .product-item h2 {
     font-size: 18px;
     margin: 10px 0;
+    min-height: 4.2rem;
   }
   
   .product-container .product-item .price {
@@ -17704,6 +17807,8 @@ screen and (min-width: 75em) {
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
+    margin: 0 auto;
+    display: block;
   }
   
   .product-container-3 .product-item h2 {

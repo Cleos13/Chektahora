@@ -1,0 +1,25 @@
+version: '3.3'
+
+services:
+  conekta:
+    build: ./Docker/
+    ports:
+      - 8080:80
+    volumes:
+      - ./:/var/www/html 
+      - "./.htaccess:/var/www/html/.htaccess"
+  db:
+    # image: mysql:8.0.33
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: "prueba"
+      MYSQL_DATABASE: its
+      MYSQL_USER: prueba
+      MYSQL_PASSWORD: "prueba"
+    ports:
+      - 3310:3306
+    volumes:
+      - prueba_db:/var/lib/mysql
+
+volumes:
+  prueba_db:
