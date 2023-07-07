@@ -1643,6 +1643,11 @@ p.seccionMoradaClara {
 }
 @media screen and (min-width: 1024px) {
 
+    .banner_inmunochek.spaceSection .contenido a{
+        left: 37% !important;
+        bottom: 17% !important;
+    }
+
     .spaceSection.step {
         padding: 3% 0;
     }
@@ -3856,7 +3861,7 @@ a.logoWebsite {
     }
 
     .covidPruebas {
-        background-image: url("img/banners/covidPrueba/microscopic.jpg")
+        background-image: url("img/banners/covidPrueba/Banner_Covid.webp")
     }
 
     .promesa .Blaine {
@@ -3989,7 +3994,7 @@ a.logoWebsite {
     }
 
     .covidPruebas {
-        background-image: url("img/banners/covidPrueba/microscopic.jpg")
+        background-image: url("img/banners/covidPrueba/Banner_Covid.webp")
     }
 
     .covidPruebas a {
@@ -4028,7 +4033,7 @@ a.logoWebsite {
     }
 
     .covidPruebas {
-        background: url("img/banners/covidPrueba/microscopic.jpg") no-repeat 0 0;
+        background: url("img/banners/covidPrueba/Banner_Covid.webp") no-repeat 0 0;
         color: white;
         padding: 17%;
         background-size: cover
@@ -4287,7 +4292,7 @@ a.logoWebsite {
     }
 
     .covidPruebas {
-        background-image: url("img/banners/covidPrueba/microscopic.jpg")
+        background-image: url("img/banners/covidPrueba/Banner_Covid.webp")
     }
 
     .pasosMobile .pasosMobile__wrapper {
@@ -4735,7 +4740,7 @@ a.logoWebsite {
     }
 
     .covidPruebas {
-        background-image: url("img/banners/microscopic.jpg")
+        background-image: url("img/banners/covidPrueba/Banner_Covid.webp")
     }
 
     ul.comoFunciona {

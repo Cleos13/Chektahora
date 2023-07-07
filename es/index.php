@@ -74,13 +74,14 @@
         </div>
 
         <div class="fluid" id="home">
+
             <div class="grid-x main__content">
                 <?php include 'template/header.php'; ?>
                 <!-- Banners Home page -->
                 <div class="cell spaceTop relative">
                     <div class="item">
-                        <img src="../img/banners/desktop/Covers-Hot-Junio.webp" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
-                        <img src="../img/banners/mobile/Covers-Junio-mobile.webp" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
+                        <img src="../img/banners/desktop/Banner-Web-VPH-Black.webp" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
+                        <img src="../img/banners/mobile/Banner-Web-mobile-VPH-Black.webp" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
                     </div>
                 </div>
                 <!-- Banners Home page -->
@@ -95,7 +96,7 @@
 
                     <div class="product-item">
                         <h2 style="font-weight: bold; color: #662480;">KIT GOLD DETECTA 7 <br> ITS</h2>
-                        <img src="../img/Producto-Kit-Gold-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+                        <img src="../img/productos/Img_Kit_Glod.webp" alt="KIT GOLD DETECTA 7 ITS" class="llamativo">
                         <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$2,720</p>
                         <div class="buttons">
                             <a href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC" class="buy-button">Comprar</a>
@@ -132,7 +133,7 @@
 
                     <div class="product-item">
                         <h2 style="font-weight: bold; color: #662480;">KIT BLACK DETECTA 13 <br> ITS</h2>
-                        <img src="../img/Producto-Kit-Black-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+                        <img src="../img/productos/Img_Kit_Black.webp" alt="KIT BLACK DETECTA 13 ITS" class="llamativo">
                         <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$4,999</p>
                         <div class="buttons">
                             <a href="https://buy.stripe.com/4gw02lbTAd9W0aQ9Gh" class="buy-button">Comprar</a>
@@ -183,7 +184,7 @@
 
                     <div class="product-item">
                         <h2 style="font-weight: bold; color: #662480;">KIT PLATINUM DETECTA 12 ITS</h2>
-                        <img src="../img/Producto-Kit-Platinum-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
+                        <img src="../img/productos/Img_Kit_Platinum.webp" alt="KIT PLATINUM DETECTA 12 ITS" class="llamativo">
                         <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$3,320</p>
                         <div class="buttons">
                             <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
@@ -234,7 +235,7 @@
 
                     <div class="product-item">
                         <h2 style="font-weight: bold; color: #662480;">KIT <br> VPH</h2>
-                        <img src="../img/Producto-Kit-VPH-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
+                        <img src="../img/productos/Img_Kit_VPH.webp" alt="Producto 4" class="llamativo">
                         <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$2,620</p>
                         <div class="buttons">
                             <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
@@ -278,7 +279,6 @@
 
                 </div>
 
-
                 <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4">
                     <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
                 </div>
@@ -287,7 +287,7 @@
 
                     <div class="product-item">
                         <h2 style="font-weight: bold; color: #662480">PRUEBA INFLUENZA + COVID<br> ITS</h2>
-                        <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+                        <img src="../img/productos/Img_Kit_Anticuerpos.webp" alt="Producto 1" class="llamativo">
                         <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $1,399</p>
                         <div class="buttons">
                             <a href="https://buy.stripe.com/6oE02le1I3zmaPu6s2" class="buy-button">Comprar</a>
@@ -297,7 +297,7 @@
 
                     <div class="product-item">
                         <h2 style="font-weight: bold; color: #662480">PRUEBA <br> PCR</h2>
-                        <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+                        <img src="../img/productos/Img_Kit_Covid-19.webp" alt="Producto 2" class="llamativo">
                         <p style="font-weight: bold; font-size: 28px; color:red;" class="price"><del style="color: black;">$1,100</del> $599</p>
                         </p>
                         <div class="buttons">
@@ -308,7 +308,7 @@
 
                     <div class="product-item">
                         <h2 style="font-weight: bold; color: #662480">PRUEBA <br> ANTÍGENOS</h2>
-                        <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
+                        <img src="../img/productos/Img_Kit_Covid-Influeza.webp" alt="Producto 3" class="llamativo">
                         <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $599</p>
                         <div class="buttons">
                             <a href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS" class="buy-button">Comprar</a>
@@ -318,7 +318,7 @@
 
                     <div class="product-item">
                         <h2 style="font-weight: bold; color: #662480">PRUEBA <br> ANTICUERPOS</h2>
-                        <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
+                        <img src="../img/productos/Img_Kit_Covid-19.webp" alt="Producto 4" class="llamativo">
                         <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$1,050</p>
                         <div class="buttons">
                             <a href="https://buy.stripe.com/cN28yR0aSee05va4jI" class="buy-button">Comprar</a>
@@ -336,8 +336,8 @@
                                     Conoce Más
                                     <!-- <button type="button" class="w3-button w3-yellow w3-border w3-round-large" style="vertical-align: bottom">Enlace</button> -->
                                 </a>
-                                <img src="../css/img/banners/desktop/holoo.jpg" class="hide-for-small-only show-for-medium" alt="inmunocheck">
-                                <img src="../css/img/banners/desktop/Banner-Web.jpg" class="hide-for-medium show-for-small" alt="inmunocheck">
+                                <img src="../img/banners/desktop/Banner-Chekt-x-Inmuno-web.webp" class="show-for-large" alt="inmunocheck">
+                                <img src="../css/img/banners/desktop/Banner-Web.jpg" class="show-for-small hide-for-large" alt="inmunocheck">
                             </div>
                         </div>
                     </div>
@@ -420,7 +420,6 @@
                     </div>
                 </div>
 
-
                 <div class="cell text-left spaceSection ">
                     <div class="grid-x ">
                         <div class="large-12 medium-12 small-12 grid-padding-x align-self-middle text-center py-3 ">
@@ -493,19 +492,17 @@
                     </div>
                 </div>
 
-
                 <div class="cell text-left bkSpacial ">
                     <div class="grid-x ">
                         <div class="large-12 medium-12 small-12 grid-padding-x text-center spaceX ">
                             <h2 class="morado my-3">
                                 <strong>NUESTROS ALIADOS</strong>
                             </h2>
-                            <img class="logos " alt="aliados " src="../css/img/aliados.png " />
+                            <img class="logos " alt="aliados " src="../img/banners/desktop/banner-aliados.webp" />
                         </div>
                     </div>
                 </div>
             </div>
-
 
             <?php include 'template/footer.php'; ?>
         </div>
