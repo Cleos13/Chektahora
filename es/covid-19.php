@@ -102,7 +102,7 @@
 
             <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                 <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">PRUEBA INFLUENZA + COVID<br> ITS</h2>
+                    <h2 style="font-weight: bold; color: #662480">Prueba PCR para detección de influenza + COVID</h2>
                     <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
                     <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $1,399</p>
                     <div class="buttons">
@@ -112,7 +112,7 @@
                 </div>
 
                 <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">PRUEBA <br> PCR</h2>
+                    <h2 style="font-weight: bold; color: #662480">Prueba PCR para detección de COVID</h2>
                     <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
                     <p style="font-weight: bold; font-size: 28px; color:red;" class="price"><del style="color: black;">$1,100</del> $599</p>
                     <div class="buttons">
@@ -122,7 +122,7 @@
                 </div>
 
                 <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">PRUEBA <br> ANTÍGENOS</h2>
+                    <h2 style="font-weight: bold; color: #662480">Prueba de Antígenos para detección de COVID</h2>
                     <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
                     <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $599</p>
                     <div class="buttons">
@@ -132,7 +132,7 @@
                 </div>
 
                 <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">PRUEBA <br> ANTICUERPOS</h2>
+                    <h2 style="font-weight: bold; color: #662480">Prueba de Anticuerpos para detección de COVID</h2>
                     <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
                     <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$1,050</p>
                     <div class="buttons">
