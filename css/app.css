@@ -17866,4 +17866,10 @@ screen and (min-width: 75em) {
     display: block;
   }
 
-  
+  @media screen and (min-width: 1024px) {
+
+    .banner_inmunochek.spaceSection .contenido a{
+        left: 37% !important;
+        bottom: 17% !important;
+    }
+}
