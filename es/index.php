@@ -106,12 +106,12 @@
                             <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
                             <ul class="text-center">
                                 <li>Clamidia</li>
-                                <li>Gonorrea</li>
-                                <li>Tricomoniasis</li>
-                                <li>Mycoplasma Hominis</li>
-                                <li>Mycoplasma Genitalium</li>
-                                <li>Ureaplasma Urealyticum</li>
-                                <li>Ureaplasma Parvum</li>
+                                <li> + Gonorrea</li>
+                                <li> + Tricomoniasis</li>
+                                <li> + Mycoplasma Hominis</li>
+                                <li> + Mycoplasma Genitalium</li>
+                                <li> + Ureaplasma Urealyticum</li>
+                                <li> + Ureaplasma Parvum</li>
                             </ul>
                             <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
                             <ul>
@@ -141,30 +141,30 @@
                         </div>
                         <div class="additional-info">
                             <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
-                            <ul>
+                            <ul class="mb-2">
                                 <li>VPH</li>
-                                <li>Clamidia</li>
-                                <li>Gonorrea</li>
-                                <li>Tricomoniasis</li>
-                                <li>Mycoplasma Hominis</li>
-                                <li>Mycoplasma Genitalium</li>
-                                <li>Ureaplasma Urealyticum</li>
-                                <li>Ureaplasma Parvum</li>
+                                <li> + Clamidia</li>
+                                <li> + Gonorrea</li>
+                                <li> + Tricomoniasis</li>
+                                <li> + Mycoplasma Hominis</li>
+                                <li> + Mycoplasma Genitalium</li>
+                                <li> + Ureoplasma Urealyticum</li>
+                                <li> + Ureoplasma Parvum</li>
                             </ul>
-
-                            <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por INMUNOCROMATOGRAFÍA</h3>
-                            <ul>
-                                <li>VPH</li>
-                                <li>Sífilis</li>
-                                <li>Herpes</li>
-                                <li>Hepatitis B</li>
-                                <li>Hepatitis C</li>
+                            <h3 style="font-size: 20px; color: #4F2D83;">
+                                Procesamientos por INMUNOCROMATOGRAFÍA
+                            </h3>
+                            <ul class="mb-2">
+                                <li>VIH</li>
+                                <li> + Sífilis</li>
+                                <li> + Herpes</li>
+                                <li> + Hepatitis B</li>
+                                <li> + Hepatitis C</li>
                             </ul>
-
                             <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
-                            <ul>
+                            <ul class="mb-2">
                                 <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
-                                <li>1 PeeCanter (Kit pene).</li>
+                                <li>1 Hisopo uretral y 1 PeeCanter (Kit pene).</li>
                                 <li>1 Tubo de recolección para muestra sanguínea BD Vacutainer.</li>
                                 <li>1 Aguja para punción venosa.</li>
                                 <li>1 Cinta adhesiva circular.</li>
@@ -192,23 +192,23 @@
                         </div>
                         <div class="additional-info">
                             <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
-                            <ul>
+                            <ul class="mb-2">
                                 <li>Clamidia</li>
-                                <li>Gonorrea</li>
-                                <li>Tricomoniasis</li>
-                                <li>Mycoplasma Hominis</li>
-                                <li>Mycoplasma Genitalium</li>
-                                <li>Ureaplasma Urealyticum</li>
-                                <li>Ureaplasma Parvum</li>
+                                <li> + Gonorrea</li>
+                                <li> + Tricomoniasis</li>
+                                <li> + Mycoplasma Hominis</li>
+                                <li> + Mycoplasma Genitalium</li>
+                                <li> + Ureaplasma Urealyticum</li>
+                                <li> + Ureaplasma Parvum</li>
                             </ul>
 
                             <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por INMUNOCROMATOGRAFÍA</h3>
-                            <ul>
-                                <li>VPH</li>
-                                <li>Sífilis</li>
-                                <li>Herpes</li>
-                                <li>Hepatitis B</li>
-                                <li>Hepatitis C</li>
+                            <ul class="mb-2">
+                                <li>VIH</li>
+                                <li> + Sífilis</li>
+                                <li> + Herpes</li>
+                                <li> + Hepatitis B</li>
+                                <li> + Hepatitis C</li>
                             </ul>
 
 
@@ -226,7 +226,7 @@
                             </ul>
                             <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
                             <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con Vulva: Cervical, vaginal y Sanguínea.</p>
-                            <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina, uretral y sanguínea.</p>
+                            <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina y sanguínea.</p>
                             <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
 
                                 El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
@@ -248,15 +248,6 @@
                                 <li>16,18,26,31,33,35,39,45,51,52,53,56,58,59,66,68,69,73,82.</li>
                                 <h3 style="font-size: 20px; color: #4F2D83;">Genotipos de Bajo Riesgo</h3>
                                 <li>6,11,40,42,43,44,54,61,70.</li>
-                            </ul>
-
-                            <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por INMUNOCROMATOGRAFÍA</h3>
-                            <ul>
-                                <li>VPH</li>
-                                <li>Sífilis</li>
-                                <li>Herpes</li>
-                                <li>Hepatitis B</li>
-                                <li>Hepatitis C</li>
                             </ul>
 
                             <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
@@ -337,7 +328,7 @@
                                     <!-- <button type="button" class="w3-button w3-yellow w3-border w3-round-large" style="vertical-align: bottom">Enlace</button> -->
                                 </a>
                                 <img src="../img/banners/desktop/Banner-Chekt-x-Inmuno-web.webp" class="show-for-large" alt="inmunocheck">
-                                <img src="../css/img/banners/desktop/Banner-Web.jpg" class="show-for-small hide-for-large" alt="inmunocheck">
+                                <img src="../css/img/banners/mobile/Banner-Chekt-x-Inmuno-mobile.webp" class="show-for-small hide-for-large" alt="inmunocheck">
                             </div>
                         </div>
                     </div>

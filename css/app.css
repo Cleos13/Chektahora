@@ -1611,7 +1611,10 @@ p.seccionMoradaClara {
 }
 
 @media screen and (max-width: 1023px) {
-  
+
+    .banner_inmunochek.spaceSection .contenido img {
+        width: 100%;
+    }
     .spaceSection.step .pasos p{
         padding: 0 3%;
     }
@@ -1803,7 +1806,7 @@ ul.comoFunciona li strong {
 }
 .banner_inmunochek.spaceSection .contenido a{
     position: absolute;
-    bottom: 10%;
+    bottom: 53%;
     left: 50%;
     transform: translateX(-50%);
     padding: 7px;
@@ -3173,6 +3176,11 @@ http://flickity.metafizzy.co
 }
 
 @media screen and (min-width: 769px) {
+
+    .banner_inmunochek.spaceSection .contenido a{
+        bottom: 57% !important;
+    }
+
     ul.detalles {
         display: flex;
         justify-content: center
