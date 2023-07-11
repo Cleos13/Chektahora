@@ -42,7 +42,7 @@
     <img src="../img/productos/Img_Kit_Black.webp" alt="KIT BLACK DETECTA 13 ITS" class="llamativo">
     <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$4,999</p>
     <div class="buttons">
-      <a href="https://buy.stripe.com/4gw02lbTAd9W0aQ9Gh" class="buy-button">Comprar</a>
+      <a href="https://buy.stripe.com/4gweXf8Ho2vibTy8Dd" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
     <div class="additional-info">
