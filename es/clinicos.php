@@ -60,23 +60,15 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
     <div class="grid-x">
       <?php include 'template/header.php'; ?>
       <!-- Banners Home page -->
-      <div class="cell spaceTop relative" style="margin-top: 100px;">
-        <div class="owl-carousel owl-theme" id="carousel-banner">
-          <?php
-          include 'master/banners.php';
-          $banners = getBanners('clinicos');
-          foreach ($banners as $b) {
-            echo '<div class="item">
-                                <img src="../img/banners/desktop/' . $b['img_desktop'] . '" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
-                                <img src="../img/banners/mobile/' . $b['img_mobile'] . '" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
-                            </div>';
-          }
-          ?>
+      <div class="cell spaceTop relative">
+        <div class="item">
+          <img src="../img/banners/desktop/eduin.jpg" class="hide-for-small-only show-for-medium" alt="its" width="100%">
+          <img src="../img/banners/mobile/tampoco.jpg" class="hide-for-medium show-for-small" alt="its" width="100%">
         </div>
       </div>
       <!-- Banners Home page -->
       <div class="cell text-left" style="background-color: #fff; margin-bottom: 60px; margin-top: 50px">
-        <div class="product-container-3">
+        <div class="product-container hide-more-btn">
           <div class="product-item">
             <img src="../img/Biometría-ematica.jpg" alt="Producto 1">
             <h2 style="font-weight: bold; color: #662480">Biometría <br> Hemática</h2>
