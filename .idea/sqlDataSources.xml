@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="bfd949c0-5145-4c4a-8fd4-e4dd3b917611" name="Amazon Aurora MySQL Mapping">
+      <data-sources db="6cf73130-5803-4e55-91dc-eca74ea0c038" />
+    </mapping>
+  </component>
+</project>
