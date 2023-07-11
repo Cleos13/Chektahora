@@ -17873,6 +17873,6 @@ screen and (min-width: 75em) {
     }
 }
 
-.product-container.hide-more-btn .product-item .more-button {
+.product-container-3.hide-more-btn .product-item .more-button {
     display:none;
 }

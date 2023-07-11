@@ -68,7 +68,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
       </div>
       <!-- Banners Home page -->
       <div class="cell text-left" style="background-color: #fff; margin-bottom: 60px; margin-top: 50px">
-        <div class="product-container hide-more-btn">
+        <div class="product-container-3 hide-more-btn">
           <div class="product-item">
             <img src="../img/Biometría-ematica.jpg" alt="Producto 1">
             <h2 style="font-weight: bold; color: #662480">Biometría <br> Hemática</h2>
