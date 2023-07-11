@@ -96,53 +96,18 @@
             <?php include 'template/header.php'; ?>
 
             <!-- Banners Home page -->
+            <div class="cell spaceTop relative">
+                <div class="item">
+                    <img src="../img/banners/desktop/coovid.jpg" class="hide-for-small-only show-for-medium" alt="its" width="100%">
+                    <img src="../img/banners/mobile/Banner Mobile Nov 22 Covid-19.jpg" class="hide-for-medium show-for-small" alt="its" width="100%">
+                </div>
+            </div>
             <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection mt-4 mb-2">
                 <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
             </div>
-
-            <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">Prueba PCR para detección de influenza + COVID</h2>
-                    <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
-                    <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $1,399</p>
-                    <div class="buttons">
-                        <a href="https://buy.stripe.com/6oE02le1I3zmaPu6s2" class="buy-button">Comprar</a>
-                        <a href="#" class="more-button">Ver más</a>
-                    </div>
-                </div>
-
-                <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">Prueba PCR para detección de COVID</h2>
-                    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-                    <p style="font-weight: bold; font-size: 28px; color:red;" class="price"><del style="color: black;">$1,100</del> $599</p>
-                    <div class="buttons">
-                        <a href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp" class="buy-button">Comprar</a>
-                        <a href="#" class="more-button">Ver más</a>
-                    </div>
-                </div>
-
-                <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">Prueba de Antígenos para detección de COVID</h2>
-                    <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
-                    <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $599</p>
-                    <div class="buttons">
-                        <a href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS" class="buy-button">Comprar</a>
-                        <a href="#" class="more-button">Ver más</a>
-                    </div>
-                </div>
-
-                <div class="product-item">
-                    <h2 style="font-weight: bold; color: #662480">Prueba de Anticuerpos para detección de COVID</h2>
-                    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
-                    <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$1,050</p>
-                    <div class="buttons">
-                        <a href="https://buy.stripe.com/cN28yR0aSee05va4jI" class="buy-button">Comprar</a>
-                        <a href="#" class="more-button">Ver más</a>
-                    </div>
-                </div>
-
-            </div>
             <!-- Banners Home page -->
+
+            <?php include './template/partials/products/covid-19.php'; ?>
 
             <div class="cell">
                 <div class="grid-x bkPurple spaceX ">
@@ -191,9 +156,9 @@
                             <div class="large-2 step__number">
                                 <img class="step mx-auto" alt="pasos" src="../css/img/pasos/step2.png" />
                             </div>
-    
+
                             <div class="infoSteps large-6">
-    
+
                                 <h2>Visita a tu domicilio</h2>
                                 <p>Nuestro equipo capacitado llegará a tu domicilio y realizará tu toma de muestra.</p>
                                 <div class="step2-Video d-none">
@@ -202,9 +167,9 @@
                                     </a>
                                     <p>Ver cómo se realiza todo el proceso de toma de muestra.</p>
                                 </div>
-    
+
                             </div>
-    
+
                             <div class="large-4 step__img">
                                 <img class="right p-5" alt="pasos" src="../css/img/step2.png" />
                             </div>
@@ -213,20 +178,20 @@
 
                     <div class="large-12 medium-12 grid-padding-x step3">
 
-                    <div class="grid-x">
-                        <div class="large-2 step__number">
-                            <img class="step" alt="pasos" src="../css/img/pasos/step3.png" />
+                        <div class="grid-x">
+                            <div class="large-2 step__number">
+                                <img class="step" alt="pasos" src="../css/img/pasos/step3.png" />
+                            </div>
+
+                            <div class="infoSteps large-6">
+
+                                <h2>Consulta tus resultados</h2>
+                                <p>Nuestro personal médico asistirán a tu domicilio para realizar la toma de muestra, si requieres certificado de viaje, por favor indícalo a nuestro equipo. </p>
+                                <p>Tus resultados se encuentran seguros gracias a nuestros certificados de seguridad</p>
+
+                            </div>
                         </div>
-    
-                        <div class="infoSteps large-6">
-    
-                            <h2>Consulta tus resultados</h2>
-                            <p>Nuestro personal médico asistirán a tu domicilio para realizar la toma de muestra, si requieres certificado de viaje, por favor indícalo a nuestro equipo. </p>
-                            <p>Tus resultados se encuentran seguros gracias a nuestros certificados de seguridad</p>
-    
-                        </div>      
-                    </div>
-                    
+
                     </div>
                 </div>
 
@@ -310,6 +275,7 @@
             }
         })
     </script>
+    <?php include './template/partials/scripts/more-btn.php'; ?>
 </body>
 
 </html>

@@ -57,49 +57,7 @@
                     <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
                 </div>
 
-                <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                    <div class="product-item">
-                        <h2 style="font-weight: bold; color: #662480">KIT GOLD DETECTA 7 <br> ITS</h2>
-                        <img src="../img/Producto-Kit-Gold-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
-                        <p style="font-weight: bold; font-size: 28px;" class="price">$2,720</p>
-                        <div class="buttons">
-                            <a href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC" class="buy-button">Comprar</a>
-                            <a href="#" class="more-button">Ver más</a>
-                        </div>
-                    </div>
-
-                    <div class="product-item">
-                        <h2 style="font-weight: bold; color: #662480">KIT BLACK DETECTA 13 <br> ITS</h2>
-                        <img src="../img/Producto-Kit-Black-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-                        <p style="font-weight: bold; font-size: 28px;" class="price">$4,999</p>
-                        <div class="buttons">
-                            <a href="https://buy.stripe.com/4gw02lbTAd9W0aQ9Gh" class="buy-button">Comprar</a>
-                            <a href="#" class="more-button">Ver más</a>
-                        </div>
-                    </div>
-
-                    <div class="product-item">
-                        <h2 style="font-weight: bold; color: #662480">KIT PLATINUM DETECTA 12 ITS</h2>
-                        <img src="../img/Producto-Kit-Platinum-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
-                        <p style="font-weight: bold; font-size: 28px;" class="price">$3,320</p>
-                        <div class="buttons">
-                            <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
-                            <a href="#" class="more-button">Ver más</a>
-                        </div>
-                    </div>
-
-                    <div class="product-item">
-                        <h2 style="font-weight: bold; color: #662480">KIT <br> VPH</h2>
-                        <img src="../img/Producto-Kit-VPH-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
-                        <p style="font-weight: bold; font-size: 28px;" class="price">$2,620</p>
-                        <div class="buttons">
-                            <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
-                            <a href="#" class="more-button">Ver más</a>
-                            <p></p>
-                        </div>
-                    </div>
-
-                </div>
+                <?php include './template/partials/products/its.php'; ?>
 
                 <div class="cell text-left spaceSection py-5 px-2">
                     <div class="grid-x">
@@ -331,6 +289,7 @@
             });
         });
     </script>
+    <?php include './template/partials/scripts/more-btn.php'; ?>
 </body>
 
 </html>

@@ -17672,7 +17672,6 @@ screen and (min-width: 75em) {
   
   .product-container .product-item .price {
     font-size: 16px;
-    color: #ff0000;
     margin-bottom: 10px;
   }
   
@@ -17872,4 +17871,8 @@ screen and (min-width: 75em) {
         left: 37% !important;
         bottom: 17% !important;
     }
+}
+
+.product-container-3.hide-more-btn .product-item .more-button {
+    display:none;
 }
