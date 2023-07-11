@@ -42,7 +42,7 @@
                
             </div>
            
-            <a href="blog" role="menuitem" class="menuAnimado text-morado svg fw-medium">BLOG</a>
+            <a href="blog" role="menuitem" class="menuAnimado text-morado svg fw-medium d-none">BLOG</a>
            <!--  <div class="d-flex">
                 <button id="menu-pruebasa" class="subMenu text-morado d-flex align-height-center fw-medium">INFECCIONES SEXUALES
                     <div class="pl-5">
@@ -407,7 +407,7 @@
                         ANALISIS CLINICOS</a>
                     <a class="fw-bold" space="submenu-pruebas-mobile" id="covid-m">
                         COVID-19</a>
-                    <a href="blog" class="d-flex align-height-center fw-bold">BLOG</a>
+                    <a href="blog" class="d-flex align-height-center fw-bold d-none">BLOG</a>
                 </div>
                 <div class="submenu-opciones display-none" space="sexual-m">
                     <div class="title-section text-morado">INFECCIONES SEXUALES</div>
