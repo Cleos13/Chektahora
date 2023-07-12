@@ -7,7 +7,7 @@
       <a href="https://buy.stripe.com/6oE02le1I3zmaPu6s2" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
-    <div class="additional-info">
+    <div class="additional-info d-none">
       <h3 style="font-size: 20px; color: #4F2D83;">
         Prueba PCR de COVID-19 + Influenza, avalada por el InDRE y COFEPRIS.
       </h3>
@@ -34,7 +34,7 @@
       <a href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
-    <div class="additional-info">
+    <div class="additional-info d-none">
       <h3 style="font-size: 20px; color: #4F2D83;">
         Prueba PCR de COVID-19, avalada por el InDRE y COFEPRIS.
       </h3>
@@ -58,7 +58,7 @@
       <a href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
-    <div class="additional-info">
+    <div class="additional-info d-none">
       <h3 style="font-size: 20px; color: #4F2D83;">
         Prueba de Antígenos de COVID-19, registradas y certificación de calidad TUV y GMP, con una sensibilidad y especificidad mayor al 90%.
       </h3>
@@ -83,7 +83,7 @@
       <a href="https://buy.stripe.com/cN28yR0aSee05va4jI" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
-    <div class="additional-info">
+    <div class="additional-info d-none">
       <h3 style="font-size: 20px; color: #4F2D83;">
         Prueba de Anticuerpos COVID-19 avalada por el InDRE y COFEPRIS.
       </h3>

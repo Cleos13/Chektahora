@@ -8,7 +8,7 @@
       <a href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
-    <div class="additional-info">
+    <div class="additional-info d-none">
       <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
       <ul class="text-center">
         <li>Clamidia</li>
@@ -45,7 +45,7 @@
       <a href="https://buy.stripe.com/4gweXf8Ho2vibTy8Dd" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
-    <div class="additional-info">
+    <div class="additional-info d-none">
       <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
       <ul class="mb-2">
         <li>VPH</li>
@@ -96,7 +96,7 @@
       <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
-    <div class="additional-info">
+    <div class="additional-info d-none">
       <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
       <ul class="mb-2">
         <li>Clamidia</li>
@@ -147,7 +147,7 @@
       <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
       <a href="#" class="more-button">Ver más</a>
     </div>
-    <div class="additional-info">
+    <div class="additional-info d-none">
       <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
       <ul>
         <h3 style="font-size: 20px; color: #4F2D83;">Genotipos de Alto Riesgo</h3>
