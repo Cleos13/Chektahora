@@ -12,12 +12,7 @@
       // Encuentra el elemento de información adicional dentro del contenedor del producto
       var additionalInfo = productItem.querySelector(".additional-info");
 
-      // Alterna la visibilidad de la información adicional al hacer clic en el botón
-      if (additionalInfo.style.display === "none") {
-        additionalInfo.style.display = "block";
-      } else {
-        additionalInfo.style.display = "none";
-      }
+      additionalInfo.classList.toggle("d-none");
     });
   });
 </script>
