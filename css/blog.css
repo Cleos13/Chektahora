@@ -218,14 +218,24 @@
 }
 
 .image-section .image-container .text h2 {
-  font-size: 1.2vw;
+  font-size:  1.4rem;
   text-align: center;
+  margin: 0;
+  padding: 3%;
 }
 
 .image-container h2 {
   color: white;
 }
 
+.article .article__title h1{
+  text-align: left ;
+  padding: 3% 0;
+}
+
+.article .article__container {
+  padding: 0 3% 3% 3%;
+}
 
 @media only screen and (max-width: 768px) {
   /* Banner section */
@@ -349,8 +359,6 @@
     font-size: 0.8rem;
     margin-top: 0.3rem;
   }
-  
-  /* Image section */
 }
 
 
@@ -364,4 +372,5 @@
   .texto-imagen{
     padding: 4rem;
   }
+
 }
