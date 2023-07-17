@@ -17,6 +17,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <script>
         ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
@@ -40,32 +42,51 @@
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=686668561821805&ev=PageView&noscript=1" /></noscript>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LeRAI8eAAAAAGYdXRWWmQ3V6XqzSjeZ3LCLXJwh"></script> 
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeRAI8eAAAAAGYdXRWWmQ3V6XqzSjeZ3LCLXJwh"></script>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NNR8MBT');</script>
-<!-- End Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NNR8MBT');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNR8MBT"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNR8MBT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="fluid">
-        
+
         <div class="grid-x">
             <?php include 'template/header.php'; ?>
 
-            <div class="cell text-left fondoMorado" style="margin-top: 8%;">
+            <!-- Banners Home page -->
+            <div class="cell spaceTop relative">
+                <div class="item">
+                    <img src="../img/banners/desktop/eduin.jpg" class="hide-for-small-only show-for-medium" alt="its" width="100%">
+                    <img src="../img/banners/mobile/tampoco.jpg" class="hide-for-medium show-for-small" alt="its" width="100%">
+                </div>
+            </div>
+            <!-- Banners Home page -->
+
+            <div class="cell text-left fondoMorado">
                 <div class="grid-x">
                     <div class="cell text-left  spaceX preguntasFrecuentes bkLila">
-                        <div class="grid-x spaceTop ">
+                        <div class="grid-x spaceTop justify-content-center">
                             <div class="large-12 medium-12 small-12 grid-padding-x formularios text-center pb-3">
-                                <h1><strong>¿Algo no te queda claro?</br> estamos para resolver todas tus dudas</strong></h1>
+                                <h1 class="text-center"><strong>¿Algo no te queda claro?</br> estamos para resolver todas tus dudas</strong></h1>
                             </div>
                             <div class="large-12 medium-6 small-12 grid-padding-x flex-center">
                                 <Form id="form-message">
@@ -102,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </div>
                                 </Form>
                             </div>
-                            <div class="large-12 medium-12 small-12 grid-padding-x text-right show-for-medium">
+                            <div class="large-12 medium-12 small-12 grid-padding-x text-center show-for-medium">
                                 <p class="text-morado">¿Tienes alguna queja o sugerencia? ¡Escríbenos!</p>
                                 <p><a class="text-morado" href="mailto:quejas.sugerencias@chektahora.com">quejas.sugerencias@chektahora.com</a></p>
                             </div>
