@@ -1774,11 +1774,6 @@ ul.comoFunciona li strong {
     color: #4F2D83;
     margin: auto;
     background-size: cover;
-    height: 720px
-}
-
-.nuestrosInicios .titulo {
-    margin-top: 70px
 }
 
 .nuestrosInicios .titulo h2 {
@@ -1795,8 +1790,6 @@ ul.comoFunciona li strong {
 }
 
 .nuestrosInicios p {
-    margin-top: 217px;
-    margin-left: 50px;
     width: 450px;
     font-size: 1.5rem
 }
@@ -1929,12 +1922,7 @@ ul.comoFunciona li strong {
     margin: auto;
     position: relative;
     width: 100%;
-    height: 340px;
     padding: 10px 80px
-}
-
-.realizamos .titulo {
-    margin-top: 40px
 }
 
 .realizamos p {
@@ -4061,10 +4049,6 @@ a.logoWebsite {
         bottom: 0
     }
 
-    .header .menu .nuestrosValores ul.valores li {
-        margin: 5% 0
-    }
-
     .header .menu .btnPurple3,
     .header .menu .btnWhite {
         float: left;
@@ -4381,10 +4365,6 @@ a.logoWebsite {
 
     .nuestrosValores h2.morado {
         background: none
-    }
-
-    .nuestrosValores ul.valores li {
-        margin: 5% 0
     }
 
     .nuestrosValores .valoresMobile {

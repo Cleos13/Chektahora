@@ -74,40 +74,49 @@
         <div class="grid-x">
             <?php include 'template/header.php'; ?>
 
-            <div class="cell text-left show-for-medium">
+            <div class="cell text-left show-for-large">
                 <div class="grid-x">
-                    <div class="large-11 medium-10 grid-padding-x nuestrosInicios grid-x">
-                        <div class="grid-x relative large-12">
-                            <div class="large-6">
-                                <div class="titulo text-center">
-                                    <h2 class="morado"><strong>ChektAhora</strong></h2>
-                                    <h2>Nuestros inicios</h2>
+                    <div class="large-12 medium-10 grid-padding-x nuestrosInicios grid-x py-5">
+                        <div class="grid-x">
+                            <div class="large-10 mx-auto">
+                                <div class="grid-x relative large-12 mx-auto justify-content-center">
+                                    <div class="large-6">
+                                        <div class="titulo text-center">
+                                            <h2 class="morado"><strong>ChektAhora</strong></h2>
+                                            <h2>Nuestros inicios</h2>
+                                        </div>
+                                    </div>
+                                    <div class="large-6 flex-center">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="../img/us/Nosotros.jpg" style="max-width: 40%;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-x relative large-12 mx-auto justify-content-center">
+                                    <div class="large-6 flex-center">
+                                        <img src="../img/us/tamano.jpg" style="max-width: 30%;">
+                                    </div>
+                                    <div class="large-6 d-flex justify-content-center align-items-center">
+                                        <div>
+                                            <p>Somos un laboratório clínico líder en la transformación digital de la salud, fundada en 2015 en Dublín, Irlanda con presencia en México.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="large-6 flex-center" style="position: absolute; right: -60px; top: -15px;">
-                                <img src="../img/us/Nosotros.jpg" style="width: 900px;">
-                            </div>
                         </div>
-                        <div class="grid-x relative large-12">
-                            <div class="large-6 flex-center" style="position: inherit; left: -60px; bottom: -15px;">
-                                <img src="../img/us/tamano.jpg" style="width: 330px;">
-                            </div>
-                            <div class="large-6">
-                                <p>Somos un laboratório clínico líder en la transformación digital de la salud, fundada en 2015 en Dublín, Irlanda con presencia en México.</p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
 
-            <div class="cell text-left show-for-small-only">
+            <div class="cell text-left show-for-small hide-for-large">
                 <div class="grid-x">
-                    <div class="large-12 medium-12 grid-padding-x text-center inicios spaceX bkMoradaClara" style="margin: 4%; padding: 20px 0px;">
-                        <h2 class="morado"><strong>ChektAhora</strong></h2>
+                    <div class="large-12 medium-12 grid-padding-x text-center inicios spaceX bkMoradaClara">
+                        <h2 class="morado pt-4"><strong>ChektAhora</strong></h2>
                         <h2>Nuestros inicios</h2>
                         <img src="../img/us/Nosotros.jpg" style="width: 200px; margin-top: 20px; margin-bottom: 30px;">
                         <p>Somos una empresa de biotecnología fundada en 2015 en Dublín, Irlanda con presencia en la Ciudad de México.</p>
-                        <img src="../img/us/tamano.jpg" style="width: 200px; margin-top: 20px;">
+                        <img src="../img/us/tamano.jpg" style="width: 200px;" class="py-4">
 
                     </div>
                 </div>
@@ -122,21 +131,26 @@
                 </div>
             </div>
 
-            <div class="cell text-left py-5 show-for-medium">
+            <div class="cell text-left show-for-medium">
                 <div class="grid-x">
-                    <div class="large-10 medium-12 grid-padding-x realizamos">
-                        <div class="grid-x relative large-12">
-                            <div class="large-8">
-                                <div class="titulo">
-                                    <h2>Realizamos el diagnóstico de…</h2>
+                    <div class="medium-12 grid-padding-x realizamos py-5 grid-x">
+                        <div class="grid-x relative large-10 px-4 mx-auto">
+                            <div class="large-8 medium-9 d-flex align-items-center">
+                                <div>
+                                    <div class="titulo">
+                                        <h2>Realizamos el diagnóstico de…</h2>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Infecciones de transmisión sexual (ITS) y de virus y bacterias en enfermedades respiratorias como la influenza y el Sars-CoV-2 ( COVID-19 ) a través de <strong>pruebas PCR, antígenos y anticuerpos.</strong>
+                                        </p>
+                                    </div>
                                 </div>
-                                <p>
-                                    Infecciones de transmisión sexual (ITS) y de virus y bacterias en enfermedades respiratorias como la influenza y el Sars-CoV-2 ( COVID-19 ) a través de <strong>pruebas PCR, antígenos y anticuerpos.</strong>
-                                </p>
                             </div>
-                            <div class="flex-center" style="position: absolute; right: -60px; top: -35px;">
-                                <img src="../img/us/16628735101662871067renombrar_2.png" alt="diagnostico" style="width: 400px;">
-
+                            <div class="large-4 medium-3">
+                                <div>
+                                    <img src="../img/us/16628735101662871067renombrar_2.png" alt="diagnostico">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -163,11 +177,11 @@
 
             <div class="cell text-left spaceSection">
                 <div class="grid-x nuestrosValores">
-                    <div class="large-12 medium-12 small-12 grid-padding-x text-center">
+                    <div class="large-12 medium-12 small-12 grid-padding-x text-center pt-4">
                         <h2 class="morado"><strong>ChektAhora es</strong></h2>
                     </div>
                     <div class="large-12 medium-12 small-12 grid-padding-x py-5 show-for-medium">
-                        <ul class="valores">
+                        <ul class="valores list-unstyled m-0">
                             <li class="integridad">
 
                             </li>
@@ -233,7 +247,7 @@
                                 <div class="job__position text-right">
                                     <p class="name m-0">Rodrigo Cervantes</p>
                                     <p class="cargo m-0">CCO/Ingeniero Biomédico</p>
-                                </div>`
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -259,8 +273,6 @@
         </div>
 
         <?php include 'template/footer.php'; ?>
-
-
     </div>
 
     <script src="../js/main.min.js?update=<?php echo constant('UPDATE'); ?>"></script>
