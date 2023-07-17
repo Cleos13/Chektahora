@@ -68,7 +68,7 @@
 
 <?php $body = ob_get_clean();
 $title = 'Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)';
-$banenrDesktop = "../../img/banners/desktop/Banner-Web-VPH-Black.webp";
-$banenrMobile = "../../img/banners/mobile/Banner-Web-mobile-VPH-Black.webp";
+$banenrDesktop = "../../img/banners/desktop/Banner-Blog-ITS-CA.png";
+$banenrMobile = "../../img/banners/mobile/Banner-Blog-ITS-Mobile-CA.png";
 include 'template/blog.php'
 ?>

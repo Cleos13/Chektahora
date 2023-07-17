@@ -93,7 +93,7 @@
         <p class="fecha">Fecha de publicación: 15 mayo 2023</p>
         <p class="descripcion">Las Infecciones de Transmisión Sexual (ITS) <br> son un tema que muchas personas evitan discutir debido <br> al estigma social sobre el diagnóstico y la falta de información precisa.
           .</p>
-        <a href="#" class="leer-mas">Leer más</a>
+        <a href="/es/preguntas-frecuentes-its" class="leer-mas">Leer más</a>
       </div>
     </div>
     <!--Fianl de 2da sección-->

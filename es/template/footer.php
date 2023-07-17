@@ -16,7 +16,7 @@
                     <div class="link">
                         <a href="nosotros">Nosotros</a>
                     </div>
-                    <div class="link d-none">
+                    <div class="link">
                         <a href="blog">Blog</a>
                     </div>
                     <div class="link">
