@@ -7,9 +7,9 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Prueba discreta a domicilio para detección de infecciones de transmisión sexual. Con certificado ISO 9000 y COFEPRIS, médicos altamente capacitados con tecnología de punta.">
+  <meta name="description" content="<?php echo $meta_description ?>">
   <meta http-equiv="cache-control" content="no-cache" />
-  <title>ChektAhora</title>
+  <title><?php echo $meta_title ?></title>
   <?php include 'template/favicon.php'; ?>
   <link rel="stylesheet" href="../css/app.css?update=<?php echo constant('UPDATE'); ?>">
   <link rel="preconnect" href="https://fonts.googleapis.com">

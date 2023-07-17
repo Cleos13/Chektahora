@@ -2001,72 +2001,6 @@ ul.comoFunciona li strong {
     background-size: 75%
 }
 
-.promesa {
-    padding: 4% 0 0 0
-}
-
-.promesa .Blaine {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    align-items: start;
-    text-align: right;
-    padding-left: 40px;
-    height: 325px
-}
-
-.promesa .Blaine p {
-    width: 80%
-}
-
-.promesa .Blaine p.text {
-    text-align: left
-}
-
-.promesa .Blaine p.name {
-    font-weight: bold;
-    text-align: right;
-    margin: 0;
-    padding: 0
-}
-
-.promesa .Blaine p.cargo {
-    text-align: right;
-    margin: 0;
-    padding: 0
-}
-
-.promesa .Rodrigo {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    align-items: start;
-    text-align: right;
-    padding-left: 40px;
-    height: 325px
-}
-
-.promesa .Rodrigo p {
-    width: 95%
-}
-
-.promesa .Rodrigo p.text {
-    text-align: left
-}
-
-.promesa .Rodrigo p.name {
-    font-weight: bold;
-    text-align: left;
-    margin: 0;
-    padding: 0
-}
-
-.promesa .Rodrigo p.cargo {
-    text-align: left;
-    margin: 0;
-    padding: 0
-}
-
 .promesaText {
     margin: 10%
 }
@@ -3872,27 +3806,6 @@ a.logoWebsite {
         background-image: url("img/banners/covidPrueba/Banner_Covid.webp")
     }
 
-    .promesa .Blaine {
-        background: url(img/blaine.png) no-repeat 10% 80%;
-        background-size: 80%;
-        display: flex;
-        justify-content: right;
-        flex-flow: column;
-        align-items: flex-end;
-        text-align: right;
-        padding-right: 25%;
-        height: 325px
-    }
-
-    .promesa .Blaine p {
-        width: 53%
-    }
-
-    .promesa .Rodrigo {
-        background: url(img/rodrigo.png) no-repeat 80% 60%;
-        background-size: 80%
-    }
-
     .bannerHome {
         background-image: url("img/banners/Home/1200-1x.jpg");
         padding: 13rem
@@ -4018,28 +3931,6 @@ a.logoWebsite {
     .step1920 {
         display: block
     }
-
-    .promesa .Blaine {
-        background: url(img/blaine.png) no-repeat 10% 17%;
-        background-size: 80%;
-        display: flex;
-        justify-content: right;
-        flex-flow: column;
-        align-items: flex-end;
-        text-align: right;
-        padding-right: 25%;
-        height: 325px
-    }
-
-    .promesa .Blaine p {
-        width: 53%
-    }
-
-    .promesa .Rodrigo {
-        background: url(img/rodrigo.png) no-repeat 80% 0%;
-        background-size: 80%
-    }
-
     .covidPruebas {
         background: url("img/banners/covidPrueba/Banner_Covid.webp") no-repeat 0 0;
         color: white;
@@ -4488,30 +4379,6 @@ a.logoWebsite {
         margin-top: 6px
     }
 
-    .Blaine p.name {
-        margin: 0
-    }
-
-    .Blaine p.cargo {
-        margin: 0
-    }
-
-    .Blaine img {
-        margin: 5% 0
-    }
-
-    .Rodrigo img {
-        margin: 5% 0
-    }
-
-    .Rodrigo p.name {
-        margin: 0
-    }
-
-    .Rodrigo p.cargo {
-        margin: 0
-    }
-
     .nuestrosValores h2.morado {
         background: none
     }
@@ -4531,7 +4398,7 @@ a.logoWebsite {
 
     .diagnostico {
         padding: 10% 10%;
-        margin: 10% 0 0 0
+        margin: 5% 0 0 0
     }
 
     .diagnostico .titulo {
@@ -4753,32 +4620,6 @@ a.logoWebsite {
 
     ul.comoFunciona {
         flex-flow: column
-    }
-
-    .promesa .Blaine {
-        background: url(img/blaine.png) no-repeat 10% 80%;
-        background-size: 80%;
-        display: flex;
-        justify-content: right;
-        flex-flow: column;
-        align-items: flex-end;
-        text-align: right;
-        padding-right: 12%;
-        height: 325px
-    }
-
-    .promesa .Blaine p {
-        width: 69%
-    }
-
-    .promesa .Rodrigo {
-        background: url(img/rodrigo.png) no-repeat 80% 80%;
-        padding-left: 15%;
-        background-size: 80%
-    }
-
-    .promesa .Rodrigo p {
-        width: 74%
     }
 
     .promesaText h2,
@@ -17878,4 +17719,41 @@ screen and (min-width: 75em) {
 
 form label {
     display:block
+}
+.bkPurple .promesa {
+    flex-direction:column
+}
+
+.bkPurple .promesa .text {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.bkPurple .promesa .text .job__position {
+    font-weight: bold;
+    width:100%;
+}
+
+.promesa .Blaine,
+.promesa .Rodrigo{
+    justify-content:center
+}
+
+@media screen and (min-width: 640px) {
+
+    .promesa {
+        /* padding: 5%; */
+    }
+
+    .promesa .Blaine,
+    .promesa .Rodrigo{
+        justify-content:end
+    }
+    .promesa .Rodrigo {
+        flex-direction:row-reverse;
+    }
+    .promesa .Rodrigo .picture {
+        text-align:right;
+    }
 }

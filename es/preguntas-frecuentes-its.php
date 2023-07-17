@@ -68,6 +68,8 @@
 
 <?php $body = ob_get_clean();
 $title = 'Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)';
+$meta_title = 'ChekteAhora | Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)';
+$meta_description = '¿Sabes qué son las Infecciones de Transmisión Sexual? Conoce en nuestro blog más sobre estas enfermedades y cuida mejor tu salud sexual.';
 $banenrDesktop = "../../img/banners/desktop/Banner-Blog-ITS-CA.png";
 $banenrMobile = "../../img/banners/mobile/Banner-Blog-ITS-Mobile-CA.png";
 include 'template/blog.php'
