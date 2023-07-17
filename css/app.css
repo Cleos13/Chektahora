@@ -17875,3 +17875,7 @@ screen and (min-width: 75em) {
 .product-container-3.hide-more-btn .product-item .more-button {
     display:none;
 }
+
+form label {
+    display:block
+}
