@@ -74,59 +74,60 @@
   <div class="fluid" id="home">
     <?php include 'template/header.php'; ?>
 
-    <div class="cell spaceTop relative">
-      <div class="item">
-        <img src="<?php echo $banenrDesktop ?>" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
-        <img src="<?php echo $banenrMobile ?>" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
-      </div>
-    </div>
-    <!-- Banners page -->
-
     <!--Titulo Blog-->
     <div class="article__container">
+
+      <div class="cell spaceTop relative">
+        <div class="item">
+          <img src="<?php echo $banenrDesktop ?>" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
+          <img src="<?php echo $banenrMobile ?>" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
+        </div>
+      </div>
+      <!-- Banners page -->
       <div class="article__title">
-        <h1><?php echo $title ?></h1>
+        <h1 class="morado"><?php echo $title ?></h1>
       </div>
       <!--Final de Titulo Blog-->
 
       <div class="article__body">
         <?php echo $body ?>
       </div>
-    </div>
-    <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4 d-none">
-      <h2 style="font-size: 35px;" class="morado">
-        <strong>Otros artículos de interés<strong>
-      </h2>
-    </div>
 
-    <!--Inicio de 4ta sección-->
-    <div class="seccion d-none">
-      <div class="elemento">
-        <img src="../img/cristiannn.jpg" alt="Imagen 1">
-        <div class="contenido">
-          <h3>Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)</h3>
-          <a href="#" class="boton">Leer</a>
-        </div>
+      <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4 d-none">
+        <h2 style="font-size: 35px;" class="morado">
+          <strong>Otros artículos de interés<strong>
+        </h2>
       </div>
-      <div class="elemento">
-        <img src="../img/cristiannn.jpg" alt="Imagen 2">
-        <div class="contenido">
-          <h3>Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)</h3>
-          <a href="#" class="boton">Leer</a>
-        </div>
-      </div>
-      <div class="elemento">
-        <img src="../img/cristiannn.jpg" alt="Imagen 3">
-        <div class="contenido">
-          <h3>Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)</h3>
-          <a href="#" class="boton">Leer</a>
-        </div>
-      </div>
-    </div>
-    <!--Fin de 4ta de sección-->
 
+      <!--Inicio de 4ta sección-->
+      <div class="seccion d-none">
+        <div class="elemento">
+          <img src="../img/cristiannn.jpg" alt="Imagen 1">
+          <div class="contenido">
+            <h3>Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)</h3>
+            <a href="#" class="boton">Leer</a>
+          </div>
+        </div>
+        <div class="elemento">
+          <img src="../img/cristiannn.jpg" alt="Imagen 2">
+          <div class="contenido">
+            <h3>Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)</h3>
+            <a href="#" class="boton">Leer</a>
+          </div>
+        </div>
+        <div class="elemento">
+          <img src="../img/cristiannn.jpg" alt="Imagen 3">
+          <div class="contenido">
+            <h3>Preguntas frecuentes sobre Infecciones de Transmisión Sexual (ITS)</h3>
+            <a href="#" class="boton">Leer</a>
+          </div>
+        </div>
+      </div>
+      <!--Fin de 4ta de sección-->
+
+    </div>
     <!--Inicio de 5ta seccion-->
-    <section class="image-section">
+    <section class="image-section d-none">
       <div class="image-container">
         <div class="text">
           <h2>En ChektAhora Nos preocupamos por tu salud</h2>
@@ -134,7 +135,6 @@
       </div>
     </section>
     <!--Fin de la 5ta seccion-->
-
     <?php include 'template/footer.php'; ?>
   </div>
   <script src="../js/main.min.js?update=<?php echo constant('UPDATE'); ?>"></script>
