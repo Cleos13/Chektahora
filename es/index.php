@@ -104,7 +104,7 @@
                     <div class="grid-x ">
                         <div class="large-12 medium-12 grid-padding-x mb-3 " style="text-align: center">
                             <div class="contenido ">
-                                <a href="https://www.inmunochek.com/" class="w3-yellow w3-border w3-round-large">
+                                <a href="https://www.inmunochek.com/" target="_blank" class="w3-yellow w3-border w3-round-large">
                                     Conoce Más
                                     <!-- <button type="button" class="w3-button w3-yellow w3-border w3-round-large" style="vertical-align: bottom">Enlace</button> -->
                                 </a>
