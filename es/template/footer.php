@@ -32,8 +32,7 @@
                         <a href="aviso-privacidad">Aviso de privacidad</a>
                     </div>
                     <div class="link">
-                        <a href="aviso-privacidad">Envíos y entregas
-                            políticas de cambios, devolucuón y reembolsos</a>
+                        <a href="aviso-privacidad">Envíos y entregas políticas de cambios, devolución y reembolsos</a>
                     </div>
                 </div>
             </div>
