@@ -72,64 +72,65 @@
         <div class="grid-x">
             <?php include 'template/header.php'; ?>
 
-            <!-- Banners Home page -->
-            <div class="cell spaceTop relative">
-                <div class="item">
-                    <img src="../img/banners/desktop/eduin.jpg" class="hide-for-small-only show-for-medium" alt="its" width="100%">
-                    <img src="../img/banners/mobile/tampoco.jpg" class="hide-for-medium show-for-small" alt="its" width="100%">
+            <div class="page__container">
+                <!-- Banners Home page -->
+                <div class="cell spaceTop relative main__banner">
+                    <div class="item">
+                        <img src="../img/contactLogo.webp" alt="contact" width="100%">
+                    </div>
                 </div>
-            </div>
-            <!-- Banners Home page -->
-
-            <div class="cell text-left fondoMorado">
-                <div class="grid-x">
-                    <div class="cell text-left  spaceX preguntasFrecuentes bkLila">
-                        <div class="grid-x spaceTop justify-content-center">
-                            <div class="large-12 medium-12 small-12 grid-padding-x formularios text-center pb-3">
-                                <h1 class="text-center"><strong>¿Algo no te queda claro?</br> estamos para resolver todas tus dudas</strong></h1>
-                            </div>
-                            <div class="large-12 medium-6 small-12 grid-padding-x flex-center">
-                                <Form id="form-message">
-                                    <div class="fluid">
-                                        <div class="grid-x grid-padding-x flex-center">
-                                            <div class="large-10 medium-12 small-12">
-                                                <div class="medium-12 small-12">
-                                                    <label>
-                                                        <input type="text" placeholder="Nombre Completo" id="name-message">
-                                                    </label>
+                <!-- Banners Home page -->
+    
+                <div class="cell text-left fondoMorado">
+                    <div class="grid-x">
+                        <div class="cell text-left  spaceX preguntasFrecuentes bkLila">
+                            <div class="grid-x spaceTop justify-content-center">
+                                <div class="large-12 medium-12 small-12 grid-padding-x formularios text-center pb-3">
+                                    <h1 class="text-center"><strong>¿Algo no te queda claro?</br> estamos para resolver todas tus dudas</strong></h1>
+                                </div>
+                                <div class="large-12 medium-6 small-12 grid-padding-x flex-center">
+                                    <Form id="form-message">
+                                        <div class="fluid">
+                                            <div class="grid-x grid-padding-x flex-center">
+                                                <div class="large-10 medium-12 small-12">
+                                                    <div class="medium-12 small-12">
+                                                        <label>
+                                                            <input type="text" placeholder="Nombre Completo" id="name-message">
+                                                        </label>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="large-10 medium-12 small-12">
-                                                <div class="medium-12 small-12">
-                                                    <label>
-                                                        <input type="text" placeholder="Correo Electrónico" id="email-message">
-                                                    </label>
+                                                <div class="large-10 medium-12 small-12">
+                                                    <div class="medium-12 small-12">
+                                                        <label>
+                                                            <input type="text" placeholder="Correo Electrónico" id="email-message">
+                                                        </label>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="large-10 medium-12 small-12">
-                                                <div class="medium-12 small-12">
-                                                    <label>
-                                                        <textarea cols="10" rows="10" placeholder="Déjanos tu mensaje aquí" id="text-message"></textarea>
-                                                    </label>
+                                                <div class="large-10 medium-12 small-12">
+                                                    <div class="medium-12 small-12">
+                                                        <label>
+                                                            <textarea cols="10" rows="10" placeholder="Déjanos tu mensaje aquí" id="text-message"></textarea>
+                                                        </label>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="large-10 medium-12 small-12 py-1">
-                                                <div class="medium-12 small-12">
-                                                    <a class="btnYellow" id="submit-message">Enviar</a>
+                                                <div class="large-10 medium-12 small-12 py-1">
+                                                    <div class="medium-12 small-12">
+                                                        <a class="btnYellow" id="submit-message">Enviar</a>
+                                                    </div>
                                                 </div>
+                                                <div class="large-10 medium-12 small-12 py-1 fw-bold text-center display-none" id="alert-message" style="color:#811cb4ff!important; font-size: 12px;">Tu mensaje se ha enviado.</div>
                                             </div>
-                                            <div class="large-10 medium-12 small-12 py-1 fw-bold text-center display-none" id="alert-message" style="color:#811cb4ff!important; font-size: 12px;">Tu mensaje se ha enviado.</div>
                                         </div>
-                                    </div>
-                                </Form>
-                            </div>
-                            <div class="large-12 medium-12 small-12 grid-padding-x text-center show-for-medium">
-                                <p class="text-morado">¿Tienes alguna queja o sugerencia? ¡Escríbenos!</p>
-                                <p><a class="text-morado" href="mailto:quejas.sugerencias@chektahora.com">quejas.sugerencias@chektahora.com</a></p>
-                            </div>
-                            <div class="large-12 medium-12 small-12 grid-padding-x text-center show-for-small-only">
-                                <p class="text-morado">¿Tienes alguna queja o sugerencia? ¡Escríbenos!</p>
-                                <p><a class="text-morado" href="mailto:quejas.sugerencias@chektahora.com">quejas.sugerencias@chektahora.com</a></p>
+                                    </Form>
+                                </div>
+                                <div class="large-12 medium-12 small-12 grid-padding-x text-center show-for-medium">
+                                    <p class="text-morado">¿Tienes alguna queja o sugerencia? ¡Escríbenos!</p>
+                                    <p><a class="text-morado" href="mailto:quejas.sugerencias@chektahora.com">quejas.sugerencias@chektahora.com</a></p>
+                                </div>
+                                <div class="large-12 medium-12 small-12 grid-padding-x text-center show-for-small-only">
+                                    <p class="text-morado">¿Tienes alguna queja o sugerencia? ¡Escríbenos!</p>
+                                    <p><a class="text-morado" href="mailto:quejas.sugerencias@chektahora.com">quejas.sugerencias@chektahora.com</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>

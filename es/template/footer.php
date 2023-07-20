@@ -49,22 +49,22 @@
                         </h6>
                     </div>
                     <div class="large-7 small-12 d-flex justify-content-center footer__social_links">
-                        <a class="px-1" href="https://www.facebook.com/ChektAhora">
+                        <a class="px-1" href="https://www.facebook.com/ChektAhora" target="_blank">
                             <img src="../css/img/footer/facebook.png" alt="" width="30px">
                         </a>
-                        <a class="px-1" href="https://www.instagram.com/chektahora">
+                        <a class="px-1" href="https://www.instagram.com/chektahora" target="_blank">
                             <img src="../css/img/footer/Instagram.png" alt="" width="30px">
                         </a>
-                        <a class="px-1" href="https://twitter.com/ChektAhora">
+                        <a class="px-1" href="https://twitter.com/ChektAhora" target="_blank">
                             <img src="../css/img/footer/twitter.png" alt="" width="30px">
                         </a>
-                        <a class="px-1" href="https://www.tiktok.com/@chektahora">
+                        <a class="px-1" href="https://www.tiktok.com/@chektahora" target="_blank">
                             <img src="../css/img/footer/tiktok.png" alt="" width="30px">
                         </a>
-                        <a class="px-1" href="https://www.youtube.com/channel/UCSZBty1FhDefm1FVXyEyuMg">
+                        <a class="px-1" href="https://www.youtube.com/channel/UCSZBty1FhDefm1FVXyEyuMg" target="_blank">
                             <img src="../css/img/footer/youtube.png" alt="" width="30px">
                         </a>
-                        <a class="px-1" href="https://mx.linkedin.com/company/chektahora">
+                        <a class="px-1" href="https://mx.linkedin.com/company/chektahora" target="_blank">
                             <img src="../css/img/footer/link.png" alt="" width="30px">
                         </a>
                     </div>

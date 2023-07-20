@@ -207,9 +207,7 @@ a:visited {
     margin-top: 1.1rem !important
 }
 
-.fondoMorado {
-    background: rgba(79, 45, 131, 0.1) !important
-}
+
 
 .btn-purple {
     border-radius: 10px !important;
@@ -1540,10 +1538,6 @@ p.seccionMoradaClara {
 
 .bkMoradaClara {
     background: rgba(115, 21, 159, 0.2)
-}
-
-.bkLila {
-    background: rgba(79, 45, 131, 0.1)
 }
 
 .bkSpacial {
@@ -17720,11 +17714,14 @@ form label {
     justify-content:center
 }
 
+.page__container .main__banner {
+    max-width: 300px;
+    margin:0 auto;
+    padding: 30px;
+}
+
 @media screen and (min-width: 640px) {
 
-    .promesa {
-        /* padding: 5%; */
-    }
 
     .promesa .Blaine,
     .promesa .Rodrigo{
@@ -17736,4 +17733,9 @@ form label {
     .promesa .Rodrigo .picture {
         text-align:right;
     }
+}
+
+.page__container {
+    max-width: 1600px;
+    margin: 0 auto;
 }
