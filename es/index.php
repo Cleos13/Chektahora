@@ -80,8 +80,8 @@
                 <!-- Banners Home page -->
                 <div class="cell spaceTop relative">
                     <div class="item">
-                        <img src="../img/banners/desktop/Banners-Web-escritorio-Julio-23.jpg" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
-                        <img src="../img/banners/mobile/Banners-Web-Julio-23.jpg" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
+                        <img src="../img/banners/desktop/Banners-Web-escritorio-10-Julio-23.webp" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
+                        <img src="../img/banners/mobile/Banners-Web-10-Julio-23.webp" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
                     </div>
                 </div>
                 <!-- Banners Home page -->
