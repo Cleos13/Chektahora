@@ -22,7 +22,7 @@
       <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
       <ul>
         <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
-        <li>1 PeeCanter (Kit pene).</li>
+        <li>1 Recolector de Orina (Kit pene).</li>
         <li>1 Tubo de recolección con medio de transporte.</li>
         <li>1 Instructivo.</li>
         <li>1 Bolsa de recolección.</li>
@@ -70,7 +70,7 @@
       <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
       <ul class="mb-2">
         <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
-        <li>1 Hisopo uretral y 1 PeeCanter (Kit pene).</li>
+        <li>1 Hisopo uretral y 1 Recolector de Orina (Kit pene).</li>
         <li>1 Tubo de recolección para muestra sanguínea BD Vacutainer.</li>
         <li>1 Aguja para punción venosa.</li>
         <li>1 Cinta adhesiva circular.</li>
@@ -121,12 +121,12 @@
       <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
       <ul>
         <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
-        <li>1 PeeCanter (Kit pene).</li>
+        <li>1 Recolector de Orina (Kit pene).</li>
         <li>1 Tubo de recolección para muestra sanguínea BD Vacutainer.</li>
         <li>1 Aguja para punción venosa.</li>
         <li>1 Cinta adhesiva circular.</li>
         <li>1 Toallita desinfectante</li>
-        <li>2 Tubos de recolección con medio de transporte.</li>
+        <li>1 Tubo de recolección con medio de transporte.</li>
         <li>1 Bolsa de recolección.</li>
         <li>1 Plantilla de etiquetas ID</li>
       </ul>
