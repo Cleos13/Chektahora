@@ -1,7 +1,7 @@
 <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
   <div class="product-item">
     <h2 style="font-weight: bold; color: #662480">Prueba PCR para detección de influenza + COVID</h2>
-    <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+    <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo" width="450" height="480">
     <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $1,399</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/6oE02le1I3zmaPu6s2" class="buy-button">Comprar</a>
@@ -28,7 +28,7 @@
 
   <div class="product-item">
     <h2 style="font-weight: bold; color: #662480">Prueba PCR para detección de COVID</h2>
-    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo" width="450" height="480">
     <p style="font-weight: bold; font-size: 28px; color:red;" class="price"><del style="color: black;">$1,100</del> $599</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp" class="buy-button">Comprar</a>
@@ -52,7 +52,7 @@
 
   <div class="product-item">
     <h2 style="font-weight: bold; color: #662480">Prueba de Antígenos para detección de COVID</h2>
-    <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
+    <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo" width="450" height="480">
     <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $599</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS" class="buy-button">Comprar</a>
@@ -77,7 +77,7 @@
 
   <div class="product-item">
     <h2 style="font-weight: bold; color: #662480">Prueba de Anticuerpos para detección de COVID</h2>
-    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
+    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo" width="450" height="480">
     <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$1,050</p>
     <div class="buttons">
       <a href="https://buy.stripe.com/cN28yR0aSee05va4jI" class="buy-button">Comprar</a>

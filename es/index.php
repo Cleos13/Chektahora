@@ -80,8 +80,8 @@
                 <!-- Banners Home page -->
                 <div class="cell spaceTop relative">
                     <div class="item">
-                        <img src="../img/banners/desktop/Banners-Web-escritorio-10-Julio-23.webp" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
-                        <img src="../img/banners/mobile/Banners-Web-10-Julio-23.webp" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
+                        <img src="../img/banners/desktop/Banners-Web-escritorio-10-Julio-23.webp" class="hide-for-small-only show-for-medium" alt="checkateAhora" style="display: block; margin: 0 auto;" width="1920" height="776" carousel="img-1">
+                        <img src="../img/banners/mobile/Banners-Web-10-Julio-23.webp" class="hide-for-medium show-for-small" alt="checkateAhora" width="768" height="1024" style="display: block; margin: 0 auto;" carousel="img-1">
                     </div>
                 </div>
                 <!-- Banners Home page -->
@@ -108,8 +108,8 @@
                                     Conoce Más
                                     <!-- <button type="button" class="w3-button w3-yellow w3-border w3-round-large" style="vertical-align: bottom">Enlace</button> -->
                                 </a>
-                                <img src="../img/banners/desktop/Banner-Chekt-x-Inmuno-web.webp" class="show-for-large" alt="inmunocheck">
-                                <img src="../css/img/banners/mobile/Banner-Chekt-x-Inmuno-mobile.webp" class="show-for-small hide-for-large" alt="inmunocheck">
+                                <img src="../img/banners/desktop/Banner-Chekt-x-Inmuno-web.webp" class="show-for-large" alt="inmunocheck"  style="display: block; margin: 0 auto;" width="1920" height="575">
+                                <img src="../css/img/banners/mobile/Banner-Chekt-x-Inmuno-mobile.webp" class="show-for-small hide-for-large" alt="inmunocheck"  style="display: block; margin: 0 auto;" width="768" height="1024">
                             </div>
                         </div>
                     </div>
@@ -127,17 +127,17 @@
                         <div class="large-12 medium-12 small-12 grid-padding-x info align-self-middle ">
                             <ul class="numeros " id="numbers ">
                                 <li>
-                                    <img alt="ITS " src="../css/img/iconos/caja.png " width="40%" />
+                                    <img alt="ITS " src="../css/img/iconos/caja.png " width="86" height="61"/>
                                     <p class="dato text-center count ">+80,000</p>
                                     <p>Kits de ITS en México</p>
                                 </li>
                                 <li>
-                                    <img alt="ITS " src="../css/img/iconos/virus.png " width="40%" />
+                                    <img alt="ITS " src="../css/img/iconos/virus.png " width="86" height="61"/>
                                     <p class="dato t ext-center count ">+50000</p>
                                     <p>Pruebas de COVID-19 </p>
                                 </li>
                                 <li>
-                                    <img alt="ITS " src="../css/img/iconos/resultados.png " width="40%" />
+                                    <img alt="ITS " src="../css/img/iconos/resultados.png " width="86" height="61"/>
                                     <p class="dato text-center count ">+100000</p>
                                     <p>Informes de resultados</p>
                                 </li>
@@ -168,21 +168,21 @@
                             <ul class="comoFunciona ">
                                 <li>
                                     <div class="text-center ">
-                                        <img alt=" " src="../css/img/paso1.png " />
+                                        <img alt="Paso 1" src="../css/img/paso1.png " width="125" height="131"/>
                                         <p class="text-left "><strong>1.- Selecciona el kit o prueba que necesites</strong></p>
                                         <p class="text-left ">Opta por el kit o prueba que necesites, elige la cantidad y da clic en “añadir al carrito”.</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="text-center ">
-                                        <img alt=" " src="../css/img/paso2.png " />
+                                        <img alt="Paso 2" src="../css/img/paso2.png "  width="125" height="131"/>
                                         <p class="text-left "><strong>2.- Llena tus datos </strong></p>
                                         <p class="text-left ">Llena los datos que se te indican en cada uno de los campos y selecciona el método de compra.</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="text-center ">
-                                        <img alt=" " src="../css/img/paso3.png " />
+                                        <img alt="paso 3" src="../css/img/paso3.png "  width="125" height="131"/>
                                         <p class="text-left "><strong>3.- Recibe tu comprobante </strong></p>
                                         <p class="text-left ">Recibirás tu comprobante de compra en el correo que nos hayas proporcionado, no lo pierdas.</p>
                                     </div>
@@ -203,7 +203,7 @@
                                     <p>Excelente servicio, llegaron puntual, la chica que me atendió muy respetuosa y los resultados me los entregaron en tiempo. Lo recomiendo mucho.
                                     </p>
                                     <div class="comment__footer">
-                                        <img alt="estrellas " src="../css/img/estrellas.png " />
+                                        <img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/>
                                         <p class="name ">Jess Godi</p>
                                     </div>
                                 </div>
@@ -212,7 +212,7 @@
                                 <div class="comment bkMoradaClara ">
                                     <p>De primera calidad el servicio y la atención, excelente equipo de trabajo, se nota la amabilidad y empatía del personal, tanto confiabilidad.</p>
                                     <div class="comment__footer">
-                                        <img alt="estrellas " src="../css/img/estrellas.png " />
+                                        <img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/>
                                         <p class="name ">Karla García</p>
                                     </div>
                                 </div>
@@ -221,7 +221,7 @@
                                 <div class="comment bkMoradaClara ">
                                     <p>Excelente servicio que me brindo el enfermero que vino a mi domicilio, se puso todo su equipo de protección y mis resultados me los entregaron.</p>
                                     <div class="comment__footer">
-                                        <img alt="estrellas " src="../css/img/estrellas.png " />
+                                        <img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/>
                                         <p class="name ">Gonzalo Francisco</p>
 
                                     </div>
@@ -237,7 +237,7 @@
                                         </p>
                                         <div>
                                             <p class="name ">-Jess Godi</p>
-                                            <div><img alt="estrellas " src="../css/img/estrellas.png " /></div>
+                                            <div><img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -246,7 +246,7 @@
                                         <p>De primera calidad el servicio y la atención, excelente equipo de trabajo, se nota la amabilidad y empatía del personal, tanto confiabilidad y confianza, en mi opinión super lo recomiendo</p>
                                         <div>
                                             <p class="name ">-Karla García</p>
-                                            <div><img alt="estrellas " src="../css/img/estrellas.png " /></div>
+                                            <div><img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -255,7 +255,7 @@
                                         <p>Excelente servicio que me brindo el enfermero que vino a mi domicilio, se puso todo su equipo de protección y mis resultados me los entregaron en tiempo y forma tal y como dijeron que lo harían</p>
                                         <div>
                                             <p class="name ">Gonzalo Francisco</p>
-                                            <div><img alt="estrellas " src="../css/img/estrellas.png " /></div>
+                                            <div><img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/></div>
                                         </div>
                                     </div>
                                 </div>
@@ -270,7 +270,7 @@
                             <h2 class="morado my-3">
                                 <strong>NUESTROS ALIADOS</strong>
                             </h2>
-                            <img class="logos " alt="aliados " src="../img/banners/desktop/banner-aliados.webp" />
+                            <img class="logos " alt="aliados " src="../img/banners/desktop/banner-aliados.webp"  style="display: block; margin: 0 auto;" width="2560" height="1067" />
                         </div>
                     </div>
                 </div>

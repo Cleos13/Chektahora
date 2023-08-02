@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="grid-x large-12 hide-for-small-only show-for-medium relative header-web" id="header-web" style="">
-        <a class="large-3 d-flex align-height-center justify-content-center" href="../index"><img class="" src="../css/img/logoChektahora.svg" width="150px" /></a>
+        <a class="large-3 d-flex align-height-center justify-content-center" href="../index"><img src="../css/img/logoChektahora.svg" width="150px"  width="150" height="41" alt="ChekateAhora" /></a>
         <div class="large-6 d-flex">
            <!-- <a href="nosotros" role="menuitem" class="menuAnimado text-morado fw-medium">NOSOTROS</a>-->
             <div class="d-flex">
@@ -157,7 +157,7 @@
                 <path d="M7.94977 35.9498H39.9498" stroke="#4F2D83" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
         </a>
-        <a class="logo-blog text-center" href="index"><img src="../css/img/blog/chektahora-iso.svg" style="width: 40px;"></a>
+        <a class="logo-blog text-center" href="index"><img src="../css/img/blog/chektahora-iso.svg" style="width: 40px;" width="40" height="47" alt="ChekateAhora"></a>
         <a href="detalle-compra" class="float d-none" space="button-cart">
             <div class="num-products" space="num-products">0</div>
             <img alt="carrito" src="../css/img/iconos/carrito.svg" width="35px" />
