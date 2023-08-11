@@ -128,6 +128,10 @@
                             <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
 
                                 El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
+
+                                 <p syle="color: red; font-size: 10px;">Este Kit se realiza por autotoma.<br>
+
+                                Solicita tu asesoria médica vía telefónica o WhatsApp.</p>
                         </div>
                     </div>
 
