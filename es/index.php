@@ -24,19 +24,30 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $("#myModal").modal();
-    });
-  </script>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NNR8MBT');</script>
-<!-- End Google Tag Manager -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#myModal").modal();
+        });
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NNR8MBT');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
@@ -62,18 +73,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
         </div>
 
-    <div class="fluid" id="home">
-        
+        <div class="fluid" id="home">
 
-        <div class="grid-x">
-            <?php include 'template/header.php'; ?>
-            <!-- Banners Home page -->
-            <div class="cell spaceTop relative" style="margin: 100px 0;">
-                <?php
-                include 'master/banners.php'; 
-                $banners = getBanners('home');
-                echo '<div class="owl-carousel owl-theme" id="carousel-banner">';
-                /* echo '<div class="owl-carousel owl-theme" id="carousel-banner">
+
+            <div class="grid-x">
+                <?php include 'template/header.php'; ?>
+                <!-- Banners Home page -->
+                <div class="cell spaceTop relative" style="margin: 100px 0;">
+                    <?php
+                    include 'master/banners.php';
+                    $banners = getBanners('home');
+                    echo '<div class="owl-carousel owl-theme" id="carousel-banner">';
+                    /* echo '<div class="owl-carousel owl-theme" id="carousel-banner">
                         <div class="bannerHome item">
                                 <div class="call">c
                                     <h1 class="home text-left"></h1>
@@ -88,210 +99,210 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     </div>
                                 </div>
                             </div>'; */
-                foreach ($banners as $b) {
-                    echo '<div class="item">
+                    foreach ($banners as $b) {
+                        echo '<div class="item">
                                     <img src="../img/banners/desktop/Covers-Hot-Junio.webp" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
                                     <img src="../img/banners/mobile/Covers-Junio-mobile.webp" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
                                 </div>';
-                }
-                echo '</div>';
-                ?>
-            </div>
-            <!-- Banners Home page -->
+                    }
+                    echo '</div>';
+                    ?>
+                </div>
+                <!-- Banners Home page -->
 
-            <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-                        <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL    (ITS)</strong></h2>
+              <!--  <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                    <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
+                </div>
+
+                <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                    <div class="product-item">
+                        <h2 style="font-weight: bold; color: #662480;">KIT GOLD DETECTA 7 <br> ITS</h2>
+                        <img src="../img/Producto-Kit-Gold-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$2,720</p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                        </div>
+                        <div class="additional-info">
+                            <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
+                            <ul class="text-center">
+                                <li>Clamidia</li>
+                                <li>Gonorrea</li>
+                                <li>Tricomoniasis</li>
+                                <li>Mycoplasma Hominis</li>
+                                <li>Mycoplasma Genitalium</li>
+                                <li>Ureaplasma Urealyticum</li>
+                                <li>Ureaplasma Parvum</li>
+                            </ul>
+                            <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
+                            <ul>
+                                <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
+                                <li>1 PeeCanter (Kit pene).</li>
+                                <li>1 Tubo de recolección con medio de transporte.</li>
+                                <li>1 Instructivo.</li>
+                                <li>1 Bolsa de recolección.</li>
+                                <li>1 Plantilla de etiquetas ID</li>
+                            </ul>
+                            <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
+                            <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con vulva: Vaginal.</p>
+                            <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina.</p>
+                            <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
+
+                                El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
+                        </div>
                     </div>
 
-                    <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                     <div class="product-item">
-  <h2 style="font-weight: bold; color: #662480;">KIT GOLD DETECTA 7 <br> ITS</h2>
-  <img src="../img/Producto-Kit-Gold-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
-  <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$2,720</p>
-  <div class="buttons">
-    <a href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC" class="buy-button">Comprar</a>
-    <a href="#" class="more-button">Ver más</a>
-  </div>
-  <div class="additional-info">
-    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
-    <ul class="text-center">
-      <li>Clamidia</li>
-      <li>Gonorrea</li>
-      <li>Tricomoniasis</li>
-      <li>Mycoplasma Hominis</li>
-      <li>Mycoplasma Genitalium</li>
-      <li>Ureaplasma Urealyticum</li>
-      <li>Ureaplasma Parvum</li>
-    </ul>
-    <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
-    <ul>
-      <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
-      <li>1 PeeCanter (Kit pene).</li>
-      <li>1 Tubo de recolección con medio de transporte.</li>
-      <li>1 Instructivo.</li>
-      <li>1 Bolsa de recolección.</li>
-      <li>1 Plantilla de etiquetas ID</li>
-    </ul>
-    <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
-    <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con vulva: Vaginal.</p>
-    <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina.</p>
-    <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
+                        <h2 style="font-weight: bold; color: #662480;">KIT BLACK DETECTA 13 <br> ITS</h2>
+                        <img src="../img/Producto-Kit-Black-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$4,999</p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/4gw02lbTAd9W0aQ9Gh" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                        </div>
+                        <div class="additional-info">
+                            <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
+                            <ul>
+                                <li>VPH</li>
+                                <li>Clamidia</li>
+                                <li>Gonorrea</li>
+                                <li>Tricomoniasis</li>
+                                <li>Mycoplasma Hominis</li>
+                                <li>Mycoplasma Genitalium</li>
+                                <li>Ureaplasma Urealyticum</li>
+                                <li>Ureaplasma Parvum</li>
+                            </ul>
 
-    El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
-  </div>
-</div>
+                            <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por INMUNOCROMATOGRAFÍA</h3>
+                            <ul>
+                                <li>VPH</li>
+                                <li>Sífilis</li>
+                                <li>Herpes</li>
+                                <li>Hepatitis B</li>
+                                <li>Hepatitis C</li>
+                            </ul>
 
-<div class="product-item">
-  <h2 style="font-weight: bold; color: #662480;">KIT BLACK DETECTA 13 <br> ITS</h2>
-  <img src="../img/Producto-Kit-Black-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-  <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$4,999</p>
-  <div class="buttons">
-    <a href="https://buy.stripe.com/4gw02lbTAd9W0aQ9Gh" class="buy-button">Comprar</a>
-    <a href="#" class="more-button">Ver más</a>
-  </div>
-  <div class="additional-info">
-    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
-    <ul>
-      <li>VPH</li>
-      <li>Clamidia</li>
-      <li>Gonorrea</li>
-      <li>Tricomoniasis</li>
-      <li>Mycoplasma Hominis</li>
-      <li>Mycoplasma Genitalium</li>
-      <li>Ureaplasma Urealyticum</li>
-      <li>Ureaplasma Parvum</li>
-    </ul>
+                            <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
+                            <ul>
+                                <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
+                                <li>1 PeeCanter (Kit pene).</li>
+                                <li>1 Tubo de recolección para muestra sanguínea BD Vacutainer.</li>
+                                <li>1 Aguja para punción venosa.</li>
+                                <li>1 Cinta adhesiva circular.</li>
+                                <li>1 Toallita desinfectante</li>
+                                <li>2 Tubos de recolección con medio de transporte.</li>
+                                <li>1 Bolsa de recolección.</li>
+                                <li>1 Plantilla de etiquetas ID</li>
+                            </ul>
+                            <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
+                            <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con Vulva: Cervical, vaginal y Sanguínea.</p>
+                            <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina, uretral y sanguínea.</p>
+                            <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
 
-    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por INMUNOCROMATOGRAFÍA</h3>
-    <ul>
-      <li>VPH</li>
-      <li>Sífilis</li>
-      <li>Herpes</li>
-      <li>Hepatitis B</li>
-      <li>Hepatitis C</li>
-    </ul>
+                                El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
+                        </div>
+                    </div>
 
-    <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
-    <ul>
-      <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
-      <li>1 PeeCanter (Kit pene).</li>
-      <li>1 Tubo de recolección para muestra sanguínea BD Vacutainer.</li>
-      <li>1 Aguja para punción venosa.</li>
-      <li>1 Cinta adhesiva circular.</li>
-      <li>1 Toallita desinfectante</li>
-      <li>2 Tubos de recolección con medio de transporte.</li>
-      <li>1 Bolsa de recolección.</li>
-      <li>1 Plantilla de etiquetas ID</li>
-    </ul>
-    <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
-    <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con Vulva: Cervical, vaginal y Sanguínea.</p>
-    <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina, uretral y sanguínea.</p>
-    <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
+                    <div class="product-item">
+                        <h2 style="font-weight: bold; color: #662480;">KIT PLATINUM DETECTA 12 ITS</h2>
+                        <img src="../img/Producto-Kit-Platinum-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$3,320</p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                        </div>
+                        <div class="additional-info">
+                            <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
+                            <ul>
+                                <li>Clamidia</li>
+                                <li>Gonorrea</li>
+                                <li>Tricomoniasis</li>
+                                <li>Mycoplasma Hominis</li>
+                                <li>Mycoplasma Genitalium</li>
+                                <li>Ureaplasma Urealyticum</li>
+                                <li>Ureaplasma Parvum</li>
+                            </ul>
 
-    El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
-  </div>
-</div>
+                            <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por INMUNOCROMATOGRAFÍA</h3>
+                            <ul>
+                                <li>VPH</li>
+                                <li>Sífilis</li>
+                                <li>Herpes</li>
+                                <li>Hepatitis B</li>
+                                <li>Hepatitis C</li>
+                            </ul>
 
-<div class="product-item">
-  <h2 style="font-weight: bold; color: #662480;">KIT PLATINUM DETECTA 12 ITS</h2>
-  <img src="../img/Producto-Kit-Platinum-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
-  <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$3,320</p>
-  <div class="buttons">
-    <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
-    <a href="#" class="more-button">Ver más</a>
-  </div>
-  <div class="additional-info">
-    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
-    <ul>
-      <li>Clamidia</li>
-      <li>Gonorrea</li>
-      <li>Tricomoniasis</li>
-      <li>Mycoplasma Hominis</li>
-      <li>Mycoplasma Genitalium</li>
-      <li>Ureaplasma Urealyticum</li>
-      <li>Ureaplasma Parvum</li>
-    </ul>
 
-    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por INMUNOCROMATOGRAFÍA</h3>
-    <ul>
-      <li>VPH</li>
-      <li>Sífilis</li>
-      <li>Herpes</li>
-      <li>Hepatitis B</li>
-      <li>Hepatitis C</li>
-    </ul> 
-    
-     
-    <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
-    <ul>
-      <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
-      <li>1 PeeCanter (Kit pene).</li>
-      <li>1 Tubo de recolección para muestra sanguínea BD Vacutainer.</li>
-      <li>1 Aguja para punción venosa.</li>
-      <li>1 Cinta adhesiva circular.</li>
-      <li>1 Toallita desinfectante</li>
-      <li>2 Tubos de recolección con medio de transporte.</li>
-      <li>1 Bolsa de recolección.</li>
-      <li>1 Plantilla de etiquetas ID</li>
-    </ul>
-    <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
-    <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con Vulva: Cervical, vaginal y Sanguínea.</p>
-    <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina, uretral y sanguínea.</p>
-    <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
+                            <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
+                            <ul>
+                                <li>1 Hisopo o 1 Cytobrush (Kit vulva).</li>
+                                <li>1 PeeCanter (Kit pene).</li>
+                                <li>1 Tubo de recolección para muestra sanguínea BD Vacutainer.</li>
+                                <li>1 Aguja para punción venosa.</li>
+                                <li>1 Cinta adhesiva circular.</li>
+                                <li>1 Toallita desinfectante</li>
+                                <li>2 Tubos de recolección con medio de transporte.</li>
+                                <li>1 Bolsa de recolección.</li>
+                                <li>1 Plantilla de etiquetas ID</li>
+                            </ul>
+                            <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
+                            <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con Vulva: Cervical, vaginal y Sanguínea.</p>
+                            <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Orina, uretral y sanguínea.</p>
+                            <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
 
-    El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
-  </div>
-</div>
+                                El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
+                        </div>
+                    </div>
 
-<div class="product-item">
-  <h2 style="font-weight: bold; color: #662480;">KIT <br> VPH</h2>
-  <img src="../img/Producto-Kit-VPH-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
-  <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$2,620</p>
-  <div class="buttons">
-    <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
-    <a href="#" class="more-button">Ver más</a>
-  </div>
-  <div class="additional-info">
-    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
-    <ul>
-      <h3 style="font-size: 20px; color: #4F2D83;">Genotipos de Alto Riesgo</h3>
-      <li>16,18,26,31,33,35,39,45,51,52,53,56,58,59,66,68,69,73,82.</li>
-      <h3 style="font-size: 20px; color: #4F2D83;">Genotipos de Bajo Riesgo</h3>
-      <li>6,11,40,42,43,44,54,61,70.</li>
-    </ul>
+                    <div class="product-item">
+                        <h2 style="font-weight: bold; color: #662480;">KIT <br> VPH</h2>
+                        <img src="../img/Producto-Kit-VPH-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$2,620</p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                        </div>
+                        <div class="additional-info">
+                            <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por PCR</h3>
+                            <ul>
+                                <h3 style="font-size: 20px; color: #4F2D83;">Genotipos de Alto Riesgo</h3>
+                                <li>16,18,26,31,33,35,39,45,51,52,53,56,58,59,66,68,69,73,82.</li>
+                                <h3 style="font-size: 20px; color: #4F2D83;">Genotipos de Bajo Riesgo</h3>
+                                <li>6,11,40,42,43,44,54,61,70.</li>
+                            </ul>
 
-    <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por INMUNOCROMATOGRAFÍA</h3>
-    <ul>
-      <li>VPH</li>
-      <li>Sífilis</li>
-      <li>Herpes</li>
-      <li>Hepatitis B</li>
-      <li>Hepatitis C</li>
-    </ul>
+                            <h3 style="font-size: 20px; color: #4F2D83;">Procesamientos por INMUNOCROMATOGRAFÍA</h3>
+                            <ul>
+                                <li>VPH</li>
+                                <li>Sífilis</li>
+                                <li>Herpes</li>
+                                <li>Hepatitis B</li>
+                                <li>Hepatitis C</li>
+                            </ul>
 
-    <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
-    <ul>
-      <li>1 Cytobrush (Kit Vulva).</li>
-      <li>1 Hisopo Uretral (Kit pene).</li>
-      <li>1 Tubo de recolección con medio de transporte.</li>
-      <li>1 Instructivo.</li>
-      <li>1 Bolsa de recolección</li>
-    <li>1 Plantilla de etiquetas ID</li>
-    </ul>
-    <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
-    <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con Vulva: Cervical.</p>
-    <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Uretral.</p>
-    <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
+                            <h3 style="font-size: 20px; color: #4F2D83;">El KIT incluye</h3>
+                            <ul>
+                                <li>1 Cytobrush (Kit Vulva).</li>
+                                <li>1 Hisopo Uretral (Kit pene).</li>
+                                <li>1 Tubo de recolección con medio de transporte.</li>
+                                <li>1 Instructivo.</li>
+                                <li>1 Bolsa de recolección</li>
+                                <li>1 Plantilla de etiquetas ID</li>
+                            </ul>
+                            <h3 style="font-size: 20px; color: #4F2D83;">Tipos de muestra</h3>
+                            <p><img src="../img/CA_Iconos Sexo_Vulva_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con Vulva: Cervical.</p>
+                            <p><img src="../img/CA_Iconos Sexo_Pene_2023.webp" alt="Icono" style="width: 40px; height: 40px;"> Persona con pene: Uretral.</p>
+                            <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
 
-    El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
-  </div>
-</div>
+                                El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
+                        </div>
+                    </div>
 
-            </div>
+                </div>
 
-    
 
-  <!--<div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+
+                <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                         <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS) <b style="color:red;">PROMOCIÓN</b> </strong></h2>
                     </div>
 
@@ -322,56 +333,57 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-        
-<div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-<h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
+
+              <!--  <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                    <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
+                </div>
+
+                <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                    <div class="product-item">
+                        <h2 style="font-weight: bold; color: #662480:">PRUEBA INFLUENZA + COVID<br> ITS</h2>
+                        <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $1,399</p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/6oE02le1I3zmaPu6s2" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                        </div>
                     </div>
 
-                    <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
-  <div class="product-item">
-  <h2 style="font-weight: bold; color: #662480:">PRUEBA INFLUENZA + COVID<br> ITS</h2>
-    <img src="../img/Producto-Covid-19-Anticuerpos-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px; color:black;" class="price">  $1,399</p>
-    <div class="buttons">
-      <a href="https://buy.stripe.com/6oE02le1I3zmaPu6s2" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
-  
-  <div class="product-item">
-  <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> PCR</h2>
-    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px; color:red;" class="price"><del style="color: black;">$1,100</del> $599</p></p>
-    <div class="buttons">
-      <a href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
+                    <div class="product-item">
+                        <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> PCR</h2>
+                        <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px; color:red;" class="price"><del style="color: black;">$1,100</del> $599</p>
+                        </p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/fZe5mFbTA0nae1GcQp" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                        </div>
+                    </div>
 
-  <div class="product-item">
-  <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> ANTÍGENOS</h2>
-    <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $599</p>
-    <div class="buttons">
-      <a href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
+                    <div class="product-item">
+                        <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> ANTÍGENOS</h2>
+                        <img src="../img/Producto-Covid-19-Influenza-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px; color:black;" class="price"> $599</p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/6oEbL38Hoc5S3n23fS" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                        </div>
+                    </div>
 
-  <div class="product-item">
-  <h2 style="font-weight: bold; color: #662480:">PRUEBA  <br> ANTICUERPOS</h2>
-    <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
-    <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$1,050</p>
-    <div class="buttons">
-      <a href="https://buy.stripe.com/cN28yR0aSee05va4jI" class="buy-button">Comprar</a>
-      <a href="#" class="more-button">Ver más</a>
-    </div>
-  </div>
+                    <div class="product-item">
+                        <h2 style="font-weight: bold; color: #662480:">PRUEBA <br> ANTICUERPOS</h2>
+                        <img src="../img/Producto-Covid-19-PCR-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
+                        <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$1,050</p>
+                        <div class="buttons">
+                            <a href="https://buy.stripe.com/cN28yR0aSee05va4jI" class="buy-button">Comprar</a>
+                            <a href="#" class="more-button">Ver más</a>
+                        </div>
+                    </div>
 
-            </div>
+                </div>
 
 
-<!--<div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                         <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
                     </div>
 
@@ -406,8 +418,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             -->
 
 
-            
-            <!--<div class="cell text-left">
+
+                <!--<div class="cell text-left">
                 <div class="grid-x spaceSection">
                     <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                         <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
@@ -421,10 +433,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             global $items;
                             global $images;
                             global $conn;
-                            foreach ($items as $p){
+                            foreach ($items as $p) {
                                 $img = '';
-                                foreach ($images as $image){
-                                    if($image['id_product'] === $p['id']){
+                                foreach ($images as $image) {
+                                    if ($image['id_product'] === $p['id']) {
                                         $img = $image['img'];
                                     }
                                 }
@@ -461,7 +473,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                     </div>
                 </div>
-                <!-- Banners Home page -->
+                < Banners Home page -->
 
                 <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4">
                     <h2 style="font-size: 35px;" class="morado">
@@ -485,8 +497,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     Conoce Más
                                     <!-- <button type="button" class="w3-button w3-yellow w3-border w3-round-large" style="vertical-align: bottom">Enlace</button> -->
                                 </a>
-                                <img src="../img/banners/desktop/Banner-Chekt-x-Inmuno-web.webp" class="show-for-large" alt="inmunocheck"  style="display: block; margin: 0 auto;" width="1920" height="575">
-                                <img src="../css/img/banners/mobile/Banner-Chekt-x-Inmuno-mobile.webp" class="show-for-small hide-for-large" alt="inmunocheck"  style="display: block; margin: 0 auto;" width="768" height="1024">
+                                <img src="../img/banners/desktop/Banner-Chekt-x-Inmuno-web.webp" class="show-for-large" alt="inmunocheck" style="display: block; margin: 0 auto;" width="1920" height="575">
+                                <img src="../css/img/banners/mobile/Banner-Chekt-x-Inmuno-mobile.webp" class="show-for-small hide-for-large" alt="inmunocheck" style="display: block; margin: 0 auto;" width="768" height="1024">
                             </div>
                         </div>
                     </div>
@@ -504,17 +516,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="large-12 medium-12 small-12 grid-padding-x info align-self-middle ">
                             <ul class="numeros " id="numbers ">
                                 <li>
-                                    <img alt="ITS " src="../css/img/iconos/caja.png " width="86" height="61"/>
+                                    <img alt="ITS " src="../css/img/iconos/caja.png " width="86" height="61" />
                                     <p class="dato text-center count ">+80,000</p>
                                     <p>Kits de ITS en México</p>
                                 </li>
                                 <li>
-                                    <img alt="ITS " src="../css/img/iconos/virus.png " width="86" height="61"/>
+                                    <img alt="ITS " src="../css/img/iconos/virus.png " width="86" height="61" />
                                     <p class="dato t ext-center count ">+50000</p>
                                     <p>Pruebas de COVID-19 </p>
                                 </li>
                                 <li>
-                                    <img alt="ITS " src="../css/img/iconos/resultados.png " width="86" height="61"/>
+                                    <img alt="ITS " src="../css/img/iconos/resultados.png " width="86" height="61" />
                                     <p class="dato text-center count ">+100000</p>
                                     <p>Informes de resultados</p>
                                 </li>
@@ -545,21 +557,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <ul class="comoFunciona ">
                                 <li>
                                     <div class="text-center ">
-                                        <img alt="Paso 1" src="../css/img/paso1.png " width="125" height="131"/>
+                                        <img alt="Paso 1" src="../css/img/paso1.png " width="125" height="131" />
                                         <p class="text-left "><strong>1.- Selecciona el kit o prueba que necesites</strong></p>
                                         <p class="text-left ">Opta por el kit o prueba que necesites, elige la cantidad y da clic en “añadir al carrito”.</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="text-center ">
-                                        <img alt="Paso 2" src="../css/img/paso2.png "  width="125" height="131"/>
+                                        <img alt="Paso 2" src="../css/img/paso2.png " width="125" height="131" />
                                         <p class="text-left "><strong>2.- Llena tus datos </strong></p>
                                         <p class="text-left ">Llena los datos que se te indican en cada uno de los campos y selecciona el método de compra.</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="text-center ">
-                                        <img alt="paso 3" src="../css/img/paso3.png "  width="125" height="131"/>
+                                        <img alt="paso 3" src="../css/img/paso3.png " width="125" height="131" />
                                         <p class="text-left "><strong>3.- Recibe tu comprobante </strong></p>
                                         <p class="text-left ">Recibirás tu comprobante de compra en el correo que nos hayas proporcionado, no lo pierdas.</p>
                                     </div>
@@ -580,7 +592,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     <p>Excelente servicio, llegaron puntual, la chica que me atendió muy respetuosa y los resultados me los entregaron en tiempo. Lo recomiendo mucho.
                                     </p>
                                     <div class="comment__footer">
-                                        <img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/>
+                                        <img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22" />
                                         <p class="name ">Jess Godi</p>
                                     </div>
                                 </div>
@@ -589,7 +601,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="comment bkMoradaClara ">
                                     <p>De primera calidad el servicio y la atención, excelente equipo de trabajo, se nota la amabilidad y empatía del personal, tanto confiabilidad.</p>
                                     <div class="comment__footer">
-                                        <img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/>
+                                        <img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22" />
                                         <p class="name ">Karla García</p>
                                     </div>
                                 </div>
@@ -598,7 +610,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="comment bkMoradaClara ">
                                     <p>Excelente servicio que me brindo el enfermero que vino a mi domicilio, se puso todo su equipo de protección y mis resultados me los entregaron.</p>
                                     <div class="comment__footer">
-                                        <img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/>
+                                        <img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22" />
                                         <p class="name ">Gonzalo Francisco</p>
 
                                     </div>
@@ -614,7 +626,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         </p>
                                         <div>
                                             <p class="name ">-Jess Godi</p>
-                                            <div><img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/></div>
+                                            <div><img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -623,7 +635,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         <p>De primera calidad el servicio y la atención, excelente equipo de trabajo, se nota la amabilidad y empatía del personal, tanto confiabilidad y confianza, en mi opinión super lo recomiendo</p>
                                         <div>
                                             <p class="name ">-Karla García</p>
-                                            <div><img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/></div>
+                                            <div><img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -632,7 +644,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         <p>Excelente servicio que me brindo el enfermero que vino a mi domicilio, se puso todo su equipo de protección y mis resultados me los entregaron en tiempo y forma tal y como dijeron que lo harían</p>
                                         <div>
                                             <p class="name ">Gonzalo Francisco</p>
-                                            <div><img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22"/></div>
+                                            <div><img alt="estrellas " src="../css/img/estrellas.png " width="146" height="22" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -647,7 +659,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <h2 class="morado my-3">
                                 <strong>NUESTROS ALIADOS</strong>
                             </h2>
-                            <img class="logos " alt="aliados " src="../img/banners/desktop/banner-aliados.webp"  style="display: block; margin: 0 auto;" width="2560" height="1067" />
+                            <img class="logos " alt="aliados " src="../img/banners/desktop/banner-aliados.webp" style="display: block; margin: 0 auto;" width="2560" height="1067" />
                         </div>
                     </div>
                 </div>
