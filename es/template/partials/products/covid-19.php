@@ -9,7 +9,7 @@
     </div>
     <div class="additional-info d-none">
       <h3 style="font-size: 20px; color: #4F2D83;">
-        Prueba PCR de COVID-19 + Influenza, avalada por el InDRE y COFEPRIS.
+        Prueba PCR de COVID-19 + Influenza.
       </h3>
       <ul>
         <li>Tipo de muestra: Nasofaríngea (nasal) y orofaríngea </li>(oral).
@@ -36,7 +36,7 @@
     </div>
     <div class="additional-info d-none">
       <h3 style="font-size: 20px; color: #4F2D83;">
-        Prueba PCR de COVID-19, avalada por el InDRE y COFEPRIS.
+        Prueba PCR de COVID-19.
       </h3>
       <ul>
         <li>Tipo de muestra: Nasofaríngea (nasal) y orofaríngea </li>(oral).
@@ -85,7 +85,7 @@
     </div>
     <div class="additional-info d-none">
       <h3 style="font-size: 20px; color: #4F2D83;">
-        Prueba de Anticuerpos COVID-19 avalada por el InDRE y COFEPRIS.
+        Prueba de Anticuerpos COVID-19.
       </h3>
       <ul>
         <li>Tipo de muestra: Sanguínea.</li>
