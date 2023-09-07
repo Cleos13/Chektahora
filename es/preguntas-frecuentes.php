@@ -18,6 +18,8 @@
     <script src="https://www.google.com/recaptcha/api.js?render=6LeRAI8eAAAAAGYdXRWWmQ3V6XqzSjeZ3LCLXJwh"></script> 
     <link rel="preconnect" href="https://www.google.com">
     <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <script>
         ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
@@ -120,9 +122,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <p class="dudas fs-6 fs-mobile-5"><span class="fs-8">¿Tienes más dudas?</span></br> <strong>Escríbenos por nuestras redes Sociales</strong></p>
             </div>
             <div class="cell text-left  spaceX preguntasFrecuentes bkLila">
-                <div class="grid-x spaceTop ">
+                <div class="grid-x spaceTop justify-content-center">
                     <div class="large-12 medium-12 small-12 grid-padding-x formularios">
-                        <h1 class="fs-mobile-5"><strong>¿ALGO NO TE QUEDA CLARO?</br> ESTAMOS PARA RESOLVER TODAS TUS DUDAS</strong></h1>
+                        <h1 class="text-center fs-mobile-5"><strong>¿ALGO NO TE QUEDA CLARO?</br> ESTAMOS PARA RESOLVER TODAS TUS DUDAS</strong></h1>
                     </div>
                     <div class="large-6 medium-6 small-12 grid-padding-x mt-2">
                         <Form id="form-message">

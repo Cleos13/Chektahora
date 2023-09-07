@@ -1,6 +1,6 @@
 <?php
 include '../lib/global.php';
-require '../pasarelas/token.php';
+// require '../pasarelas/token.php';
 ?>
 <!doctype html>
 <html class="no-js" lang="es">
