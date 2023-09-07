@@ -52,9 +52,92 @@
                 </div>
             </div>
             <!-- Banners Home page -->
-            <div class="large-10 mx-auto">
-                <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection my-4 mx-2">
-                    <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
+            <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                        <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
+                    </div>
+
+                    <div class="product-container large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT GOLD DETECTA 7 <br> ITS</h2>
+    <img src="../img/Producto-Kit-Gold-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price">$2,720</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+  
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT BLACK DETECTA 13 <br> ITS</h2>
+    <img src="../img/Producto-Kit-Black-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price">$4,999</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/4gweXf8Ho2vibTy8Dd" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT PLATINUM DETECTA 12 ITS</h2>
+    <img src="../img/Producto-Kit-Platinum-Sitio-Web.jpg" alt="Producto 3" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price">$3,320</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT <br> VPH</h2>
+    <img src="../img/Producto-Kit-VPH-Sitio-Web.jpg" alt="Producto 4" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price">$2,620</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/00g6qJ2j0d9W3n214h" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+      <p></p>
+    </div>
+  </div>
+
+            </div>
+
+
+
+  <!--<div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                        <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS) <b style="color:red;">PROMOCIÓN</b> </strong></h2>
+                    </div>
+
+                    <div class="product-container-2 large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT BLACK<br> COMBO PAREJA</h2>
+    <img src="../img/Producto-Kits-Black-Pareja-Sitio-Web.jpg" alt="Producto 1" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,620</del> <br> $2,096</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/7sIbL30aS6Ly8Hm2bG" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+  
+  <div class="product-item">
+  <h2 style="font-weight: bold; color: #662480:">KIT PLATINUM  <br> COMBO PAREJA</h2>
+    <img src="../img/Producto-Kits-Platinum-Pareja-Sitio-Web.jpg" alt="Producto 2" class="llamativo">
+    <p style="font-weight: bold; font-size: 28px;" class="price"> <del style="color: black; font-size:17px;">$2,620</del> <br> $2,096</p>
+    <div class="buttons">
+      <a href="https://buy.stripe.com/28obL36zg0naaPubNd" class="buy-button">Comprar</a>
+      <a href="#" class="more-button">Ver más</a>
+    </div>
+  </div>
+</div>-->
+            <div class="cell text-left spaceSection">
+                <div class="grid-x show-for-medium">
+                    <div class="large-6 medium-6 grid-padding-x video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ackw2ljoYf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="large-6 medium-6 grid-padding-x text-left queEsIts">
+                        <h2>Kits de infección de transmisión sexual</h2>
+                        <p>Actualmente, las ITS son más comunes de lo que pensamos; sin embargo, un diagnóstico oportuno ayuda a determinar el tratamiento adecuado y prevenir futuras complicaciones.</p>
+                        <p>Las ITS, no distinguen orientación sexual, identidad de género o edad, es importante realizar pruebas periódicas de detección desde el comienzo de la vida sexual. </p>
+                        <p>En ChektAhora somos expertos en la prevención y diagnóstico de Infecciones de Transmisión Sexual. Confía… tenemos la respuesta.</p>
+                    </div>
                 </div>
 
                 <?php include './template/partials/products/its.php'; ?>
