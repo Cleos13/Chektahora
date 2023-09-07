@@ -79,7 +79,7 @@
             <div class="grid-x">
                 <?php include 'template/header.php'; ?>
                 <!-- Banners Home page -->
-                <div class="cell spaceTop relative" style="margin: 100px 0;">
+                <div class="cell spaceTop relative" style="margin: 0px 0;">
                     <?php
                     include 'master/banners.php';
                     $banners = getBanners('home');
