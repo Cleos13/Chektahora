@@ -17651,10 +17651,10 @@ screen and (min-width: 75em) {
     display: inline-block;
     margin: 5px;
     padding: 10px 20px;
-    background-color: red;
+    background-color: #25D366;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
   }
   
   .product-container-3 .product-item .more-button {

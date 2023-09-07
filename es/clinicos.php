@@ -74,8 +74,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Biometría <br> Hemática</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $281</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/9AQdTb6zg0nae1G7xl" class="buy-button">Comprar</a>
-              <a href="#" class="more-button">Ver más</a>
+              <a  href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
             </div>
           </div>
           <!-- Repite el código del producto para los demás productos -->
@@ -84,7 +83,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Coproparasitoscópico 1 Muestra</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $180</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/14k6qJ9Ls9XKcXCdVK" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -95,7 +94,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Coproparasitoscópico 3 Muestras</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $240</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/bIYdTb7Dk1re7DidVL" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -105,7 +104,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Examen General de Orina</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $180</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/28o4iB6zg3zmcXC5pg" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -115,7 +114,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Grupo Sanguíneo y Factor RH</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $250</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/9AQ5mF0aS0na7Di8Bv" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -125,7 +124,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Química Sanguínea de 3 elementos</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $279</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/8wM3ex4r84Dq7Dig3Y" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -135,7 +134,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Química Sanguínea de 4 elementos</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $295</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/8wM16p4r8fi40aQ6tp" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -145,7 +144,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Química Sanguínea de 5 elementos</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $317</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/8wM16p0aSc5S3n27xu" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -155,7 +154,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Química Sanguínea de 6 elementos</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $325</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/00g3ex7Dk0na7Di6ts" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -165,7 +164,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Química Sanguínea de 12 elementos</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $838</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/14kbL30aS6Ly9Lq5pq" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -175,7 +174,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Química Sanguínea de 28 elementos</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $950</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/5kAdTbf5M0naaPucRR" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -185,7 +184,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Química Sanguínea de 32 elementos</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $1,100</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/bIY9CV5vc2vi3n2aJL" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -195,7 +194,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Reacciones Febriles</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $350</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/7sI02lbTA4Dq2iY2dg" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -205,7 +204,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Cultivo de Heces (Coprocultivo)</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $385</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/dR62atg9Q2vi9Lqg47" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -215,7 +214,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Perfil 3 Drogas de Abuso (AMP, THC, COC)</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $750</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/3cs16p1eWfi47Di5pu" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -225,7 +224,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Perfil Enzimas Cardíaco</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $330</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/7sI02lg9Q6Ly2iYdW1" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -235,7 +234,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Anticuerpos y AG P24 de VIH1 VIH1-2</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $380</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/9AQaGZ6zggm8cXCf07" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -245,7 +244,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Perfil 5 Drogas de Abuso (AMP, THC, COC, BAR, BDZ) </h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $1,300</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/aEUdTb6zg5Hu0aQ9FM" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -255,7 +254,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Perfil de Lípidos</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $310</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/14k2at3n41re1eUdW4" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -265,7 +264,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Perfil Pancreático</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $396</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/aEUbL30aSd9W5vabNX" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -275,7 +274,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Perfil Hepático</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $910</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/4gwcP79Ls6Ly5vacS2" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -285,7 +284,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Depuración de Creatinina</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $238</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/dR67uN2j0gm89Lqg4f" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -295,7 +294,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Depuración de Urea</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $260</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/28oaGZcXE2vi2iY9FT" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -305,7 +304,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">(HB-A1C) Hemoglobina Glucosilada (HB-A1C)</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $338</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/00gaGZ4r85HuaPu5pE" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -315,7 +314,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Perfil Tiroideo</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $630</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/7sI9CV4r8ee06ze4lB" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -325,7 +324,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Calcio</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $210</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/aEU2ate1I5Hu8HmcS8" class="buy-button">Comprar</a>
+              <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -335,7 +334,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">VDRL</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $250</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/00g5mF1eW3zmbTy2dv" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -345,7 +344,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">AC. Anti-Treponema Pallidum</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $415</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/8wM4iB1eW5HuaPubO6" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -355,7 +354,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Antígeno de Superficie de la Hepatitis B</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $286</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/cN26qJg9Q6Ly2iYbO7" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -365,7 +364,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Nitrógeno Uréico (BUN)</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $180</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/9AQaGZ7Dk7PC4r62dy" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -375,7 +374,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">AC Anti-Hepatitis C</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $275</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/4gw16p9Ls4Dq1eU2dz" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -385,7 +384,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Albumina</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $196</p>
             <div class="buttons">
-              <a href="#" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -395,7 +394,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Cultivo de Orina (Urocultivo)</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $380</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/bIYcP79Ls2vi2iY3hF" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -405,7 +404,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Tiempo de Protrombina</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $320</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/3cs6qJ0aS1re1eUbOc" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -415,7 +414,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Tiempo de Tromboplastina Parcial Activada</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $310</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/aEUg1j8Ho9XK0aQaK9" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -425,7 +424,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Antígeno Prostático Específico Total</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $350</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/cN22at3n4d9We1G6tU" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -435,7 +434,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Glucosa</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $160</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/28o6qJcXE0nae1Gf0r" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -445,7 +444,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Electrolitos NA, K, Cl</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $375</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/dR66qJ5vc2vicXCf0s" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -455,7 +454,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Insulina</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $220</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/cN202l9Lsb1O9LqdWr" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -465,7 +464,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Exudado Faríngeo</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $385</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/cN2dTbcXE2viaPuaKg" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -475,7 +474,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Citología Cérvico-Vaginal (Papanicolaou)</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"> <br> $360</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/14k2at5vc5Hu4r605z" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
@@ -485,7 +484,7 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
             <h2 style="font-weight: bold; color: #662480">Hormona Estimulante de Tiroides TSH</h2>
             <p style="font-weight: bold; font-size: 28px;" class="price"><br> $180</p>
             <div class="buttons">
-              <a href="https://buy.stripe.com/3cs02lcXEfi41eU6tY" class="buy-button">Comprar</a>
+            <a href="https://wa.me/+525546601639" class="buy-button">Agenda por WhatsApp </a>
               <a href="#" class="more-button">Ver más</a>
             </div>
           </div>
