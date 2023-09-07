@@ -34,6 +34,7 @@
       <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
 
         El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
+        <p style="color: #5e287e; font-weight: bold;">Importante: Para conocer a detalle sobre la cobertura y las tarifas de cada envío en zonas fronterizas, las personas usuarias deberán consultar con nuestro equipo de atención al cliente.</p>
     </div>
   </div>
 
@@ -85,6 +86,7 @@
       <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
 
         El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
+        <p style="color: #5e287e; font-weight: bold;">Importante: Para conocer a detalle sobre la cobertura y las tarifas de cada envío en zonas fronterizas, las personas usuarias deberán consultar con nuestro equipo de atención al cliente.</p>
     </div>
   </div>
 
@@ -136,6 +138,7 @@
       <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
 
         El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
+        <p style="color: #5e287e; font-weight: bold;">Importante: Para conocer a detalle sobre la cobertura y las tarifas de cada envío en zonas fronterizas, las personas usuarias deberán consultar con nuestro equipo de atención al cliente.</p>
     </div>
   </div>
 
@@ -171,6 +174,7 @@
       <p syle="color: red; font-size: 10px;">Estudios en otras zonas que no se incluyen en el kit, se cotizan por separado <br>
 
         El Kit Incluye la toma de muestra y análisis clínicos para pene o vulva, si quieres incluir prueba anal o bucal, el costo es adicional.</p>
+        <p style="color: #5e287e; font-weight: bold;">Importante: Para conocer a detalle sobre la cobertura y las tarifas de cada envío en zonas fronterizas, las personas usuarias deberán consultar con nuestro equipo de atención al cliente.</p> 
     </div>
   </div>
 
