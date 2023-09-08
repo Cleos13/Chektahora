@@ -17499,13 +17499,14 @@ screen and (min-width: 75em) {
   .product-container .product-item .buttons a {
     display: inline-block;
     width: 120px;
+    height: 40px;
     padding: 8px 0;
     margin: 5px;
     text-align: center;
     font-size: 14px;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
   }
   
   .product-container .product-item .buy-button {
