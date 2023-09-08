@@ -5,7 +5,7 @@
     <img src="../img/productos/Img_Kit_Glod.webp" alt="KIT GOLD DETECTA 7 ITS" class="llamativo" width="450" height="480">
     <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$2,720</p>
     <div class="buttons">
-     <a style="  border: 2px solid purple; " href="https://mpago.la/2b4qztU">
+     <a style="  border: 2px solid purple; " href="https://mpago.la/1ZVM1ao">
         <img style="height: 20px; width: 130px;" src="../css/img/logitooo.png" alt="Texto alternativo de la imagen">
     </a>
     <a style="  border: 2px solid purple; " href="https://buy.stripe.com/aEUbL3f5M3zm2iY7sC">
