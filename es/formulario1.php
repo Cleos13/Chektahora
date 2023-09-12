@@ -146,36 +146,36 @@
 
 
     <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $nombre = $_POST["nombre"];
-        $email = $_POST["email"];
-        $telefono = $_POST["telefono"];
-        $direccion = $_POST["direccion"];
-        $codigoPostal = $_POST["codigoPostal"];
-        $producto = $_POST["producto"];
-        $precio = $_POST["precio"];
-        $fuente = $_POST["fuente"]; // Nueva variable para la fuente
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nombre = $_POST["nombre"];
+    $email = $_POST["email"];
+    $telefono = $_POST["telefono"];
+    $direccion = $_POST["direccion"];
+    $codigoPostal = $_POST["codigoPostal"];
+    $producto = $_POST["producto"];
+    $precio = $_POST["precio"];
+    $fuente = $_POST["fuente"]; // Nueva variable para la fuente
 
-        // Direcciones de correo a las que se enviará la información (separadas por coma)
-        $to = "marketing.team@chektahora.com, jaqueline.bernal@chektahora.com, cristian.leos@chektahora.com";
-        $subject = "Nueva compra";
-        $message = "Nombre: $nombre\n";
-        $message .= "Correo Electrónico: $email\n";
-        $message .= "Número Telefónico: $telefono\n";
-        $message .= "Dirección: $direccion\n";
-        $message .= "Código Postal: $codigoPostal\n";
-        $message .= "Producto Comprado: $producto\n";
-        $message .= "Precio: $precio\n";
-        $message .= "¿Cómo nos encontraste?: $fuente\n"; // Agregar la fuente al mensaje
+    // Aquí puedes enviar el correo electrónico con los datos de la compra
+    $to = "marketing.team@chektahora.com, jaqueline.bernal@chektahora.com, cristian.leos@chektahora.com";
+    $subject = "Nueva compra";
+    $message = "Nombre: $nombre\n";
+    $message .= "Correo Electrónico: $email\n";
+    $message .= "Número Telefónico: $telefono\n";
+    $message .= "Dirección: $direccion\n";
+    $message .= "Código Postal: $codigoPostal\n";
+    $message .= "Producto Comprado: $producto\n";
+    $message .= "Precio: $precio\n";
+    $message .= "¿Cómo nos encontraste?: $fuente\n"; // Agregar la fuente al mensaje
 
-        // Envía el correo a las direcciones especificadas
-        mail($to, $subject, $message);
+    // Envía el correo a las direcciones especificadas
+    mail($to, $subject, $message);
 
-        // Redirecciona al usuario a la página de pago
-        header("Location: https://mpago.la/2b4qztU");
-        exit();
-    }
-    ?>
+    // Redirecciona al usuario a la página de pago
+    header("Location: https://mpago.la/2b4qztU");
+    exit();
+}
+?>
 
 
 </body>
