@@ -114,7 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $message);
 
     // Redirecciona al usuario a la página de pago
-    header("Location: https://mpago.la/1ZVM1ao");
+    header("Location: https://mpago.la/2b4qztU");
     exit();
 }
 ?>
