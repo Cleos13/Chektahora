@@ -127,19 +127,6 @@
             <label for="producto">Producto Comprado:</label>
             <input type="text" id="producto" name="producto" value="KIT GOLD DETECTA 7 ITS  $2,720 MXN" readonly>
 
-
-            <!-- Cambia el campo de precio a un elemento <span> -->
-
-            <label for="fuente">¿Cómo nos encontraste?</label>
-            <div id="fuente"> <!-- Cambia el id a "fuente" -->
-                <input type="radio" id="busqueda" name="fuente" value="Motores de Búsqueda" required>
-                <label for="busqueda">Nos buscaste por Motores de Búsqueda.</label><br>
-                <input type="radio" id="redesSociales" name="fuente" value="Redes Sociales">
-                <label for="redesSociales">Nos buscaste por Redes Sociales.</label><br>
-                <input type="radio" id="asesorComercial" name="fuente" value="Cuento con asesor Comercial">
-                <label for="asesorComercial">Cuento con asesor Comercial.</label>
-            </div>
-
             <input type="submit" value="Comprar">
         </form>
     </div>
@@ -155,8 +142,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $direccion = $_POST["direccion"];
     $codigoPostal = $_POST["codigoPostal"];
     $producto = $_POST["producto"];
-    $precio = $_POST["precio"];
-    $fuente = $_POST["fuente"];
+
 
     // Aquí puedes enviar el correo electrónico con los datos de la compra
     $to = "marketing.team@chektahora.com, jaqueline.bernal@chektahora.com, cristian.leos@chektahora.com";
@@ -167,14 +153,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message .= "Dirección: $direccion\n";
     $message .= "Código Postal: $codigoPostal\n";
     $message .= "Producto Comprado: $producto\n";
-    $message .= "Precio: $precio\n";
-    $message .= "¿Cómo nos encontraste?: $fuente\n";
+
 
     // Envía el correo a las direcciones especificadas
     mail($to, $subject, $message);
 
     // Redirecciona al usuario a la página de pago
-    header("Location: liga_de_pago.html");
+    header("Location: https://mpago.la/2b4qztU");
     exit();
 }
 ob_end_flush(); // Finalizar el búfer de salida
