@@ -125,7 +125,7 @@
             <input type="number" id="codigoPostal" name="codigoPostal" required>
 
             <label for="producto">Producto Comprado:</label>
-            <input type="text" id="producto" name="producto" value="KIT GOLD DETECTA 7 ITS  $2,720 MXN" readonly>
+            <input type="text" id="producto" name="producto" value="KIT BLACK DETECTA 13  $4,999 MXN" readonly>
 
             <input type="submit" value="Comprar">
         </form>
