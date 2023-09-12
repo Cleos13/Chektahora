@@ -103,7 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $codigoPostal = $_POST["codigoPostal"];
 
    // Direcciones de correo a las que se enviará la información (separadas por coma)
-   $to = "marketing.team@chektahora.com, jaqueline.bernal@chektahora.com";
+   $to = "marketing.team@chektahora.com, jaqueline.bernal@chektahora.com, cristian.leos@chektahora.com";
     $subject = "Nueva compra";
     $message = "Nombre: $nombre\n";
     $message .= "Correo Electrónico: $email\n";
