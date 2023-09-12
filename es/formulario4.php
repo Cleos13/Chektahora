@@ -125,20 +125,7 @@
             <input type="number" id="codigoPostal" name="codigoPostal" required>
 
             <label for="producto">Producto Comprado:</label>
-            <input type="text" id="producto" name="producto" value="KIT VPH  $2,620 MXN" readonly>
-
-           
-             <!-- Cambia el campo de precio a un elemento <span> -->
-
-            <label style="padding-top: 30px;" for="fuente">¿Cómo nos encontraste?</label>
-            <div id="opciones">
-                <input type="radio" id="busqueda" name="fuente" value="Motores de Búsqueda">
-                <label for="busqueda">Por Motores de Búsqueda.</label><br>
-                <input type="radio" id="redesSociales" name="fuente" value="Redes Sociales">
-                <label for="redesSociales">Por Redes Sociales.</label><br>
-                <input type="radio" id="asesorComercial" name="fuente" value="Cuento con asesor Comercial">
-                <label for="asesorComercial">Cuento con Asesor Comercial.</label>
-            </div>
+            <input type="text" id="producto" name="producto" value="KIT GOLD DETECTA 7 ITS  $2,720 MXN" readonly>
 
             <input type="submit" value="Comprar">
         </form>
@@ -146,36 +133,38 @@
 
 
     <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $nombre = $_POST["nombre"];
-        $email = $_POST["email"];
-        $telefono = $_POST["telefono"];
-        $direccion = $_POST["direccion"];
-        $codigoPostal = $_POST["codigoPostal"];
-        $producto = $_POST["producto"];
-        $precio = $_POST["precio"];
-        $fuente = $_POST["fuente"]; // Nueva variable para la fuente
+ob_start(); // Iniciar el búfer de salida
 
-        // Direcciones de correo a las que se enviará la información (separadas por coma)
-        $to = "marketing.team@chektahora.com, jaqueline.bernal@chektahora.com, cristian.leos@chektahora.com";
-        $subject = "Nueva compra";
-        $message = "Nombre: $nombre\n";
-        $message .= "Correo Electrónico: $email\n";
-        $message .= "Número Telefónico: $telefono\n";
-        $message .= "Dirección: $direccion\n";
-        $message .= "Código Postal: $codigoPostal\n";
-        $message .= "Producto Comprado: $producto\n";
-        $message .= "Precio: $precio\n";
-        $message .= "¿Cómo nos encontraste?: $fuente\n"; // Agregar la fuente al mensaje
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nombre = $_POST["nombre"];
+    $email = $_POST["email"];
+    $telefono = $_POST["telefono"];
+    $direccion = $_POST["direccion"];
+    $codigoPostal = $_POST["codigoPostal"];
+    $producto = $_POST["producto"];
 
-        // Envía el correo a las direcciones especificadas
-        mail($to, $subject, $message);
 
-        // Redirecciona al usuario a la página de pago
-        header("Location: https://mpago.la/27SVv8K");
-        exit();
-    }
-    ?>
+    // Aquí puedes enviar el correo electrónico con los datos de la compra
+    $to = "marketing.team@chektahora.com, jaqueline.bernal@chektahora.com, cristian.leos@chektahora.com";
+    $subject = "Nueva compra";
+    $message = "Nombre: $nombre\n";
+    $message .= "Correo Electrónico: $email\n";
+    $message .= "Número Telefónico: $telefono\n";
+    $message .= "Dirección: $direccion\n";
+    $message .= "Código Postal: $codigoPostal\n";
+    $message .= "Producto Comprado: $producto\n";
+
+
+    // Envía el correo a las direcciones especificadas
+    mail($to, $subject, $message);
+
+    // Redirecciona al usuario a la página de pago
+    header("Location: https://mpago.la/27SVv8K");
+    exit();
+}
+ob_end_flush(); // Finalizar el búfer de salida
+?>
+
 
 
 </body>
