@@ -50,7 +50,7 @@
     <img src="../img/productos/Img_Kit_Black.webp" alt="KIT BLACK DETECTA 13 ITS" class="llamativo" width="450" height="480">
     <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$4,999</p>
     <div class="buttons">
-    <a  style="  border: 2px solid purple; " href="https://mpago.la/2xj78xy">
+    <a  style="  border: 2px solid purple; " href="formulario2.php">
         <img style="height: 20px; width: 130px;" src="../css/img/logitooo.png" alt="Texto alternativo de la imagen">
     </a>
     <a  style="  border: 2px solid purple; " href="https://buy.stripe.com/3cs2at6zggm8f5K4js">
@@ -109,7 +109,7 @@
     <img src="../img/productos/Img_Kit_Platinum.webp" alt="KIT PLATINUM DETECTA 12 ITS" class="llamativo" width="450" height="480">
     <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$3,320</p>
     <div class="buttons">
-    <a  style="  border: 2px solid purple; " href="https://mpago.la/1MXMx8M">
+    <a  style="  border: 2px solid purple; " href="formulario3.php">
         <img style="height: 20px; width: 130px;" src="../css/img/logitooo.png" alt="Texto alternativo de la imagen">
     </a>
     <a  style="  border: 2px solid purple; " href="https://buy.stripe.com/8wMaGZcXE8TG2iY00c">
@@ -168,7 +168,7 @@
     <img src="../img/productos/Img_Kit_VPH.webp" alt="Producto 4" class="llamativo" width="450" height="480">
     <p style="font-weight: bold; font-size: 28px; color:black;" class="price">$2,620</p>
     <div class="buttons">
-    <a  style="  border: 2px solid purple; " href="https://mpago.la/27SVv8K">
+    <a  style="  border: 2px solid purple; " href="formulario4.php">
         <img style="height: 20px; width: 130px;" src="../css/img/logitooo.png" alt="Texto alternativo de la imagen">
     </a>
     <a  style="  border: 2px solid purple; " href="https://buy.stripe.com/00g6qJ2j0d9W3n214h">
