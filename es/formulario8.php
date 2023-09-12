@@ -125,7 +125,7 @@
             <input type="number" id="codigoPostal" name="codigoPostal" required>
 
             <label for="producto">Producto Comprado:</label>
-            <input type="text" id="producto" name="producto" value="KIT VPH $2,620 MXN" readonly>
+            <input type="text" id="producto" name="producto" value="Prueba de Antígenos para detección de COVID $599.00 MXN" readonly>
 
             <input type="submit" value="Comprar">
         </form>
