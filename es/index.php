@@ -56,22 +56,17 @@
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNR8MBT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
 
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Imagen Pop-up</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <img src="../css/img/pop.jpg" alt="imagen-pop-up">
-                    </div>
-                </div>
-            </div>
+        <!-- Botón para abrir el pop-up -->
+         <!-- Contenedor del pop-up -->
+    <div id="popup" class="popup-container">
+        <div class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <img class="popup-image" src="../css/img/GD_Popup_2023_ChektAhora Web.jpg" alt="Imagen">
         </div>
+    </div>
+          <!-- Contenedor del pop-up -->
+   
+        
 
         <div class="fluid" id="home">
 
@@ -110,7 +105,7 @@
                 </div>
                 <!-- Banners Home page -->
 
-              <!--  <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                <!--  <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                     <h2 style="font-size: 35px;" class="morado"><strong>KITS DE DIAGNÓSTICO DE INFECCIONES DE TRANSMISIÓN SEXUAL (ITS)</strong></h2>
                 </div>
 
@@ -334,7 +329,7 @@
 
 
 
-              <!--  <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
+                <!--  <div class="large-12 medium-12 small-12 grid-padding-x text-center align-self-middle spaceSection">
                     <h2 class="morado"><strong>KITS DE DIAGNÓSTICO DE VIRUS RESPIRATORIOS</strong></h2>
                 </div>
 
@@ -798,6 +793,30 @@
                 document.getElementById("popup").style.display = "none";
             }
         </script>
+
+<script>
+        // Función para abrir el pop-up automáticamente al cargar la página
+        window.onload = function() {
+            openPopup();
+        }
+
+        // Función para abrir el pop-up
+        function openPopup() {
+            document.getElementById('popup').style.display = 'block';
+        }
+
+        // Función para cerrar el pop-up
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        // Cierra el pop-up si se hace clic en el fondo oscuro
+        document.getElementById('popup').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePopup();
+            }
+        });
+    </script>
 
         <!-- <script> ( function (){ var  s = document.createElement( "script" ) ; s.setAttribute( "cuenta-datos" , "mWr7pnNPQK" ) ; s. setAttribute( "src", "https://cdn.userway.org/widget.js" ) ; document.body.appendChild(s); })();</script>  -->
         <!-- <noscript> Habilite JavaScript para garantizar  <a href =" https://userway.org " > accesibilidad del sitio web </a></noscript> -->
