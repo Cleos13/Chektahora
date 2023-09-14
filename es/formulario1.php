@@ -224,6 +224,20 @@
             }
         });
     </script>
+
+      <!-- Event snippet for Vista de página de ChektAhora conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-11048402014/zpuvCPaRvuEYEN74pJQp'});
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-473769696"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-473769696');
+</script>
 </body>
 
 </html>

@@ -31,7 +31,7 @@
         });
     </script>
   <!-- Event snippet for Vista de página de ChektAhora conversion page -->
-<script>
+  <script>
   gtag('event', 'conversion', {'send_to': 'AW-11048402014/zpuvCPaRvuEYEN74pJQp'});
 </script>
 <!-- Google tag (gtag.js) -->

@@ -16,16 +16,16 @@
 <meta name="msapplication-TileImage" content="../css/img/favicon/ms-icon-144x144.png">
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-469841838"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-469841838');
-    gtag('event', 'conversion', {'send_to': 'AW-469841838/ZmIACPPDotsDEK7vhOAB'});
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-469841838');
+  <!-- Event snippet for Vista de página de ChektAhora conversion page -->
+  <script>
+  gtag('event', 'conversion', {'send_to': 'AW-11048402014/zpuvCPaRvuEYEN74pJQp'});
 </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-473769696"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
- 
+  gtag('config', 'AW-473769696');
+</script>

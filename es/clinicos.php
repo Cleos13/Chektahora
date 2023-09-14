@@ -23,31 +23,19 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
   <script src="https://www.google.com/recaptcha/api.js?render=6LeRAI8eAAAAAGYdXRWWmQ3V6XqzSjeZ3LCLXJwh"></script>
   <!-- <link rel="stylesheet" href="../css/owl.carousel.min.css"> -->
 
-  <!-- Event snippet for Vista de página (1) conversion page -->
-  <script>
-    gtag('event', 'conversion', {
-      'send_to': 'AW-11060448578/Qt00CN6GpIcYEMKahJop'
-    });
-  </script>
+   <!-- Event snippet for Vista de página de ChektAhora conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-11048402014/zpuvCPaRvuEYEN74pJQp'});
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-473769696"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-NNR8MBT');
-  </script>
-  <!-- End Google Tag Manager -->
+  gtag('config', 'AW-473769696');
+</script>
 </head>
 
 <body>
