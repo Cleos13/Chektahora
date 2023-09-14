@@ -17740,9 +17740,8 @@ form label {
     max-width: 1600px;
     margin: 0 auto;
 }
-
-  /* Estilos para el pop-up */
-  .popup-container {
+/* Estilos para el pop-up */
+.popup-container {
     display: none;
     position: fixed;
     top: 0;
@@ -17758,16 +17757,23 @@ form label {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: white;
-    max-width: 80%; /* Reducir el ancho del pop-up */
+    max-width: 90%; /* Hacer la imagen más grande en dispositivos móviles */
     padding: 20px;
 }
 .popup-image {
-    max-width: 70%; /* Hace más pequeña la imagen para que se ajuste al pop-up */
+    max-width: 80%; /* Hace más pequeña la imagen para que se ajuste al pop-up */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
 }
 .close-button {
     position: absolute;
     top: 10px;
     right: 10px;
     cursor: pointer;
+}
+
+  /* Estilos específicos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .popup-content {
+        max-width: 90%; /* Hacer el pop-up más grande en dispositivos móviles */
+    }
 }

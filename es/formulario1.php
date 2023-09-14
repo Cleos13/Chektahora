@@ -127,46 +127,103 @@
             <label for="producto">Producto Comprado:</label>
             <input type="text" id="producto" name="producto" value="KIT GOLD DETECTA 7 ITS  $2,720 MXN" readonly>
 
+            <label for="codigo_postal">Código Postal (CDMX o Edomex):</label>
+            <input type="text" id="codigo_postal" name="codigo_postal" required>
+            <span id="codigo_postal_error" style="color: red;"></span><br>
+
+            <!-- Mensaje de zona permitida -->
+            <div id="zona_permitida" style="display: none; color: green;">
+                ¡Estamos en tu zona de entrega!
+            </div>
+
+            <!-- Mensaje de zona no permitida -->
+            <div id="zona_no_permitida" style="display: none; color: red;">
+                Lo sentimos, no cumplimos con la cobertura en tu área.
+            </div>
+
+
+            <!-- Botón de validación de código postal -->
+            <button type="button" id="validar_codigo_postal">Validar Código Postal</button>
+
             <input type="submit" value="Comprar">
         </form>
     </div>
 
 
     <?php
-ob_start(); // Iniciar el búfer de salida
+    ob_start(); // Iniciar el búfer de salida
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nombre = $_POST["nombre"];
-    $email = $_POST["email"];
-    $telefono = $_POST["telefono"];
-    $direccion = $_POST["direccion"];
-    $codigoPostal = $_POST["codigoPostal"];
-    $producto = $_POST["producto"];
-
-
-    // Aquí puedes enviar el correo electrónico con los datos de la compra
-    $to = "marketing.team@chektahora.com, jaqueline.bernal@chektahora.com, cristian.leos@chektahora.com";
-    $subject = "Nueva compra";
-    $message = "Nombre: $nombre\n";
-    $message .= "Correo Electrónico: $email\n";
-    $message .= "Número Telefónico: $telefono\n";
-    $message .= "Dirección: $direccion\n";
-    $message .= "Código Postal: $codigoPostal\n";
-    $message .= "Producto Comprado: $producto\n";
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $nombre = $_POST["nombre"];
+        $email = $_POST["email"];
+        $telefono = $_POST["telefono"];
+        $direccion = $_POST["direccion"];
+        $codigoPostal = $_POST["codigoPostal"];
+        $producto = $_POST["producto"];
 
 
-    // Envía el correo a las direcciones especificadas
-    mail($to, $subject, $message);
+        // Aquí puedes enviar el correo electrónico con los datos de la compra
+        $to = "marketing.team@chektahora.com, jaqueline.bernal@chektahora.com, cristian.leos@chektahora.com";
+        $subject = "Nueva compra";
+        $message = "Nombre: $nombre\n";
+        $message .= "Correo Electrónico: $email\n";
+        $message .= "Número Telefónico: $telefono\n";
+        $message .= "Dirección: $direccion\n";
+        $message .= "Código Postal: $codigoPostal\n";
+        $message .= "Producto Comprado: $producto\n";
 
-    // Redirecciona al usuario a la página de pago
-    header("Location: https://mpago.la/2b4qztU");
-    exit();
-}
-ob_end_flush(); // Finalizar el búfer de salida
-?>
+
+        // Envía el correo a las direcciones especificadas
+        mail($to, $subject, $message);
+
+        // Redirecciona al usuario a la página de pago
+        header("Location: https://mpago.la/2b4qztU");
+        exit();
+    }
+    ob_end_flush(); // Finalizar el búfer de salida
+    ?>
 
 
 
+
+
+
+
+
+    <script>
+        // Lista de códigos postales permitidos para CDMX y Edomex
+        var codigosPostalesPermitidos = [
+            "1000", "1010", "1020", "1030", "1040", "1049", "1050", "1060", "1060", "1070", "1080", "1089", "1090", "1090", "1090", "1100", "1109","1110","1110","1110","11091110","1109","1109","1109","1109", // Agrega más códigos postales permitidos según tus necesidades
+        ];
+
+        // Función para validar el código postal
+        function validarCodigoPostal() {
+            var codigoPostal = document.getElementById("codigo_postal").value;
+
+            // Verificar si el código postal está permitido
+            if (codigosPostalesPermitidos.includes(codigoPostal)) {
+                document.getElementById("codigo_postal_error").textContent = "";
+                document.getElementById("zona_permitida").style.display = "block";
+                document.getElementById("zona_no_permitida").style.display = "none";
+            } else {
+                document.getElementById("codigo_postal_error").textContent = "Código postal no válido.";
+                document.getElementById("zona_permitida").style.display = "none";
+                document.getElementById("zona_no_permitida").style.display = "block";
+            }
+        }
+
+        // Agregar un event listener para el botón de validación de código postal
+        document.getElementById("validar_codigo_postal").addEventListener("click", validarCodigoPostal);
+
+        // Agrega un event listener para validar el código postal antes de enviar el formulario
+        document.getElementById("formulario").addEventListener("submit", function(event) {
+            var codigoPostal = document.getElementById("codigo_postal").value;
+
+            if (!codigosPostalesPermitidos.includes(codigoPostal)) {
+                event.preventDefault(); // Evita que el formulario se envíe si el código postal no es válido
+            }
+        });
+    </script>
 </body>
 
 </html>

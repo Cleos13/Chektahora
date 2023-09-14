@@ -30,24 +30,11 @@
             $("#myModal").modal();
         });
     </script>
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-NNR8MBT');
-    </script>
-    <!-- End Google Tag Manager -->
+  <!-- Event snippet for Vista de página de ChektAhora conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-11048402014/zpuvCPaRvuEYEN74pJQp'});
+</script>
+
 </head>
 
 <body>
@@ -57,16 +44,16 @@
         <!-- End Google Tag Manager (noscript) -->
 
         <!-- Botón para abrir el pop-up -->
-         <!-- Contenedor del pop-up -->
-    <div id="popup" class="popup-container">
+        <!-- Contenedor del pop-up -->
+        <div id="popup" class="popup-container">
         <div class="popup-content">
             <span class="close-button" onclick="closePopup()">&times;</span>
             <img class="popup-image" src="../css/img/GD_Popup_2023_ChektAhora Web.jpg" alt="Imagen">
         </div>
     </div>
-          <!-- Contenedor del pop-up -->
-   
-        
+        <!-- Contenedor del pop-up -->
+
+
 
         <div class="fluid" id="home">
 
@@ -794,29 +781,29 @@
             }
         </script>
 
-<script>
-        // Función para abrir el pop-up automáticamente al cargar la página
-        window.onload = function() {
-            openPopup();
-        }
-
-        // Función para abrir el pop-up
-        function openPopup() {
-            document.getElementById('popup').style.display = 'block';
-        }
-
-        // Función para cerrar el pop-up
-        function closePopup() {
-            document.getElementById('popup').style.display = 'none';
-        }
-
-        // Cierra el pop-up si se hace clic en el fondo oscuro
-        document.getElementById('popup').addEventListener('click', function(e) {
-            if (e.target === this) {
-                closePopup();
+        <script>
+            // Función para abrir el pop-up automáticamente al cargar la página
+            window.onload = function() {
+                openPopup();
             }
-        });
-    </script>
+
+            // Función para abrir el pop-up
+            function openPopup() {
+                document.getElementById('popup').style.display = 'block';
+            }
+
+            // Función para cerrar el pop-up
+            function closePopup() {
+                document.getElementById('popup').style.display = 'none';
+            }
+
+            // Cierra el pop-up si se hace clic en el fondo oscuro
+            document.getElementById('popup').addEventListener('click', function(e) {
+                if (e.target === this) {
+                    closePopup();
+                }
+            });
+        </script>
 
         <!-- <script> ( function (){ var  s = document.createElement( "script" ) ; s.setAttribute( "cuenta-datos" , "mWr7pnNPQK" ) ; s. setAttribute( "src", "https://cdn.userway.org/widget.js" ) ; document.body.appendChild(s); })();</script>  -->
         <!-- <noscript> Habilite JavaScript para garantizar  <a href =" https://userway.org " > accesibilidad del sitio web </a></noscript> -->
