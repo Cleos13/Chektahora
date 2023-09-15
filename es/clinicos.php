@@ -50,8 +50,8 @@ $productos = simplexml_load_file("../api/datos/español.xml") or die("Error: No 
       <!-- Banners Home page -->
       <div class="cell spaceTop relative">
         <div class="item">
-          <img src="../img/banners/desktop/eduin.jpg" class="hide-for-small-only show-for-medium" alt="its" width="100%">
-          <img src="../img/banners/mobile/tampoco.jpg" class="hide-for-medium show-for-small" alt="its" width="100%">
+          <img src="../css/img/Banner-web-escritorio.png" class="hide-for-small-only show-for-medium" alt="its" width="100%">
+          <img src="../css/img/Banner-web-mobile.png" class="hide-for-medium show-for-small" alt="its" width="100%">
         </div>
       </div>
       <!-- Banners Home page -->
