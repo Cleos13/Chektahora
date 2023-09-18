@@ -54,14 +54,14 @@
         <!-- End Google Tag Manager (noscript) -->
 
         <!-- Botón para abrir el pop-up -->
-        <!-- Contenedor del pop-up -->
+        <!-- Contenedor del pop-up 
         <div id="popup" class="popup-container">
         <div class="popup-content">
             <span class="close-button" onclick="closePopup()">&times;</span>
             <img class="popup-image" src="../css/img/GD_Popup_2023_ChektAhora Web.jpg" alt="Imagen">
         </div>
     </div>
-        <!-- Contenedor del pop-up -->
+        Contenedor del pop-up -->
 
 
 
@@ -95,6 +95,13 @@
                         echo '<div class="item">
                                     <img src="../img/banners/desktop/Covers-Hot-Junio.webp" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
                                     <img src="../img/banners/mobile/Covers-Junio-mobile.webp" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
+                                </div>';
+
+                    }
+                    foreach ($banners as $b) {
+                        echo '<div class="item">
+                                    <img src="../css/img/Banner-web-escritorio.png" class="hide-for-small-only show-for-medium" alt="" width="100%" carousel="img-1">
+                                    <img src="../css/img/Banner-web-mobile.png" class="hide-for-medium show-for-small" alt="" width="100%" carousel="img-1">
                                 </div>';
                     }
                     echo '</div>';
